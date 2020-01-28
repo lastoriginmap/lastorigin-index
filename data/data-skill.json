@@ -7596,5 +7596,979 @@
     "areadata": [
       5
     ]
+  },
+  "Stalker_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "저격",
+    "img": "Chargeshot",
+    "range": 6,
+    "AP": 4,
+    "description": "레일건 저격으로 $(1) 피해를 주고 공격이 적중 시 높은 확률로 2라운드 동안 행동 불가 상태가 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Stalker_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "챠지",
+    "img": "SelfAtkBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "레일건을 충전해, 다음 공격이 치명타로 적용되며 일정 라운드 동안 공격력이 크게 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Stalker_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "리액터 충전",
+    "img": "Scan",
+    "range": 0,
+    "AP": 0,
+    "description": "매 라운드마다 리액터가 충전이 되어 방어 관통 효과가 증가하지만 4 중첩을 넘을 경우 리액터 초기화 상태가 되어 모든 강화 효과가 해제되고 1라운드 동안 행동 불가 상태가 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Stalker_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "약점 포착",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "공격 대상의 HP가 낮을수록 주는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Stalker_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "리액터 과충전",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전기 공격에 피격 당할 시 2라운드 동안 공격력이 대폭 감소하고 적용 중인 리액터 충전 효과를 해제 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Predator_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "후려치기",
+    "img": "MeleeAttack",
+    "range": 1,
+    "AP": 3,
+    "description": "적 들을 강타해 $(1) 피해를 주고, 1칸 뒤로 밀어내며 일정 확률로 2라운드 동안 행동 불가 상태로 만들고 속성을 흡수한 상태라면 대상에게 해당 속성을 방출하여 지속 피해를 줍니다.",
+    "areadata": [
+      8,
+      5,
+      2
+    ]
+  },
+  "Predator_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "오염액",
+    "img": "TeamDefDeBuff",
+    "range": 3,
+    "AP": 3,
+    "description": "오염액으로 목표 대상들에게 $(0.5) 피해를 주며, 2라운드 동안 오염 상태로 만듭니다. 오염 상태인 대상은 방어력과 행동력이 감소하며, 지속 물리 피해를 입습니다. 보호 효과를 무시합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "Predator_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "속성 흡수",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "속성 공격에 피격 시 3라운드 동안 해당 속성을 흡수하여 해당 속성의 저항력이 증가하지만 부작용으로 특정 속성의 저항력이 대폭 감소합니다.<br>화염 속성 흡수 시: 화염 저항력 소폭 증가, 냉기 저항력 대폭 감소<br>냉기 속성 흡수 시: 냉기 저항력 소폭 증가, 전기 저항력 대폭 감소<br>전기 속성 흡수 시: 전기 저항력 소폭 증가, 화염 저항력 대폭 감소",
+    "areadata": [
+      5
+    ]
+  },
+  "Predator_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "오염액 누출",
+    "img": "TeamDefDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이하가 되면 오염액이 누출되어 적군 전체의 화염,냉기,전기 속성 저항력을 감소시킵니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "Predator_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "보호 본능",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "적에게 공격 당할 시 속성 흡수 부작용 효과를 제외한 자신에게 걸려있는 해로운 효과를 해제 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Kidnapper_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "클로 돌진",
+    "img": "AssaultAttack",
+    "range": 4,
+    "AP": 4,
+    "description": "클로 돌진으로 목표와 바로 뒤의 대상에게 $(1) 피해를 줍니다. 5라운드 동안 공격 대상의 방어력을 감소시킵니다. 최대 5번까지 중첩됩니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "Kidnapper_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "손톱날 발사",
+    "img": "MultiMissile",
+    "range": 1,
+    "AP": 6,
+    "attr": "fire",
+    "description": "폭발하는 손톱날을 발사해 목표 열에 $(1.4) 피해를 주고 대상을 뒤로 한칸 밉니다. 공격 대상들은 2라운드 동안 적중이 감소합니다.",
+    "areadata": [
+      8,
+      5,
+      2
+    ]
+  },
+  "Kidnapper_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "회심의 반격",
+    "img": "DefCounter",
+    "range": 0,
+    "AP": 0,
+    "description": "회심의 반격 준비 태세를 갖춘 상태에서 회피 시 적에게 괴멸적인 피해량으로 반격을 합니다. 회심의 반격 준비 태세가 종료된 후, 다음 1라운드 동안 회피율은 그대로 유지 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Kidnapper_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "흥분",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 당할 시 흥분 상태에 빠져 3라운드 동안 공격력이 증가하고 5중첩 이상이 될 시 2라운드 동안 회심의 반격 준비 태세(회피율 대폭 상승)를 갖춥니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Kidnapper_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "흥분 진정",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "냉기 공격에 피격 당하거나 반격 준비 태세를 갖출 시 적용 중인 흥분 상태가 해제 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Raider_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "플라즈마 광탄",
+    "img": "Shock",
+    "range": 5,
+    "AP": 7,
+    "attr": "electric",
+    "description": "전격구를 발사해 $(1.5) 전기 속성 피해를 줍니다. 대상이 감전 상태면 회피를 감소시키며, 일정 확률로 행동 불능 상태로 만듭니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Raider_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "광탄 난사",
+    "img": "WideLightning",
+    "range": 5,
+    "AP": 5,
+    "attr": "electric",
+    "description": "방전 공격으로 보호 효과를 무시하고 $(0.5) 전기 속성 피해를 줍니다. 일정 확률로 대상을 감전시켜 3라운드 동안 행동력과 회피를 낮춥니다.",
+    "areadata": [
+      7,
+      4,
+      5,
+      1
+    ]
+  },
+  "Raider_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "교신 프로토콜",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "경계 상태로 라운드 개시 시, 인접한 철충들의 적중 감소 효과를 해제하고 적중 / 회피 / 치명타를 증가시킵니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "Raider_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "지원 프로토콜",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "경계 상태로 라운드 개시 시, 2라운드 동안 일정 확률로 아군 철충들의 공격을 지원합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "Raider_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "경계",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "통솔하는 철충이 처치된 경우, 경계 상태가 되어 2라운드 동안 행동력과 회피가 증가합니다. 해당 효과는 중첩됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherSensor_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "록 온 센서",
+    "img": "Scan",
+    "range": 8,
+    "AP": 5,
+    "description": "목표 대상을 조준해 표식으로 설정한 후, 받는 피해가 증가하며 회피가 감소한 상태로 만듭니다. AP를 감소시키며, 일정 확률로 강화 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherSensor_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "다중 록 온 시스템",
+    "img": "Scan",
+    "range": 8,
+    "AP": 6,
+    "description": "목표 대상들을 조준해 표식으로 설정한 후, 받는 피해가 증가하며 회피가 감소한 상태로 만듭니다. 강화 효과를 해제하며, AP를 감소시킵니다.",
+    "areadata": [
+      8,
+      4,
+      5,
+      6,
+      2
+    ]
+  },
+  "UnderWatcherSensor_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "조준 보정 시스템",
+    "img": "Scan",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신의 현재 HP 비율에 따라 주변 장치에게 적중 증가 효과를 줍니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "UnderWatcherSensor_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "최대 출력",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "에너지 충전 중첩이 3 이상이면, 방해 효과를 걸 확률과 회피가 대폭 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherSensor_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "반응 강화 모드",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이하가 되면 매 라운드 회피가 증가합니다. 최대 3회까지 중첩됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherArm_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "플라즈마 커터",
+    "img": "MeleeAttack",
+    "range": 8,
+    "AP": 3,
+    "description": "플라즈마 커터로 $(1) 피해를 줍니다. 대상이 표식 상태면 피해량이 증가하며, 대상의 방어력을 감소시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherArm_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "대공 펄스 빔 포",
+    "img": "WideBeamShot",
+    "range": 8,
+    "AP": 5,
+    "description": "목표 열에 $(1) 피해를 줍니다. 대상이 기동형이면 피해량이 증가합니다.",
+    "areadata": [
+      8,
+      4,
+      5,
+      6,
+      2
+    ]
+  },
+  "UnderWatcherArm_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "재 조준",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "공격 시, 적중 강화 상태면 적중이 추가로 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherArm_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "최대 출력 암",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "에너지 충전 중첩이 5 이상이면, 적중과 치명타가 증가하며 반격합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherArm_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "긴급 요격 모드",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신의 HP가 50% 이하인 경우, 라운드 개시 시 AP가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcher_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "확산 플라즈마 입자포",
+    "img": "WideBeamShot",
+    "range": 5,
+    "AP": 3,
+    "description": "지정 범위에 보호 효과를 무시하고 $(0.5) 피해를 주는 확산 입자포를 발사합니다. 표식 상태인 대상에게 피해량이 증가합니다.",
+    "areadata": [
+      7,
+      4,
+      5,
+      1
+    ]
+  },
+  "UnderWatcher_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "메가 플라즈마 캐논",
+    "img": "BeamShot",
+    "range": 8,
+    "AP": 10,
+    "description": "지정 행에 $(2) 피해를 주는 플라즈마 입자포를 발사합니다. 보호 효과를 무시하며, 표식 상태인 대상에게 피해량이 크게 증가합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "UnderWatcher_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "특수 합금 발사구",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시 에너지 충전 상태인 경우, 공격하기 전까지는 방어력과 효과 저항이 크게 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcher_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "최대 출력 왓쳐",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "에너지 충전이 4중첩 이상이면, 공격할 때 방어막과 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcher_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "시스템 복원",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "에너지 충전에 적용 중인 상태에서 자신의 HP가 30% 이하일 경우 HP를 회복하고 전투를 속행을 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherGenerator_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "에너지 충전",
+    "img": "SelfAtkBuff",
+    "range": 8,
+    "AP": 7,
+    "description": "각 장치들에게 에너지를 전달해, 공격력과 효과 저항을 증가시키며 받는 피해를 1회 무효화합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      1,
+      2,
+      3
+    ]
+  },
+  "UnderWatcherGenerator_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "에너지 실드",
+    "img": "SelfDefBuff",
+    "range": 8,
+    "AP": 4,
+    "description": "에너지 실드를 전개해 피해를 흡수하는 방어막을 부여하고, 상태 이상을 해제합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "UnderWatcherGenerator_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "재충전 개시",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬 사용 시, 받는 공격을 3회 무효화합니다. 3라운드 동안 받는 피해가 감소하며, 효과 저항이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherGenerator_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "제네레이터 쇼트",
+    "img": "SelfSpdDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 높은 확률로 AP가 감소하며 낮은 확률로 쇼트가 생겨 행동 불능이 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "UnderWatcherGenerator_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "제네레이터 파괴",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "파괴될 경우, 모든 파츠의 강화 효과가 해제되고 행동 불가 상태가 됩니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "ExecutionerLB_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "쪼개기",
+    "img": "SwordAttk",
+    "range": 5,
+    "AP": 5,
+    "description": "지정 대상에게 $(1) 피해를 줍니다. 대상이 방어력 감소 상태면 피해량이 증가하며 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "ExecutionerLB_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "꼬챙이 꿰기",
+    "img": "WideSwordAttk",
+    "range": 4,
+    "AP": 8,
+    "description": "지정 범위에 $(1.25) 보호 무시 피해를 줍니다. 대상이 공격기 또는 지원기면 피해량이 증가합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "ExecutionerLB_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "공격 연계",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신이 공격력 증가 상태면 본체와 다른 파츠의 공격을 지원합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "ExecutionerLB_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "확인 사살",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "공격 시, 공격력 / 치명타가 증가합니다. 공격력 증가가 3중첩 이상인 경우, 피해 감소 효과를 무시하며 방어 관통 효과를 얻습니다. 피격 시 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "ExecutionerLB_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "경계 모드 전환",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 다음 공격을 받기 전까지 회피가 크게 증가하며 적중이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "처형 개시",
+    "img": "SwordAttk",
+    "range": 5,
+    "AP": 4,
+    "description": "지정 범위에 $(1) 피해를 줍니다. 대상이 행동 불가 상태면 피해량이 크게 증가하며, 해제 불가 행동 불능 효과를 부여합니다.",
+    "areadata": [
+      0.5,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  "Executioner_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "학살",
+    "img": "WideSwordAttk",
+    "range": 4,
+    "AP": 8,
+    "description": "지정 범위에 $(1.25) 보호 무시 피해를 줍니다. 처형자 중첩이 5 이상이면 추가 화염 피해를 주며, 대상에게 걸려있는 강화 효과를 해제합니다. 처형자 중첩을 5 소모합니다.",
+    "areadata": [
+      7,
+      9,
+      5,
+      1,
+      3
+    ]
+  },
+  "Executioner_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "처형자",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 공격력이 영구적으로 증가합니다. 자신이 <공격 연계> 효과를 받는 상태면 공격 대상의 방어막과 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "왜곡장",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "모든 피해를 최소 피해만 받습니다. 처형자 중첩이 5이상인 상태로 피격 시, 오버플로우로 인한 고정 물리 피해를 받으며 모든 강화 효과가 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "파괴 본능",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "아군이 사망 시 파괴 본능에 빠져<br>해당 라운드에는 행동 불가 상태가 되고,<br>3라운드 동안 방어 관통력 / 공격력이 대폭 증가 합니다.<br>파괴 본능이 적용된 상태에서 속성 공격에 피격 시 높은 확률로 해당 라운드에는 행동 불가 상태에 빠지게 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "ExecutionerRB_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "장갑 해제",
+    "img": "SwordAttk",
+    "range": 4,
+    "AP": 5,
+    "description": "지정 대상에게 $(1) 피해를 주고, 대상의 장갑을 해제해 방어력을 낮추고 받는 피해를 증가시킵니다. 대상이 해당 효과를 다시 받는 경우, 행동 불가 상태로 만듭니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "ExecutionerRB_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "무장 해제",
+    "img": "WideSwordAttk",
+    "range": 5,
+    "AP": 8,
+    "description": "지정 범위에 $(0.75) 피해를 주고, 대상의 무장을 해제해 공격력과 치명타를 낮춥니다. 대상이 해당 효과를 다시 받는 경우, 행동 불가 상태로 만듭니다.",
+    "areadata": [
+      8,
+      5,
+      2
+    ]
+  },
+  "ExecutionerRB_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "공격 차단",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, HP가 50% 이상이면 본체와 다른 파츠를 보호합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "ExecutionerRB_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "자동 방어 시스템",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이상이면 모든 피해를 최소화하며 효과 저항이 증가합니다. 활성화 된 상태에서 피격 시, 오버플로우 중첩이 쌓입니다. 중첩 4 이상 상태로 라운드 개시 시, 해당 상태가 해제되며 행동 불능이 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "ExecutionerRB_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "다중 장갑 구조",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 일정 이하가 되면 방어력이 대폭 감소하며 받는 피해가 증가합니다. 해당 상태에선 회피와 행동력이 크게 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW2_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "에너지 추출",
+    "img": "MeleeAttack",
+    "range": 10,
+    "AP": 5,
+    "description": "<에너지 고갈> 상태에 빠져있을 시 주변 철충에게서 에너지를 추출합니다. 그리고 에너지를 추출 당한 철충은 죽음을 맞이 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW2_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "죽음의 에너지",
+    "img": "TeamDefDeBuff",
+    "range": 5,
+    "AP": 3,
+    "description": "내부에 저장된 막대한 에너지를 모아, 범위 내 적들에게 $(1) 보호 무시 피해를 주는 죽음의 에너지를 방사합니다. 피격 당한 적은 해제 불가의 지속 물리 피해를 입습니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "DoomEater_N_EW2_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "에너지 고갈",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<죽음의 에너지> 스킬을 사용 시 막대한 에너지를 소비하게 되어 <에너지 고갈> 상태에 빠지게 됩니다. <에너지 고갈> 상태에 빠지게 되면 도발에 면역이 되며 주위 철충에게서 에너지를 추출하여 손실된 에너지를 보충합니다. 손실된 에너지가 보충이 되면 <에너지 완충> 상태가 되어 피해가 최소화 되고 해로운 효과에 면역이 됩니다. ",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW2_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "에너지 흡수",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "에너지 추출 시, 온 신경을 흡수에만 집중해 도발에 면역이 되고 2라운드 동안 행동을 정지합니다. 해당 상태에선 방어력이 감소하며, 받는 피해가 증가합니다. 30% 확률로 특정 속성 저항력이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "폭주",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시 자신에게 <에너지 고갈> 상태가 3중첩이라면 <폭주> 상태에 빠지게 되어 공격력 / 적중 / 효과 저항이 증가하지만 방어력이 감소합니다. <에너지 고갈> 상태가 5중첩이라면 보호막과 피해 감소 효과를 무시 합니다. <폭주> 능력은 중첩이 되며 해제 불가입니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_BEW_EW2_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "처형 개시",
+    "img": "SwordAttk",
+    "range": 5,
+    "AP": 3,
+    "description": "지정 범위에 $(1) 피해를 주고 대상들에게 처형 낙인 효과를 적용시키며 낮은 확률로 방어막 / 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      0.5,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0.5,
+      0,
+      0
+    ]
+  },
+  "Executioner_BEW_EW2_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "학살",
+    "img": "WideSwordAttk",
+    "range": 4,
+    "AP": 4,
+    "description": "지정 범위에 $(1) 보호 무시 피해를 주고 추가 화염 피해를 주며, 대상에게 걸려있는 강화 효과를 해제합니다.",
+    "areadata": [
+      7,
+      9,
+      5,
+      1,
+      3
+    ]
+  },
+  "Executioner_BEW_EW2_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "불멸∙최후",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "<불멸의 힘>으로 인해 불멸, 불멸의 대가가 적용됩니다. 불멸이 발동 시 사라져가는 불멸이 적용되고 3중첩 시 불멸의 힘이 사라지고 <최후의 힘>이 발동됩니다.<br><최후의 힘>이 발동 시 2라운드 동안 피해가 최소화 되며 피격 시 해로운 효과 해제, 매 라운드마다 일정 확률로 공격력 / 방어력 / 적중률 / 방어 관통 효과 / 속성 저항 능력들이 증가됩니다. 불멸과 최후의 힘으로 발동되는 능력들은 해제 불가합니다.<br><br>불멸 : 죽지 않습니다.    불멸의 대가 : 자신의 공격력이 대폭 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_BEW_EW2_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "처형 낙인",
+    "img": "WideSwordAttk",
+    "range": 0,
+    "AP": 0,
+    "description": "처형 개시 스킬에 피격 당한 적은 3라운드 동안 해제 불가의 방어력이 감소하는 처형 낙인 효과가 적용됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_BEW_EW2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "공포",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<최후의 힘>이 적용돼 있을 시 매 라운드마다 바이오로이드들에게 공포심을 심어 일정 확률로 공격력 / 방어력 / 회피율 능력들을 대폭 감소시키고 낮은 확률로 1라운드 동안 행동 불가 상태로 만듭니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "DoomEater_N_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "에너지 추출",
+    "img": "MeleeAttack",
+    "range": 10,
+    "AP": 3,
+    "description": "주변 철충에게서 에너지를 추출합니다. 그리고 에너지를 추출 당한 철충은 죽음을 맞이 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "죽음의 에너지",
+    "img": "TeamDefDeBuff",
+    "range": 5,
+    "AP": 3,
+    "description": "내부에 저장된 막대한 에너지를 모아, 범위 내 적들에게 $(1) 보호 무시 피해를 주는 죽음의 에너지를 방사합니다. 피격 당한 적은 해제 불가의 지속 물리 피해를 입습니다. 해당 스킬을 사용 시 막대한 에너지를 소비하게 되어 <에너지 고갈> 상태에 빠지게 됩니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "DoomEater_N_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "에너지 갈망",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "오랫동안 에너지 섭취를 못해 굶주려 있어 주위의 모든 철충들을 먹어 치울 것입니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "포식 집중",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "굶주린 둠이터의 눈에는 오로지 에너지 섭취를 위한 철충들을 찾는 것에 집중해 있어 도발에 넘어가지 않습니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DoomEater_N_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "광폭화",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시 자신에게 <에너지 고갈> 상태가 적용돼 있을 시, <광폭화> 상태에 빠지게 되어 공격력 / 방어력 / 적중 / 효과 저항이 증가합니다. <에너지 고갈> 상태가 2중첩이라면 보호막과 피해 감소 효과를 무시 합니다. <광폭화> 능력은 중첩이 되며 해제 불가입니다.",
+    "areadata": [
+      5
+    ]
   }
 }

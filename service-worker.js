@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lastorigin-index/precache-manifest.5f74bef9a16afc07d62514c157628e86.js"
+  "/lastorigin-index/precache-manifest.f0846125a957876289fc892fb29517bc.js"
 );
 
 self.addEventListener('message', (event) => {
