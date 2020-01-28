@@ -77,11 +77,11 @@ class App extends React.Component
     }
     else if (action === '-')
     {
-      lvl--;
+      lvl>1 && lvl--;
     }
     else
     {
-      lvl = parseInt(action);
+      lvl = parseInt((action.length===0||action<1)?1:action);
     }
     this.setState(prevstate => ({
       ...prevstate,
@@ -160,7 +160,7 @@ const Stage = props =>
                 {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "지역")}</th></tr>}
               </thead>
               <tbody>
-                <tr>{value.map(stage => (<td key={stage.title}><a href={"stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
+                <tr>{value.map(stage => (<td key={stage.title}><a href={"https://lastoriginmap.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
               </tbody>
             </table>
           ))
