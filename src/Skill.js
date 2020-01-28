@@ -15,8 +15,6 @@ class Skill extends React.Component
 
   componentDidUpdate()
   {
-    console.log(this.props.data.enemyData.name)
-    console.log(this.displayedEnemyName)
     if(this.props.data.enemyData.name !== this.displayedEnemyName)
     {
       this.displayedEnemyName = this.props.data.enemyData.name;

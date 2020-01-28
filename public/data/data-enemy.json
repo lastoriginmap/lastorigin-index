@@ -5695,6 +5695,166 @@
       "ExecutionerLB_N_Skill5"
     ]
   },
+  "FABigChick_TU3": {
+    "name": "풀아머 빅 칙",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 1250,
+      "increment": 70
+    },
+    "ATK": {
+      "base": 95,
+      "increment": 11.5
+    },
+    "DEF": {
+      "base": 75,
+      "increment": 4
+    },
+    "AGI": 3.25,
+    "CRT": 5,
+    "HIT": 114,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChick_N_Skill1",
+      "FABigChick_N_Skill2",
+      "FABigChick_N_Skill3"
+    ]
+  },
+  "ScarabEX_TU4": {
+    "name": "스캐럽 HC",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "이상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.<br><br><br>- 보고자 닥터",
+    "HP": {
+      "base": 950,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 8.5
+    },
+    "DEF": {
+      "base": 145,
+      "increment": 2.75
+    },
+    "AGI": 4.55,
+    "CRT": 15,
+    "HIT": 200,
+    "DOD": 150,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "ScarabEX_N_Skill1",
+      "ScarabEX_N_Skill2",
+      "ScarabEX_N_Skill3"
+    ]
+  },
+  "CenturionCF_N": {
+    "name": "센츄리온 치프틴",
+    "img": "CenturionCF",
+    "type": "경장 공격기",
+    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
+    "HP": {
+      "base": 6240,
+      "increment": 115.2
+    },
+    "ATK": {
+      "base": 108,
+      "increment": 10.8
+    },
+    "DEF": {
+      "base": 75,
+      "increment": 8
+    },
+    "AGI": 4.18,
+    "CRT": 5,
+    "HIT": 175,
+    "DOD": 20,
+    "resist": [
+      20,
+      20,
+      20
+    ],
+    "skills": [
+      "CenturionCF_N_Skill1",
+      "CenturionCF_N_Skill2",
+      "CenturionCF_N_Skill3",
+      "CenturionCF_N_Skill4"
+    ]
+  },
+  "FABigChick_TU4": {
+    "name": "풀아머 빅 칙",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 1750,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 5.75
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 135,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChick_N_Skill1",
+      "FABigChick_N_Skill2",
+      "FABigChick_N_Skill3"
+    ]
+  },
+  "Scout_EV1": {
+    "name": "스카우트",
+    "img": "Scout",
+    "type": "기동 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 250,
+      "increment": 42.5
+    },
+    "ATK": {
+      "base": 70,
+      "increment": 6.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.5,
+    "CRT": 10,
+    "HIT": 170,
+    "DOD": 90,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Scout_N_Skill1",
+      "Scout_N_Skill2"
+    ]
+  },
   "NightChickS_TU4": {
     "name": "나이트 칙 실더",
     "img": "NightChickS",
@@ -5725,6 +5885,1245 @@
       "NightChickS_N_Skill1",
       "NightChickS_N_Skill2",
       "NightChickS_N_Skill3"
+    ]
+  },
+  "ScoutEX_EV1": {
+    "name": "강습형 스카우트",
+    "img": "Scout",
+    "type": "기동 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 300,
+      "increment": 60
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.6,
+    "CRT": 10,
+    "HIT": 180,
+    "DOD": 120,
+    "resist": [
+      15,
+      15,
+      15
+    ],
+    "skills": [
+      "ScoutEX_N_Skill1",
+      "ScoutEX_N_Skill2",
+      "ScoutEX_N_Skill3"
+    ]
+  },
+  "BigChickM_EV1": {
+    "name": "빅 칙 런쳐",
+    "img": "BigChickM",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 2750,
+      "increment": 115
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 135,
+      "increment": 5.5
+    },
+    "AGI": 3.3,
+    "CRT": 10,
+    "HIT": 160,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChickM_N_Skill1",
+      "BigChickM_N_Skill2",
+      "BigChickM_N_Skill3"
+    ]
+  },
+  "HeavyScout_EV1": {
+    "name": "헤비 스카우트",
+    "img": "Scout",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 375,
+      "increment": 52.5
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.25,
+    "CRT": 15,
+    "HIT": 140,
+    "DOD": 52.5,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "HeavyScout_N_Skill1",
+      "HeavyScout_N_Skill2",
+      "HeavyScout_N_Skill3"
+    ]
+  },
+  "Spector_N": {
+    "name": "스펙터",
+    "img": "Spector",
+    "type": "기동 지원기",
+    "info": "방어막을 걷어내지 않으면 격추하기 힘든 개체야. 유령같은 움직임 때문에 맞추기 힘들테니 주의해.<br><br><br>- 네오딤",
+    "HP": {
+      "base": 197,
+      "increment": 84.9375
+    },
+    "ATK": {
+      "base": 56,
+      "increment": 5.6
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.2,
+    "CRT": 5,
+    "HIT": 225,
+    "DOD": 40,
+    "resist": [
+      20,
+      20,
+      20
+    ],
+    "skills": [
+      "Spector_N_Skill1",
+      "Spector_N_Skill2",
+      "Spector_N_Skill3",
+      "Spector_N_Skill4",
+      "Spector_N_Skill5"
+    ]
+  },
+  "FABigChickEX_TU3": {
+    "name": "FA 빅 칙 II",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 3250,
+      "increment": 125
+    },
+    "ATK": {
+      "base": 125,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 180,
+      "increment": 7
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 145,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickEX_N_Skill1",
+      "FABigChickEX_N_Skill2",
+      "FABigChickEX_N_Skill3",
+      "FABigChickEX_N_Skill4"
+    ]
+  },
+  "NightChickEX_EV1": {
+    "name": "강화형 나이트 칙",
+    "img": "NightChick",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 350,
+      "increment": 82.5
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 30,
+      "increment": 1
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 280,
+    "DOD": 57.499,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickEX_N_Skill1",
+      "NightChickEX_N_Skill2",
+      "NightChickEX_N_Skill3"
+    ]
+  },
+  "LegionSP_EV1": {
+    "name": "레기온 스나이퍼",
+    "img": "LegionSP",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 435,
+      "increment": 85
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 53,
+      "increment": 2.1
+    },
+    "AGI": 3.9,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "LegionSP_N_Skill1",
+      "LegionSP_N_Skill2",
+      "LegionSP_N_Skill3"
+    ]
+  },
+  "HeavyScout_EV2": {
+    "name": "헤비 스카우트",
+    "img": "Scout",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 500,
+      "increment": 62.5
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 11.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.25,
+    "CRT": 20,
+    "HIT": 160,
+    "DOD": 65,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "HeavyScout_N_Skill1",
+      "HeavyScout_N_Skill2",
+      "HeavyScout_N_Skill3"
+    ]
+  },
+  "CenturionEX_TU3": {
+    "name": "엘리트 센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+    "HP": {
+      "base": 4375,
+      "increment": 117.5
+    },
+    "ATK": {
+      "base": 110,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 3
+    },
+    "AGI": 4.05,
+    "CRT": 15,
+    "HIT": 225,
+    "DOD": 40,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "CenturionEX_N_Skill1",
+      "CenturionEX_N_Skill2",
+      "CenturionEX_N_Skill3",
+      "CenturionEX_N_Skill4"
+    ]
+  },
+  "BigChickEX_TU3": {
+    "name": "시작형 빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 3000,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 13.5
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 6
+    },
+    "AGI": 3.25,
+    "CRT": 15,
+    "HIT": 150,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChickEX_N_Skill1",
+      "BigChickEX_N_Skill2",
+      "BigChickEX_N_Skill3"
+    ]
+  },
+  "CenturionCF_TU2": {
+    "name": "센츄리온 치프틴",
+    "img": "CenturionCF",
+    "type": "경장 공격기",
+    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
+    "HP": {
+      "base": 6720,
+      "increment": 122.4
+    },
+    "ATK": {
+      "base": 113,
+      "increment": 11.3
+    },
+    "DEF": {
+      "base": 80,
+      "increment": 8.5
+    },
+    "AGI": 4.18,
+    "CRT": 7.5,
+    "HIT": 200,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "CenturionCF_N_Skill1",
+      "CenturionCF_N_Skill2",
+      "CenturionCF_N_Skill3",
+      "CenturionCF_N_Skill4"
+    ]
+  },
+  "WaspEX_EV1": {
+    "name": "와습 HM",
+    "img": "Wasp",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 1050,
+      "increment": 50
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.4,
+    "CRT": 0,
+    "HIT": 400,
+    "DOD": 100,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "WaspEX_N_Skill1",
+      "WaspEX_N_Skill2",
+      "WaspEX_N_Skill3"
+    ]
+  },
+  "ZapperEX_EV1": {
+    "name": "강화형 재퍼",
+    "img": "Zapper",
+    "type": "경장 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 100,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 165,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 2.5
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      75
+    ],
+    "skills": [
+      "ZapperEX_N_Skill1",
+      "ZapperEX_N_Skill2",
+      "ZapperEX_N_Skill3"
+    ]
+  },
+  "NightChickQM_EV1": {
+    "name": "칙 쿼터마스터",
+    "img": "NightChickQM",
+    "type": "경장 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 18150,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 118,
+      "increment": 8
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 300,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickQM_N_Skill1",
+      "NightChickQM_N_Skill2",
+      "NightChickQM_N_Skill3",
+      "NightChickQM_EV1_Skill4",
+      "NightChickQM_N_Skill5"
+    ]
+  },
+  "NightChickC_EV2": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 130,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV2_Skill3"
+    ]
+  },
+  "ScarabEX_EV1": {
+    "name": "스캐럽 HC",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 8100,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 118,
+      "increment": 8
+    },
+    "AGI": 4.2,
+    "CRT": 0,
+    "HIT": 250,
+    "DOD": 100,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "ScarabEX_N_Skill1",
+      "ScarabEX_N_Skill2",
+      "ScarabEX_EV1_Skill3"
+    ]
+  },
+  "NightChickC_EV1": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV1_Skill3"
+    ]
+  },
+  "Predator_EV1": {
+    "name": "프레데터",
+    "img": "Predator_B0208",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 18150,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 315,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 26,
+      "increment": 6
+    },
+    "AGI": 3.6,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 20,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Predator_B0208_Skill1",
+      "Predator_B0208_Skill2",
+      "Predator_EV1_Skill3",
+      "Predator_B0208_Skill4",
+      "Predator_B0208_Skill5"
+    ]
+  },
+  "NightChickC_EV3": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 155,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV3_Skill3"
+    ]
+  },
+  "NightChickC_EV4": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 180,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV4_Skill3"
+    ]
+  },
+  "NightChickSP_EV1": {
+    "name": "칙 스나이퍼",
+    "img": "NightChickSP",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 5600,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 26,
+      "increment": 6
+    },
+    "AGI": 4,
+    "CRT": 15,
+    "HIT": 450,
+    "DOD": 25,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickSP_N_Skill1",
+      "NightChickSP_N_Skill2",
+      "NightChickSP_N_Skill3"
+    ]
+  },
+  "Centurion_TU6": {
+    "name": "센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+    "HP": {
+      "base": 4500,
+      "increment": 110
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 10.75
+    },
+    "DEF": {
+      "base": 40,
+      "increment": 2.5
+    },
+    "AGI": 4,
+    "CRT": 10,
+    "HIT": 225,
+    "DOD": 30,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Centurion_N_Skill1",
+      "Centurion_N_Skill2",
+      "Centurion_N_Skill3"
+    ]
+  },
+  "HeavyScout_EV3": {
+    "name": "헤비 스카우트",
+    "img": "Scout",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 625,
+      "increment": 77.5
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.25,
+    "CRT": 20,
+    "HIT": 180,
+    "DOD": 77.5,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "HeavyScout_N_Skill1",
+      "HeavyScout_N_Skill2",
+      "HeavyScout_N_Skill3"
+    ]
+  },
+  "BigChickSP_EV1": {
+    "name": "강화형 빅 칙",
+    "img": "BigChick",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 15100,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 110,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 38,
+      "increment": 8
+    },
+    "AGI": 3.5,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 5,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChickSP_N_Skill1",
+      "BigChickSP_N_Skill2",
+      "BigChickSP_EV1_Skill3"
+    ]
+  },
+  "Predator_EV2": {
+    "name": "프레데터",
+    "img": "Predator_B0208",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 16650,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 165,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 55,
+      "increment": 5
+    },
+    "AGI": 3.6,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 20,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Predator_B0208_Skill1",
+      "Predator_B0208_Skill2",
+      "Predator_EV2_Skill3",
+      "Predator_B0208_Skill4",
+      "Predator_B0208_Skill5"
+    ]
+  },
+  "NightChickC_EV6": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV6_Skill3"
+    ]
+  },
+  "NightChickDE_EV1": {
+    "name": "나이트 칙 디텍터",
+    "img": "NightChickDE",
+    "type": "경장 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 27980,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 38,
+      "increment": 8
+    },
+    "AGI": 4.3,
+    "CRT": 25,
+    "HIT": 400,
+    "DOD": 40,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickDE_N_Skill1",
+      "NightChickDE_N_Skill2",
+      "NightChickDE_N_Skill3",
+      "NightChickDE_EV1_Skill4"
+    ]
+  },
+  "NightChickC_EV5": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV5_Skill3"
+    ]
+  },
+  "ScarabEX_EV2": {
+    "name": "스캐럽 HC",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 8100,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 182,
+      "increment": 12
+    },
+    "AGI": 4.2,
+    "CRT": 0,
+    "HIT": 250,
+    "DOD": 100,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "ScarabEX_N_Skill1",
+      "ScarabEX_N_Skill2",
+      "ScarabEX_EV2_Skill3"
+    ]
+  },
+  "Stalker_EV1": {
+    "name": "스토커",
+    "img": "Stalker_B0108",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 10320,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 165,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 55,
+      "increment": 5
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 450,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Stalker_N_Skill1",
+      "Stalker_N_Skill2",
+      "Stalker_N_Skill3"
+    ]
+  },
+  "NightChickQM_EV2": {
+    "name": "칙 쿼터마스터",
+    "img": "NightChickQM",
+    "type": "경장 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 26650,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 38,
+      "increment": 8
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 300,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickQM_N_Skill1",
+      "NightChickQM_N_Skill2",
+      "NightChickQM_N_Skill3",
+      "NightChickQM_EV2_Skill4",
+      "NightChickQM_N_Skill5"
+    ]
+  },
+  "NightChickC_EV8": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV8_Skill3"
+    ]
+  },
+  "EmperorChick_EV1": {
+    "name": "칙 엠페러",
+    "img": "EmperorChick",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 17980,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 182,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 165,
+      "increment": 15
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 400,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "EmperorChick_N_Skill1",
+      "EmperorChick_N_Skill2",
+      "EmperorChick_N_Skill3",
+      "EmperorChick_N_Skill4",
+      "EmperorChick_N_Skill5"
+    ]
+  },
+  "Spector_EV1": {
+    "name": "스펙터",
+    "img": "Spector",
+    "type": "기동 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 17200,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 38,
+      "increment": 8
+    },
+    "AGI": 4.2,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 35,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Spector_N_Skill1",
+      "Spector_N_Skill2",
+      "Spector_N_Skill3",
+      "Spector_N_Skill4",
+      "Spector_N_Skill5"
+    ]
+  },
+  "NightChickC_EV7": {
+    "name": "나이트 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 440,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickC_N_Skill1",
+      "NightChickC_N_Skill2",
+      "NightChickC_EV7_Skill3"
+    ]
+  },
+  "Kidnapper_EV1": {
+    "name": "트릭스터",
+    "img": "Kidnapper_B0308",
+    "type": "경장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 30150,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 165,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 38,
+      "increment": 8
+    },
+    "AGI": 4.25,
+    "CRT": 20,
+    "HIT": 450,
+    "DOD": 30,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Kidnapper_N_Skill1",
+      "Kidnapper_N_Skill2",
+      "Kidnapper_N_Skill3",
+      "Kidnapper_N_Skill4",
+      "Kidnapper_N_Skill5"
+    ]
+  },
+  "EmperorChick_TU2": {
+    "name": "칙 엠페러",
+    "img": "EmperorChick",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 48200,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 121,
+      "increment": 12.1
+    },
+    "DEF": {
+      "base": 160,
+      "increment": 10.5
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 275,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "EmperorChick_N_Skill1",
+      "EmperorChick_N_Skill2",
+      "EmperorChick_N_Skill3",
+      "EmperorChick_N_Skill4",
+      "EmperorChick_N_Skill5"
+    ]
+  },
+  "NightChickCEX_EV1": {
+    "name": "개량형 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 550,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 13.75
+    },
+    "DEF": {
+      "base": 125,
+      "increment": 6.5
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 165,
+    "DOD": 0,
+    "resist": [
+      50,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickCEX_N_Skill1",
+      "NightChickCEX_N_Skill2",
+      "NightChickCEX_N_Skill3",
+      "NightChickCEX_N_Skill4"
     ]
   },
   "HarvesterEX_TU5": {
@@ -6959,38 +8358,6 @@
       "CenturionCF_N_Skill2",
       "CenturionCF_N_Skill3",
       "CenturionCF_N_Skill4"
-    ]
-  },
-  "NightChickC_EV5": {
-    "name": "나이트 칙 캐논",
-    "img": "NightChickC",
-    "type": "중장 공격기",
-    "info": "<교전 기록 없음>",
-    "HP": {
-      "base": 440,
-      "increment": 40
-    },
-    "ATK": {
-      "base": 80,
-      "increment": 5
-    },
-    "DEF": {
-      "base": 0,
-      "increment": 0
-    },
-    "AGI": 3.3,
-    "CRT": 5,
-    "HIT": 250,
-    "DOD": 0,
-    "resist": [
-      0,
-      0,
-      0
-    ],
-    "skills": [
-      "NightChickC_N_Skill1",
-      "NightChickC_N_Skill2",
-      "NightChickC_EV5_Skill3"
     ]
   },
   "Tortoise_TU4": {
@@ -8385,39 +9752,6 @@
       "LegionElite_N_Skill4"
     ]
   },
-  "CenturionCF_N": {
-    "name": "센츄리온 치프틴",
-    "img": "CenturionCF",
-    "type": "경장 공격기",
-    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
-    "HP": {
-      "base": 6240,
-      "increment": 115.2
-    },
-    "ATK": {
-      "base": 108,
-      "increment": 10.8
-    },
-    "DEF": {
-      "base": 75,
-      "increment": 8
-    },
-    "AGI": 4.18,
-    "CRT": 5,
-    "HIT": 175,
-    "DOD": 20,
-    "resist": [
-      20,
-      20,
-      20
-    ],
-    "skills": [
-      "CenturionCF_N_Skill1",
-      "CenturionCF_N_Skill2",
-      "CenturionCF_N_Skill3",
-      "CenturionCF_N_Skill4"
-    ]
-  },
   "Chiller_TU3": {
     "name": "칠러",
     "img": "Chiller",
@@ -9307,38 +10641,6 @@
       "RocC_N_Skill3",
       "RocC_N_Skill4",
       "RocC_N_Skill5"
-    ]
-  },
-  "FABigChick_TU4": {
-    "name": "풀아머 빅 칙",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
-    "HP": {
-      "base": 1750,
-      "increment": 95
-    },
-    "ATK": {
-      "base": 100,
-      "increment": 12.5
-    },
-    "DEF": {
-      "base": 150,
-      "increment": 5.75
-    },
-    "AGI": 3.3,
-    "CRT": 5,
-    "HIT": 135,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "FABigChick_N_Skill1",
-      "FABigChick_N_Skill2",
-      "FABigChick_N_Skill3"
     ]
   },
   "Chiller_TU2": {
@@ -10564,39 +11866,6 @@
       "NightChickShEx_TU3_Skill3"
     ]
   },
-  "CenturionCF_TU2": {
-    "name": "센츄리온 치프틴",
-    "img": "CenturionCF",
-    "type": "경장 공격기",
-    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
-    "HP": {
-      "base": 6720,
-      "increment": 122.4
-    },
-    "ATK": {
-      "base": 113,
-      "increment": 11.3
-    },
-    "DEF": {
-      "base": 80,
-      "increment": 8.5
-    },
-    "AGI": 4.18,
-    "CRT": 7.5,
-    "HIT": 200,
-    "DOD": 25,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "CenturionCF_N_Skill1",
-      "CenturionCF_N_Skill2",
-      "CenturionCF_N_Skill3",
-      "CenturionCF_N_Skill4"
-    ]
-  },
   "WaspEX_TU4": {
     "name": "와습 HM",
     "img": "Wasp",
@@ -10627,71 +11896,6 @@
       "WaspEX_N_Skill1",
       "WaspEX_N_Skill2",
       "WaspEX_N_Skill3"
-    ]
-  },
-  "ScarabEX_TU4": {
-    "name": "스캐럽 HC",
-    "img": "Scarab",
-    "type": "기동 보호기",
-    "info": "이상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.<br><br><br>- 보고자 닥터",
-    "HP": {
-      "base": 950,
-      "increment": 100
-    },
-    "ATK": {
-      "base": 100,
-      "increment": 8.5
-    },
-    "DEF": {
-      "base": 145,
-      "increment": 2.75
-    },
-    "AGI": 4.55,
-    "CRT": 15,
-    "HIT": 200,
-    "DOD": 150,
-    "resist": [
-      50,
-      0,
-      0
-    ],
-    "skills": [
-      "ScarabEX_N_Skill1",
-      "ScarabEX_N_Skill2",
-      "ScarabEX_N_Skill3"
-    ]
-  },
-  "FABigChickEX_TU3": {
-    "name": "FA 빅 칙 II",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
-    "HP": {
-      "base": 3250,
-      "increment": 125
-    },
-    "ATK": {
-      "base": 125,
-      "increment": 14
-    },
-    "DEF": {
-      "base": 180,
-      "increment": 7
-    },
-    "AGI": 3.35,
-    "CRT": 10,
-    "HIT": 145,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "FABigChickEX_N_Skill1",
-      "FABigChickEX_N_Skill2",
-      "FABigChickEX_N_Skill3",
-      "FABigChickEX_N_Skill4"
     ]
   },
   "NightChickDEX_TU2": {
@@ -11719,6 +12923,1566 @@
       "EmperorChickSpCH_N_Skill3",
       "EmperorChickSpCH_N_Skill4",
       "EmperorChickSpCH_N_Skill5"
+    ]
+  },
+  "Scarab_TU8": {
+    "name": "스캐럽",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "이상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.<br><br><br>- 보고자 닥터",
+    "HP": {
+      "base": 950,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 115,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 160,
+      "increment": 2.75
+    },
+    "AGI": 4.5,
+    "CRT": 10,
+    "HIT": 180,
+    "DOD": 140,
+    "resist": [
+      25,
+      0,
+      0
+    ],
+    "skills": [
+      "Scarab_N_Skill1",
+      "Scarab_N_Skill2",
+      "Scarab_N_Skill3"
+    ]
+  },
+  "Wasp_TU8": {
+    "name": "와습",
+    "img": "Wasp",
+    "type": "기동 공격기",
+    "info": "누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.<br><br><br>- 슬레이프니르",
+    "HP": {
+      "base": 425,
+      "increment": 70
+    },
+    "ATK": {
+      "base": 115,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.35,
+    "CRT": 10,
+    "HIT": 185,
+    "DOD": 100,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "Wasp_N_Skill1",
+      "Wasp_N_Skill2",
+      "Wasp_N_Skill3"
+    ]
+  },
+  "Stalker_EW": {
+    "name": "스토커",
+    "img": "Stalker_B0108",
+    "type": "경장 공격기",
+    "info": "전장에서 등장하는 더욱 강력해진 스토커로 매 라운드마다 방어 관통효과가 증가되어 점점 파괴적인 공격을 합니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 40000,
+      "increment": 220
+    },
+    "ATK": {
+      "base": 230,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 1600,
+      "increment": 26
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 450,
+    "DOD": 25,
+    "resist": [
+      20,
+      20,
+      20
+    ],
+    "skills": [
+      "Stalker_EW_Skill1",
+      "Stalker_EW_Skill2",
+      "Stalker_EW_Skill3",
+      "Stalker_EW_Skill4",
+      "Stalker_EW_Skill5"
+    ]
+  },
+  "Predator_EW": {
+    "name": "프레데터",
+    "img": "Predator_B0208",
+    "type": "중장 보호기",
+    "info": "전장에서 등장하는 더욱 강력해진 프레데터로 강력한 방어력으로 인해 물리 공격은 통하지 않을 것입니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 50000,
+      "increment": 255
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 2500,
+      "increment": 120
+    },
+    "AGI": 3.3,
+    "CRT": 10,
+    "HIT": 250,
+    "DOD": 10,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Predator_EW_Skill1",
+      "Predator_EW_Skill2",
+      "Predator_EW_Skill3",
+      "Predator_EW_Skill4",
+      "Predator_EW_Skill5"
+    ]
+  },
+  "Kidnapper_EW": {
+    "name": "트릭스터",
+    "img": "Kidnapper_B0308",
+    "type": "경장 공격기",
+    "info": "전장에서 등장하는 더욱 강력해진 트릭스터로 적을 한번에 괴멸 시킬 수 있는 매우 강력한 반격기를 가지고 있습니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 45000,
+      "increment": 240
+    },
+    "ATK": {
+      "base": 250,
+      "increment": 17
+    },
+    "DEF": {
+      "base": 1600,
+      "increment": 24
+    },
+    "AGI": 4.55,
+    "CRT": 30,
+    "HIT": 229,
+    "DOD": 0,
+    "resist": [
+      30,
+      10,
+      10
+    ],
+    "skills": [
+      "Kidnapper_EW_Skill1",
+      "Kidnapper_EW_Skill2",
+      "Kidnapper_EW_Skill3",
+      "Kidnapper_EW_Skill4",
+      "Kidnapper_EW_Skill5"
+    ]
+  },
+  "NightChickSP_TU7": {
+    "name": "칙 스나이퍼",
+    "img": "NightChickSP",
+    "type": "경장 공격기",
+    "info": "엄폐와 위장 능력이 좋음. 빠르게 한 방으로 처치하는 게 좋을 것 같음.<br><br><br>- 발키리",
+    "HP": {
+      "base": 300,
+      "increment": 70
+    },
+    "ATK": {
+      "base": 105,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 25,
+      "increment": 1.25
+    },
+    "AGI": 4,
+    "CRT": 12.5,
+    "HIT": 340,
+    "DOD": 47.5,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "NightChickSP_N_Skill1",
+      "NightChickSP_N_Skill2",
+      "NightChickSP_N_Skill3"
+    ]
+  },
+  "WaspEX_N": {
+    "name": "와습 HM",
+    "img": "Wasp",
+    "type": "기동 공격기",
+    "info": "누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.<br><br><br>- 슬레이프니르",
+    "HP": {
+      "base": 7500,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 175,
+      "increment": 18
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.65,
+    "CRT": 20,
+    "HIT": 204,
+    "DOD": 150,
+    "resist": [
+      99,
+      0,
+      0
+    ],
+    "skills": [
+      "WaspEX_N_Skill1",
+      "WaspEX_N_Skill2",
+      "WaspEX_N_Skill3"
+    ]
+  },
+  "Chiller_N": {
+    "name": "칠러",
+    "img": "Chiller",
+    "type": "기동 공격기",
+    "info": "물… 절대 뿌리지 말것…<br><br><br> - 서펀트 보고함",
+    "HP": {
+      "base": 9500,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 250,
+      "increment": 10
+    },
+    "AGI": 4.5,
+    "CRT": 15,
+    "HIT": 235,
+    "DOD": 175,
+    "resist": [
+      -99,
+      99,
+      25
+    ],
+    "skills": [
+      "Chiller_N_Skill1",
+      "Chiller_N_Skill2",
+      "Chiller_N_Skill3",
+      "Chiller_N_Skill4"
+    ]
+  },
+  "Raider_EW": {
+    "name": "레이더",
+    "img": "Raider_B04",
+    "type": "기동 지원기",
+    "info": "전장에서 등장하는 더욱 강력해진 레이더로 철충들의 공격을 지원하여 지속적으로 막강한 피해를 줄 것입니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 45000,
+      "increment": 232
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 1500,
+      "increment": 14
+    },
+    "AGI": 4.55,
+    "CRT": 15,
+    "HIT": 180,
+    "DOD": 120,
+    "resist": [
+      -25,
+      0,
+      75
+    ],
+    "skills": [
+      "Raider_EW_Skill1",
+      "Raider_EW_Skill2",
+      "Raider_EW_Skill3",
+      "Raider_EW_Skill4",
+      "Raider_EW_Skill5"
+    ]
+  },
+  "UnderWatcherSensor_EW": {
+    "name": "언더왓쳐 센서",
+    "img": "UnderWatcherSensor_B05",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 24730,
+      "increment": 130
+    },
+    "ATK": {
+      "base": 0,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 2315,
+      "increment": 15
+    },
+    "AGI": 4.5,
+    "CRT": 0,
+    "HIT": 999,
+    "DOD": 0,
+    "resist": [
+      50,
+      75,
+      50
+    ],
+    "skills": [
+      "UnderWatcherSensor_EW_Skill1",
+      "UnderWatcherSensor_EW_Skill2",
+      "UnderWatcherSensor_EW_Skill3",
+      "UnderWatcherSensor_EW_Skill4",
+      "UnderWatcherSensor_EW_Skill5"
+    ]
+  },
+  "UnderWatcherArm_EW": {
+    "name": "언더왓쳐 암",
+    "img": "UnderWatcherArm_B05",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 25650,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 210,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 1763,
+      "increment": 3
+    },
+    "AGI": 4.15,
+    "CRT": 20,
+    "HIT": 200,
+    "DOD": 0,
+    "resist": [
+      50,
+      75,
+      50
+    ],
+    "skills": [
+      "UnderWatcherArm_EW_Skill1",
+      "UnderWatcherArm_EW_Skill2",
+      "UnderWatcherArm_EW_Skill3",
+      "UnderWatcherArm_EW_Skill4",
+      "UnderWatcherArm_EW_Skill5"
+    ]
+  },
+  "UnderWatcher_EW": {
+    "name": "언더왓쳐",
+    "img": "UnderWatcher_B05",
+    "type": "중장 보호기",
+    "info": "전장에서 등장하는 더욱 강력해진 언더왓쳐로 제네레이터로부터 에너지를 공급 받는 한 계속 전투를 이어나갈 수 있습니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 49200,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 300,
+      "increment": 13.5
+    },
+    "DEF": {
+      "base": 1605,
+      "increment": 5
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 175,
+    "DOD": 0,
+    "resist": [
+      50,
+      75,
+      50
+    ],
+    "skills": [
+      "UnderWatcher_EW_Skill1",
+      "UnderWatcher_EW_Skill2",
+      "UnderWatcher_EW_Skill3",
+      "UnderWatcher_EW_Skill4",
+      "UnderWatcher_EW_Skill5"
+    ]
+  },
+  "UnderWatcherGenerator_EW": {
+    "name": "언더왓쳐 제네레이터",
+    "img": "UnderWatcherGenerator_B05",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 15000,
+      "increment": 15
+    },
+    "ATK": {
+      "base": 0,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.35,
+    "CRT": 0,
+    "HIT": 999,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "UnderWatcherGenerator_EW_Skill1",
+      "UnderWatcherGenerator_EW_Skill2",
+      "UnderWatcherGenerator_EW_Skill3",
+      "UnderWatcherGenerator_EW_Skill4",
+      "UnderWatcherGenerator_EW_Skill5"
+    ]
+  },
+  "ExecutionerLB_EW": {
+    "name": "익스큐셔너 롱 블레이드",
+    "img": "ExecutionerRB_B06",
+    "type": "기동 지원기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 20000,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.6,
+    "CRT": 12.5,
+    "HIT": 175,
+    "DOD": 120,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "ExecutionerLB_EW_Skill1",
+      "ExecutionerLB_EW_Skill2",
+      "ExecutionerLB_EW_Skill3",
+      "ExecutionerLB_EW_Skill4",
+      "ExecutionerLB_EW_Skill5"
+    ]
+  },
+  "Executioner_EW": {
+    "name": "익스큐셔너",
+    "img": "Executioner_B06",
+    "type": "기동 공격기",
+    "info": "전장에서 등장하는 더욱 강력해진 익스큐셔너로 블레이드가 파괴된다면 막강한 파괴력을 지니게 될 것입니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 55000,
+      "increment": 250
+    },
+    "ATK": {
+      "base": 300,
+      "increment": 20
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.5,
+    "CRT": 15,
+    "HIT": 350,
+    "DOD": 120,
+    "resist": [
+      30,
+      30,
+      30
+    ],
+    "skills": [
+      "Executioner_EW_Skill1",
+      "Executioner_EW_Skill2",
+      "Executioner_EW_Skill3",
+      "Executioner_EW_Skill4",
+      "Executioner_EW_Skill5"
+    ]
+  },
+  "ExecutionerRB_EW": {
+    "name": "익스큐셔너 실드 블레이드",
+    "img": "ExecutionerLB_B06",
+    "type": "기동 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 25000,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 170,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 1800,
+      "increment": 20
+    },
+    "AGI": 4.25,
+    "CRT": 10,
+    "HIT": 250,
+    "DOD": 60,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "ExecutionerRB_EW_Skill1",
+      "ExecutionerRB_EW_Skill2",
+      "ExecutionerRB_EW_Skill3",
+      "ExecutionerRB_EW_Skill4",
+      "ExecutionerRB_EW_Skill5"
+    ]
+  },
+  "DoomEater_N_EW2": {
+    "name": "둠 이터",
+    "img": "DoomEater",
+    "type": "중장 보호기",
+    "info": "같은 철충들을 먹어치워버리는 이 무자비한 철충을 막을 방법은 오직 포식 후, 에너지를 흡수할 때 밖에는 없는 듯 합니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 800000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 1000,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 15000,
+      "increment": 0
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 400,
+    "DOD": 10,
+    "resist": [
+      40,
+      40,
+      40
+    ],
+    "skills": [
+      "DoomEater_N_EW2_Skill1",
+      "DoomEater_N_EW2_Skill2",
+      "DoomEater_N_EW2_Skill3",
+      "DoomEater_N_EW2_Skill4",
+      "DoomEater_N_EW2_Skill5"
+    ]
+  },
+  "Executioner_BEW_EW2": {
+    "name": "이모탈 익스큐셔너",
+    "img": "Executioner_BEW",
+    "type": "기동 공격기",
+    "info": "여태껏 보고된 적 없는 새로운 형태의 익스큐셔너로, 제압해도 부활한다는 것만 알려진 상태입니다. 대원들이 공포에 질릴 수 있으니, 불사신 같은 건 없다는 것을 증명해주셔야 합니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 55000,
+      "increment": 500
+    },
+    "ATK": {
+      "base": 320,
+      "increment": 23
+    },
+    "DEF": {
+      "base": 1200,
+      "increment": 22
+    },
+    "AGI": 4.6,
+    "CRT": 15,
+    "HIT": 350,
+    "DOD": 120,
+    "resist": [
+      30,
+      30,
+      30
+    ],
+    "skills": [
+      "Executioner_BEW_EW2_Skill1",
+      "Executioner_BEW_EW2_Skill2",
+      "Executioner_BEW_EW2_Skill3",
+      "Executioner_BEW_EW2_Skill4",
+      "Executioner_BEW_EW2_Skill5"
+    ]
+  },
+  "Frostbite_EW": {
+    "name": "프로스트바이트",
+    "img": "Frostbite",
+    "type": "중장 지원기",
+    "info": "유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 150000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 250,
+      "increment": 15
+    },
+    "AGI": 3.8,
+    "CRT": 12.5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      -50,
+      95,
+      75
+    ],
+    "skills": [
+      "Frostbite_N_Skill1",
+      "Frostbite_N_Skill2",
+      "Frostbite_N_Skill3",
+      "Frostbite_N_Skill4",
+      "Frostbite_N_Skill5"
+    ]
+  },
+  "NightChickAQ_EW": {
+    "name": "아쿠아 칙",
+    "img": "NightChickAQ",
+    "type": "경장 지원기",
+    "info": "물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!<br><br><br> - 아쿠아 보고함",
+    "HP": {
+      "base": 120000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 3.75
+    },
+    "DEF": {
+      "base": 500,
+      "increment": 20
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 100,
+    "resist": [
+      50,
+      99,
+      -50
+    ],
+    "skills": [
+      "NightChickAQ_N_Skill1",
+      "NightChickAQ_N_Skill2",
+      "NightChickAQ_N_Skill3",
+      "NightChickAQ_N_Skill4"
+    ]
+  },
+  "NightChickSPW_EW": {
+    "name": "한랭지형 칙 스나이퍼",
+    "img": "NightChickSPW",
+    "type": "경장 공격기",
+    "info": "보기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.<br><br><br>- 알비스 보고함",
+    "HP": {
+      "base": 100000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 720,
+      "increment": 11
+    },
+    "AGI": 4.6,
+    "CRT": 15,
+    "HIT": 575,
+    "DOD": 185,
+    "resist": [
+      -50,
+      75,
+      25
+    ],
+    "skills": [
+      "NightChickSPW_N_Skill1",
+      "NightChickSPW_N_Skill2",
+      "NightChickSPW_N_Skill3",
+      "NightChickSPW_N_Skill4"
+    ]
+  },
+  "EmperorChick_EW": {
+    "name": "칙 엠페러",
+    "img": "EmperorChick",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 200000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 160,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 165,
+      "increment": 16.5
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 325,
+    "DOD": 25,
+    "resist": [
+      0,
+      35,
+      35
+    ],
+    "skills": [
+      "EmperorChick_N_Skill1",
+      "EmperorChick_N_Skill2",
+      "EmperorChick_N_Skill3",
+      "EmperorChick_N_Skill4",
+      "EmperorChick_N_Skill5"
+    ]
+  },
+  "NightChickDEG_EW": {
+    "name": "나이트 칙 디텍터 G",
+    "img": "NightChickDEG",
+    "type": "기동 지원기",
+    "info": "지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.<br><br><br> - 다이카 보고함",
+    "HP": {
+      "base": 30000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 25,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 11
+    },
+    "AGI": 4.45,
+    "CRT": 1,
+    "HIT": 320,
+    "DOD": 85,
+    "resist": [
+      -25,
+      -25,
+      25
+    ],
+    "skills": [
+      "NightChickDEG_N_Skill1",
+      "NightChickDEG_N_Skill2",
+      "NightChickDEG_N_Skill3",
+      "NightChickDEG_N_Skill4"
+    ]
+  },
+  "DoomEater_N_EW": {
+    "name": "굶주린 둠 이터",
+    "img": "DoomEater",
+    "type": "중장 보호기",
+    "info": "오랫동안 에너지 섭취를 못해 매우 굶주려 있는 상태로 주위에 있는 모든 철충들을 닥치는 대로 먹어치워 버릴 것입니다. 더 이상 먹어치울 철충이 없을 경우 광폭화에 빠지게 되어 막을 수 없을지도 모릅니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 400000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 1000,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 1500,
+      "increment": 0
+    },
+    "AGI": 2.5,
+    "CRT": 10,
+    "HIT": 100,
+    "DOD": 0,
+    "resist": [
+      40,
+      40,
+      40
+    ],
+    "skills": [
+      "DoomEater_N_EW_Skill1",
+      "DoomEater_N_EW_Skill2",
+      "DoomEater_N_EW_Skill3",
+      "DoomEater_N_EW_Skill4",
+      "DoomEater_N_EW_Skill5"
+    ]
+  },
+  "NightChickDEX_TU4": {
+    "name": "강화형 칙 디텍터",
+    "img": "NightChickDE",
+    "type": "경장 지원기",
+    "info": "강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.<br><br><br>- 엠프리스 보고함",
+    "HP": {
+      "base": 17500,
+      "increment": 215
+    },
+    "ATK": {
+      "base": 85,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 3000,
+      "increment": 25
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 625,
+    "DOD": 100,
+    "resist": [
+      75,
+      -35,
+      90
+    ],
+    "skills": [
+      "NightChickDEX_N_Skill1",
+      "NightChickDEX_N_Skill2",
+      "NightChickDEX_N_Skill3",
+      "NightChickDEX_N_Skill4"
+    ]
+  },
+  "NightChickDEAA_TU4": {
+    "name": "나이트 칙 디텍터 AA",
+    "img": "NightChickDEAA",
+    "type": "경장 지원기",
+    "info": "대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!<br><br><br>- 레드후드의 명령을 브라우니가 기록함",
+    "HP": {
+      "base": 18000,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 1000,
+      "increment": 20
+    },
+    "AGI": 4.7,
+    "CRT": 5,
+    "HIT": 675,
+    "DOD": 120,
+    "resist": [
+      -50,
+      25,
+      75
+    ],
+    "skills": [
+      "NightChickDEAA_N_Skill1",
+      "NightChickDEAA_N_Skill2",
+      "NightChickDEAA_N_Skill3",
+      "NightChickDEAA_N_Skill4"
+    ]
+  },
+  "ScarabEX_TU3": {
+    "name": "스캐럽 HC",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "이상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.<br><br><br>- 보고자 닥터",
+    "HP": {
+      "base": 800,
+      "increment": 87.5
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 7.75
+    },
+    "DEF": {
+      "base": 130,
+      "increment": 2.5
+    },
+    "AGI": 4.55,
+    "CRT": 15,
+    "HIT": 175,
+    "DOD": 135,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "ScarabEX_N_Skill1",
+      "ScarabEX_N_Skill2",
+      "ScarabEX_N_Skill3"
+    ]
+  },
+  "ZapperEX_TU4": {
+    "name": "강화형 재퍼",
+    "img": "Zapper",
+    "type": "경장 지원기",
+    "info": "호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?<br><br><br>- 보고자 블랙 리리스",
+    "HP": {
+      "base": 875,
+      "increment": 105
+    },
+    "ATK": {
+      "base": 85,
+      "increment": 7.5
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 2.5
+    },
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 295,
+    "DOD": 80,
+    "resist": [
+      25,
+      25,
+      75
+    ],
+    "skills": [
+      "ZapperEX_N_Skill1",
+      "ZapperEX_N_Skill2",
+      "ZapperEX_N_Skill3"
+    ]
+  },
+  "NightChickCMS_N": {
+    "name": "강화형 케미컬 칙",
+    "img": "NightChickCM",
+    "type": "경장 지원기",
+    "info": "냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…<br><br><br>- 보고자 미호",
+    "HP": {
+      "base": 1425,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 155,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 155,
+      "increment": 5
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 200,
+    "DOD": 120,
+    "resist": [
+      75,
+      75,
+      75
+    ],
+    "skills": [
+      "NightChickCMS_N_Skill1",
+      "NightChickCMS_N_Skill2",
+      "NightChickCMS_N_Skill3"
+    ]
+  },
+  "NightChickTD_TU4": {
+    "name": "썬더 칙",
+    "img": "NightChickTD",
+    "type": "경장 공격기",
+    "info": "으아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.<br><br><br> - 켈베로스 보고함",
+    "HP": {
+      "base": 4800,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 14.5
+    },
+    "DEF": {
+      "base": 25,
+      "increment": 1.25
+    },
+    "AGI": 4.25,
+    "CRT": 10,
+    "HIT": 254,
+    "DOD": 100,
+    "resist": [
+      -25,
+      -25,
+      99
+    ],
+    "skills": [
+      "NightChickTD_N_Skill1",
+      "NightChickTD_N_Skill2",
+      "NightChickTD_N_Skill3",
+      "NightChickTD_N_Skill4"
+    ]
+  },
+  "FABigChickEX_N": {
+    "name": "FA 빅 칙 II",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 15500,
+      "increment": 400
+    },
+    "ATK": {
+      "base": 215,
+      "increment": 20
+    },
+    "DEF": {
+      "base": 1000,
+      "increment": 15
+    },
+    "AGI": 3.5,
+    "CRT": 10,
+    "HIT": 225,
+    "DOD": 0,
+    "resist": [
+      0,
+      25,
+      30
+    ],
+    "skills": [
+      "FABigChickEX_N_Skill1",
+      "FABigChickEX_N_Skill2",
+      "FABigChickEX_N_Skill3",
+      "FABigChickEX_N_Skill4"
+    ]
+  },
+  "NightChickCEX_N": {
+    "name": "개량형 칙 캐논",
+    "img": "NightChickC",
+    "type": "중장 공격기",
+    "info": "박격포로 무장한 나이트 칙인데... 별 거 아닌 폭죽이나 쏴대는 벌레야. 아, 약한 애들한텐 무서우려나?<br><br><br>- 메이 보고함",
+    "HP": {
+      "base": 12500,
+      "increment": 275
+    },
+    "ATK": {
+      "base": 175,
+      "increment": 17.5
+    },
+    "DEF": {
+      "base": 500,
+      "increment": 10
+    },
+    "AGI": 3.55,
+    "CRT": 10,
+    "HIT": 220,
+    "DOD": 0,
+    "resist": [
+      50,
+      25,
+      25
+    ],
+    "skills": [
+      "NightChickCEX_N_Skill1",
+      "NightChickCEX_N_Skill2",
+      "NightChickCEX_N_Skill3",
+      "NightChickCEX_N_Skill4"
+    ]
+  },
+  "CenturionG_N": {
+    "name": "센츄리온 제네럴",
+    "img": "CenturionG",
+    "type": "경장 지원기",
+    "info": "지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...<br><br><br>- 이프리트 보고함",
+    "HP": {
+      "base": 1000,
+      "increment": 1000
+    },
+    "ATK": {
+      "base": 25,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 750,
+      "increment": 15
+    },
+    "AGI": 4.35,
+    "CRT": 1,
+    "HIT": 500,
+    "DOD": 60,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "CenturionG_N_Skill1",
+      "CenturionG_N_Skill2",
+      "CenturionG_N_Skill3",
+      "CenturionG_N_Skill4",
+      "CenturionG_N_Skill5"
+    ]
+  },
+  "HeavyScout_N": {
+    "name": "헤비 스카우트",
+    "img": "Scout",
+    "type": "기동 공격기",
+    "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
+    "HP": {
+      "base": 10000,
+      "increment": 235
+    },
+    "ATK": {
+      "base": 180,
+      "increment": 17
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.75,
+    "CRT": 20,
+    "HIT": 215,
+    "DOD": 135,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "HeavyScout_N_Skill1",
+      "HeavyScout_N_Skill2",
+      "HeavyScout_N_Skill3"
+    ]
+  },
+  "BigChickS_N": {
+    "name": "빅 칙 실더",
+    "img": "BigChickS",
+    "type": "중장 보호기",
+    "info": "제법 근성이 있는 녀석이야! 아무리 때려도 잘 쓰러지지 않던데 미호는 잘 처리하더라구. 쓸데 없이 계속 치치말라나 뭐라나…하지만 한 번 붙으면 물러날 내가 아니지~!<br><br><br> - 스틸 드라코 보고함",
+    "HP": {
+      "base": 18000,
+      "increment": 425
+    },
+    "ATK": {
+      "base": 135,
+      "increment": 13.5
+    },
+    "DEF": {
+      "base": 750,
+      "increment": 35
+    },
+    "AGI": 3.5,
+    "CRT": 12.5,
+    "HIT": 125,
+    "DOD": 1,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "BigChickS_N_Skill1",
+      "BigChickS_N_Skill2",
+      "BigChickS_N_Skill3",
+      "BigChickS_N_Skill4"
+    ]
+  },
+  "NightChickAQ_N": {
+    "name": "아쿠아 칙",
+    "img": "NightChickAQ",
+    "type": "경장 지원기",
+    "info": "물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!<br><br><br> - 아쿠아 보고함",
+    "HP": {
+      "base": 11000,
+      "increment": 230
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 3.75
+    },
+    "DEF": {
+      "base": 500,
+      "increment": 20
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 100,
+    "resist": [
+      50,
+      99,
+      -50
+    ],
+    "skills": [
+      "NightChickAQ_N_Skill1",
+      "NightChickAQ_N_Skill2",
+      "NightChickAQ_N_Skill3",
+      "NightChickAQ_N_Skill4"
+    ]
+  },
+  "BigChickEX_N": {
+    "name": "시작형 빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 16500,
+      "increment": 410
+    },
+    "ATK": {
+      "base": 125,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 1500,
+      "increment": 25
+    },
+    "AGI": 3.4,
+    "CRT": 20,
+    "HIT": 335,
+    "DOD": 0,
+    "resist": [
+      40,
+      40,
+      40
+    ],
+    "skills": [
+      "BigChickEX_N_Skill1",
+      "BigChickEX_N_Skill2",
+      "BigChickEX_N_Skill3"
+    ]
+  },
+  "LegionElite_TU4": {
+    "name": "엘리트 레기온",
+    "img": "Legion",
+    "type": "경장 지원기",
+    "info": "화력이 좀 더 강한 레기온이야. 난 전혀 구분이 안 가는데 에밀리는 잘 구분하더라구. 이상한 데서 재주가 좋다니까...아! 지휘관 철충과의 연계 공격은 특히 주의해야 해!<br><br><br>- 파니 보고함",
+    "HP": {
+      "base": 10000,
+      "increment": 250
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 125,
+      "increment": 5
+    },
+    "AGI": 4.4,
+    "CRT": 2,
+    "HIT": 475,
+    "DOD": 100,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "LegionElite_N_Skill1",
+      "LegionElite_N_Skill2",
+      "LegionElite_N_Skill3",
+      "LegionElite_N_Skill4"
+    ]
+  },
+  "ScarabEX_N": {
+    "name": "스캐럽 HC",
+    "img": "Scarab",
+    "type": "기동 보호기",
+    "info": "이상한 구조인데 잘도 나는 거 있지? 나 저거 꼭 분해하고 싶으니까 잡히면 나한테 보내 줘야 해! 겁쟁이라 무서우면 방어를 하니까 빨리 해치우는 게 좋아.<br><br><br>- 보고자 닥터",
+    "HP": {
+      "base": 11500,
+      "increment": 225
+    },
+    "ATK": {
+      "base": 135,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 11
+    },
+    "AGI": 4.8,
+    "CRT": 15,
+    "HIT": 260,
+    "DOD": 200,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "ScarabEX_N_Skill1",
+      "ScarabEX_N_Skill2",
+      "ScarabEX_N_Skill3"
+    ]
+  },
+  "BigChickMG_EV3": {
+    "name": "빅 칙 런쳐 G",
+    "img": "BigChickMG",
+    "type": "중장 공격기",
+    "info": "화력이 뛰어나지만 전기로 센서를 일시적으로 고장낼 수 있는거 같아요. 보조 무장은 약하지만 정밀하니 주의하세요.<br><br><br>- 레아 보고함",
+    "HP": {
+      "base": 17000,
+      "increment": 415
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 15
+    },
+    "DEF": {
+      "base": 1000,
+      "increment": 30
+    },
+    "AGI": 3.6,
+    "CRT": 10,
+    "HIT": 240,
+    "DOD": 0,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "BigChickMG_N_Skill1",
+      "BigChickMG_N_Skill2",
+      "BigChickMG_N_Skill3",
+      "BigChickMG_N_Skill4",
+      "BigChickMG_N_Skill5"
+    ]
+  },
+  "NightChickTD_N": {
+    "name": "썬더 칙",
+    "img": "NightChickTD",
+    "type": "경장 공격기",
+    "info": "으아~ 촙 메이커로 때리니 갑자기 날뛰어서 큰일 날 뻔 했어요! 전기에 반응하는 것 같던데...아 참! 서펀트씨가 물을 뿌린 녀석은 갑자기 자폭해버리더라구요.<br><br><br> - 켈베로스 보고함",
+    "HP": {
+      "base": 8250,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 175,
+      "increment": 16.5
+    },
+    "DEF": {
+      "base": 50,
+      "increment": 5
+    },
+    "AGI": 4.35,
+    "CRT": 10,
+    "HIT": 275,
+    "DOD": 125,
+    "resist": [
+      -25,
+      -25,
+      99
+    ],
+    "skills": [
+      "NightChickTD_N_Skill1",
+      "NightChickTD_N_Skill2",
+      "NightChickTD_N_Skill3",
+      "NightChickTD_N_Skill4"
+    ]
+  },
+  "Tarantula_TU4": {
+    "name": "타란튤라",
+    "img": "Tarantula",
+    "type": "경장 공격기",
+    "info": "가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?<br><br><br> - 베라 보고함",
+    "HP": {
+      "base": 3000,
+      "increment": 90
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 14.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.6,
+    "CRT": 15,
+    "HIT": 400,
+    "DOD": 275,
+    "resist": [
+      95,
+      -25,
+      90
+    ],
+    "skills": [
+      "Tarantula_N_Skill1",
+      "Tarantula_N_Skill2",
+      "Tarantula_N_Skill3",
+      "Tarantula_N_Skill4"
+    ]
+  },
+  "Tarantula_TU3": {
+    "name": "타란튤라",
+    "img": "Tarantula",
+    "type": "경장 공격기",
+    "info": "가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?<br><br><br> - 베라 보고함",
+    "HP": {
+      "base": 2000,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 180,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.55,
+    "CRT": 12.5,
+    "HIT": 375,
+    "DOD": 250,
+    "resist": [
+      95,
+      -25,
+      70
+    ],
+    "skills": [
+      "Tarantula_N_Skill1",
+      "Tarantula_N_Skill2",
+      "Tarantula_N_Skill3",
+      "Tarantula_N_Skill4"
+    ]
+  },
+  "Frostbite_TU4": {
+    "name": "프로스트바이트",
+    "img": "Frostbite",
+    "type": "중장 지원기",
+    "info": "유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.<br><br><br>- 기간테스 보고함",
+    "HP": {
+      "base": 30000,
+      "increment": 325
+    },
+    "ATK": {
+      "base": 140,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 3000,
+      "increment": 35
+    },
+    "AGI": 3.8,
+    "CRT": 12.5,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      -50,
+      95,
+      75
+    ],
+    "skills": [
+      "Frostbite_N_Skill1",
+      "Frostbite_N_Skill2",
+      "Frostbite_N_Skill3",
+      "Frostbite_N_Skill4",
+      "Frostbite_N_Skill5"
+    ]
+  },
+  "MammothW_TU4": {
+    "name": "한랭지형 매머드",
+    "img": "MammothW",
+    "type": "중장 공격기",
+    "info": "일반 매머드보다 포격의 위력은 줄었지만, 장전 속도가 빨라진 것 같아요. 설원에서는 방호력이 증가하는 특성이 있으니 촬영 자료를 참조해 주세요.<br><br><br>- 탈론페더 보고함",
+    "HP": {
+      "base": 24000,
+      "increment": 300
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 16
+    },
+    "DEF": {
+      "base": 2400,
+      "increment": 28
+    },
+    "AGI": 3.9,
+    "CRT": 10,
+    "HIT": 225,
+    "DOD": 0,
+    "resist": [
+      -50,
+      75,
+      50
+    ],
+    "skills": [
+      "MammothW_N_Skill1",
+      "MammothW_N_Skill2",
+      "MammothW_N_Skill3",
+      "MammothW_N_Skill4"
+    ]
+  },
+  "NightChickSPW_TU4": {
+    "name": "한랭지형 칙 스나이퍼",
+    "img": "NightChickSPW",
+    "type": "경장 공격기",
+    "info": "보기보다 잽싼 녀석이야! 발키리 언니처럼 가까운 거리에선 사격이 더 정밀해지니 주의해야 해. 설원에선 찾기 힘드니 베라 언니한테 도와달라고 하는 게 좋을 거야.<br><br><br>- 알비스 보고함",
+    "HP": {
+      "base": 12500,
+      "increment": 170
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 720,
+      "increment": 11
+    },
+    "AGI": 4.6,
+    "CRT": 15,
+    "HIT": 575,
+    "DOD": 185,
+    "resist": [
+      -50,
+      75,
+      25
+    ],
+    "skills": [
+      "NightChickSPW_N_Skill1",
+      "NightChickSPW_N_Skill2",
+      "NightChickSPW_N_Skill3",
+      "NightChickSPW_N_Skill4"
+    ]
+  },
+  "LegionMk2_TU4": {
+    "name": "레기온 Mk.II",
+    "img": "LegionMk2",
+    "type": "경장 공격기",
+    "info": "레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.<br><br><br>- 아르망 보고함",
+    "HP": {
+      "base": 21500,
+      "increment": 240
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 1280,
+      "increment": 12
+    },
+    "AGI": 4.5,
+    "CRT": 12.5,
+    "HIT": 520,
+    "DOD": 150,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "LegionMk2_N_Skill1",
+      "LegionMk2_N_Skill2",
+      "LegionMk2_N_Skill3",
+      "LegionMk2_N_Skill4"
     ]
   }
 }

@@ -43,14 +43,11 @@ class App extends React.Component
       {
         if (areadata.title.includes("Daily"))
         {
-          console.log(areadata.title)
-          console.log(searchresult)
           searchresult.has("Daily") ? searchresult.get("Daily").push(...searcharea) : searchresult.set("Daily", searcharea);
         }
         else searchresult.set(areadata.title, searcharea);
       }
     });
-    console.log(searchresult)
 
     this.setState({
       "enemyIndex": enemyIndex,
@@ -154,6 +151,7 @@ const Stage = props =>
       <div className="stage-header" onClick={props.toggleExpandStage}>등장 스테이지<i className="material-icons">{(props.isStageExpanded ? "expand_less" : "expand_more")}</i></div>
       <div className={"stage-inner" + (props.isStageExpanded ? "" : " stage-inner-hidden")}>
         {
+          props.SpottedStage.size===0 ? <table key="stagetable"><thead><tr><th>영원의 전장 (업데이트 예정)</th></tr></thead></table> :
           Array.from(props.SpottedStage, ([key, value]) => (
             <table key={key}>
               <thead>

@@ -221,7 +221,6 @@ class NavBar extends React.Component
     {
       if (this.isResultClosing)
       {
-        console.log("this.state.showIndexResult: " + this.state.showIndexResult)
         this.scrollToIndex(this.state.showIndexResult);
         this.isResultClosing = false;
       }
