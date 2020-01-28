@@ -39,7 +39,7 @@ class Info extends React.Component
     const lvl = data.lvl;
     return (
       <div className="info-container">
-        <div className="image"><img src={"/images/profile/" + enemyData.img + ".png"} alt={enemyData.img} /></div>
+        <div className="image"><img src={"images/profile/" + enemyData.img + ".png"} alt={enemyData.img} /></div>
         <div className="type">
           <h4 id="type">{enemyData.type}</h4>
         </div>
