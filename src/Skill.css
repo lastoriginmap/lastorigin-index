@@ -1,0 +1,186 @@
+
+
+.skill-container {
+    padding: 0 7%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-radius: 5vw;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .skill-header {
+    grid-area: 1 / 1 / 2 / 13;
+  }
+  
+  .skill-nav-wrap {
+    grid-area: 2 / 1 / 3 / 13;
+    padding: 0;
+  }
+  
+  .skill-nav-wrap.skill-active {
+    border-bottom: 5px solid orange;
+  }
+  
+  .skill-nav-wrap.skill-passive {
+    border-bottom: 5px solid skyblue;
+  }
+  
+  .skill-nav {
+    text-align: left;
+  }
+  
+  .skill-nav button {
+    display: inline-block;
+    box-sizing: content-box;
+    margin: 0 1% 0 0;
+    width: 12.5%;
+    height: 0;
+    padding: 0.5% 0.5% 13% 0.5%;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 5% 5% 0 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .skill-nav button::after {
+    height: 100%;
+  }
+  
+  .skill-nav .btn-info {
+    float: right;
+  }
+  
+  .skill-nav .skill-active {
+    border-color: orange;
+  }
+  
+  .skill-nav .active.skill-active {
+    background-color: orange;
+  }
+  
+  .skill-nav .skill-passive {
+    border-color: skyblue;
+  }
+  
+  .skill-nav .active.skill-passive {
+    background-color: skyblue;
+  }
+  
+  .skill-icon {
+    width: 100%;
+  }
+  
+  .skillview-container {
+    grid-area: 3 / 1 / 5 / 13;
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 75px);
+    justify-content: stretch;
+    padding: 0px;
+  }
+  
+  .skillview-container.info-description {
+    display: block;
+    padding: 5px;
+  }
+  
+  .skill-name {
+    grid-area: 3 / 1 / 4 / 10;
+  }
+  
+  .icon-attr {
+    width: 1em;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 0.2em;
+  }
+  
+  .skill-name h5 {
+    display: inline;
+  }
+  
+  .skill-range {
+    grid-area: 3 / 10 / 4 / 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0.9em;
+    justify-self: end;
+  }
+  
+  .skill-range::after {
+    margin: auto;
+  }
+  
+  .skill-area {
+    grid-area: 4 / 10 / 5 / 13;
+  }
+  
+  .skill-area table {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .skill-area td {
+    box-sizing: content-box;
+    background: rgb(50, 50, 50);
+    width: 33%;
+    height: 0;
+    border-radius: 5%;
+  }
+  
+  .skill-area td::after {
+    content: " ";
+    display: block;
+    margin-top: 100%;
+  }
+  
+  .skill-description {
+    grid-area: 4 / 1 / 5 / 10;
+  }
+
+@media (min-width: 1100px) {
+    .skill-container {
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+    .skill-nav-wrap {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
+  
+    .skill-nav {
+      grid-area: 1 / 1 / 2 / 13;
+    }
+  
+    .skill-nav button {
+      width: 8.33%;
+      padding: 0.5% 0.5% 8.83% 0.5%;
+      border-radius: 5% 5% 0 0;
+      cursor: pointer;
+    }
+  
+    .skillview-container {
+      grid-template-columns: repeat(12, 1fr);
+    }
+  
+    .skill-name {
+      grid-area: 3 / 1 / 4 / 10;
+    }
+  
+    .skill-range {
+      grid-area: 3 / 10 / 4 / 11;
+    }
+  
+    .skill-area {
+      grid-area: 3 / 11 / 4 / 13;
+    }
+  
+    .skill-description {
+      grid-area: 4 / 1 / 5 / 13;
+    }
+}

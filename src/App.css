@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+@import './Tooltip.css';
+@import './NavBar.css';
+@import './Info.css';
+@import './Skill.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+  padding: 5px;
+  border: 0px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  border: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  margin-top: 10px;
+  color: orange;
+  border: 1px solid orange;
+}
+
+#root {
+  padding: 0px;
+  max-width: 540px;
+  margin: auto;
+}
+
+.container {
+  padding: 0px;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+}
+
+.nav-container {
+  padding: 0;
+}
+
+.content {
+  padding: 0px;
+  background-color: #fdfdfd;
+}
+
+.material-icons {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #808080;
+  -webkit-user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+.stage {
+  grid-area: 4 / 1 / 5 / 13;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.stage table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.stage table, th, td {
+  border: 1px solid #c0c0c0;
+  padding: 3px;
+  font-size: small;
+}
+
+.stage a {
+  color: #337ab7;
+}
+
+.stage-inner-hidden {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  html, body {
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  body {
+    overflow-y: scroll;
+  }
+  
+  #root {
+    position: relative;
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .container {
+    height: max-content;
+  }
+
+  .container::before {
+    display: block;
+    position: fixed;
+    margin-left: 460px;
+    top:0px;
+    width: 620px;
+    height: 100%;
+    border-right: 1px solid #c0c0c0;
+    content: "";
+  }
+
+  .container::after {
+    display: block;
+    position: fixed;
+    margin-left: 0;
+    top:0px;
+    width: 460px;
+    height: 100%;
+    border-left: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    content: "";
+  }
+
+  .nav-container {
+    width: 480px;
+    margin-left: 1px;
+  }
+
+  .nav {
+    width: 460px; 
+    height: 100%;
+    display: block;
+  }
+
+  .content-container {
+    position: absolute;
+    padding: 0 40px;
+    width: 540px;;
+    height: max-content;
+    left: 460px;
+  }
+
+  .content {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    width: 540px;
+    overflow-x:hidden;
+    overflow-y: initial;
+  }
+
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .content-bottom {
+    position: fixed;
   }
 }
