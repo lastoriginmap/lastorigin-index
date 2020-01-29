@@ -58,8 +58,8 @@ class Info extends React.Component
           <button className="lvl-change lvl-plus" onClick={this.handleLvlPlus}><i className="material-icons">add</i></button>
         </div>
         <div className="spec-wrap">
-          <div className="spec-item spec-item-header" id="HP"><img src="images/icon_HP2.png" alt="HP Icon" /><div>HP</div></div><div class="spec-item" id="HP"><Tooltip tooltipdata={enemyData.HP} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.HP, lvl)}</span></Tooltip></div>
-          <div className="spec-item spec-item-header"></div><div class="spec-item" ></div>
+          <div className="spec-item spec-item-header" id="HP"><img src="images/icon_HP2.png" alt="HP Icon" /><div>HP</div></div><div className="spec-item" id="HP"><Tooltip tooltipdata={enemyData.HP} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.HP, lvl)}</span></Tooltip></div>
+          <div className="spec-item spec-item-header"></div><div className="spec-item" ></div>
           <div className="spec-item spec-item-header"><img src="images/icon_ATK2.png" alt="ATK Icon" /><div>공격력</div></div><div className="spec-item" id="ATK"><Tooltip tooltipdata={enemyData.ATK} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.ATK, lvl)}</span></Tooltip></div>
           <div className="spec-item spec-item-header"><img src="images/icon_CRT2.png" alt="CRT Icon" /><div>치명타</div></div><div className="spec-item" id="CRT">{enemyData.CRT} %</div>
           <div className="spec-item spec-item-header"><img src="images/icon_DEF2.png" alt="DEF Icon" /><div>방어력</div></div><div className="spec-item" id="DEF"><Tooltip tooltipdata={enemyData.DEF} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.DEF, lvl)}</span></Tooltip></div>
