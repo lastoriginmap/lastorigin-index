@@ -57,7 +57,7 @@ class NavBar extends React.Component
     revstate.showSearchResult = true;
     if (!matchMedia("(min-width: 1100px)").matches)
     {
-      let maxHeight = 6250 + "px";
+      let maxHeight = document.querySelector(".list").scrollHeight + "px";
       revstate.ResultListStyle = { ...this.state.ResultListStyle, "maxHeight": maxHeight };
     }
   }
@@ -85,8 +85,10 @@ class NavBar extends React.Component
     }
     else
     {
-      let maxHeight = document.querySelector("#" + index).scrollHeight + "px";
-      revstate.IndexResultListStyle = { ...this.state.IndexResultListStyle, "maxHeight": maxHeight };
+      let maxHeightIndex = document.querySelector("#" + index).scrollHeight + "px";
+      let maxHeight = document.querySelector(".list").scrollHeight + document.querySelector("#" + index).scrollHeight + "px";
+      revstate.IndexResultListStyle = { ...this.state.IndexResultListStyle, "maxHeight": maxHeightIndex };
+      revstate.ResultListStyle = { ...this.state.IndexResultListStyle, "maxHeight": maxHeight };
     }
   };
 
