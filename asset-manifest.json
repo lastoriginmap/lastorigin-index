@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lastorigin-index/static/css/main.684e5283.chunk.css",
+    "main.css": "/lastorigin-index/static/css/main.960ac060.chunk.css",
     "main.js": "/lastorigin-index/static/js/main.7c5dd7d4.chunk.js",
     "main.js.map": "/lastorigin-index/static/js/main.7c5dd7d4.chunk.js.map",
     "runtime-main.js": "/lastorigin-index/static/js/runtime-main.4675a46b.js",
@@ -8,15 +8,15 @@
     "static/js/2.681d0fd7.chunk.js": "/lastorigin-index/static/js/2.681d0fd7.chunk.js",
     "static/js/2.681d0fd7.chunk.js.map": "/lastorigin-index/static/js/2.681d0fd7.chunk.js.map",
     "index.html": "/lastorigin-index/index.html",
-    "precache-manifest.d543ef4ee28e19f150797a859b76c181.js": "/lastorigin-index/precache-manifest.d543ef4ee28e19f150797a859b76c181.js",
+    "precache-manifest.cd88a7c8e273c4bcde572520a4ee3d9b.js": "/lastorigin-index/precache-manifest.cd88a7c8e273c4bcde572520a4ee3d9b.js",
     "service-worker.js": "/lastorigin-index/service-worker.js",
-    "static/css/main.684e5283.chunk.css.map": "/lastorigin-index/static/css/main.684e5283.chunk.css.map",
+    "static/css/main.960ac060.chunk.css.map": "/lastorigin-index/static/css/main.960ac060.chunk.css.map",
     "static/js/2.681d0fd7.chunk.js.LICENSE": "/lastorigin-index/static/js/2.681d0fd7.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.4675a46b.js",
     "static/js/2.681d0fd7.chunk.js",
-    "static/css/main.684e5283.chunk.css",
+    "static/css/main.960ac060.chunk.css",
     "static/js/main.7c5dd7d4.chunk.js"
   ]
 }
