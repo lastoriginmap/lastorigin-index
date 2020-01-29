@@ -1,7 +1,8 @@
 
 
 .skill-container {
-    padding: 0 7%;
+    padding: 10px 5%;
+    margin: 10px 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     border-radius: 5vw;

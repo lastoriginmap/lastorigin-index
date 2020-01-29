@@ -76,6 +76,10 @@ hr {
   border: 1px solid #c0c0c0;
 }
 
+.stage-header {
+  cursor: pointer;
+}
+
 .stage table {
   width: 100%;
   border-collapse: collapse;
@@ -108,7 +112,7 @@ hr {
   
   #root {
     position: relative;
-    max-width: 1100px;
+    max-width: 1080px;
     height: 100%;
     margin: auto;
   }
