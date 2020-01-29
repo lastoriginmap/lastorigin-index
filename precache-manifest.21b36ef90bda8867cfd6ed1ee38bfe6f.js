@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44f5fbf35ff4dc4fc39bfa10c85f3b8f",
+    "revision": "0cf63beae22a067c56b85fb610e35ad1",
     "url": "/lastorigin-index/index.html"
   },
   {
-    "revision": "dfc5ea41f4fcde3b5c8e",
-    "url": "/lastorigin-index/static/css/main.960ac060.chunk.css"
+    "revision": "c959ef218df63afea561",
+    "url": "/lastorigin-index/static/css/main.4dce8e1f.chunk.css"
   },
   {
     "revision": "9147957c3a01ded931aa",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lastorigin-index/static/js/2.681d0fd7.chunk.js.LICENSE"
   },
   {
-    "revision": "dfc5ea41f4fcde3b5c8e",
+    "revision": "c959ef218df63afea561",
     "url": "/lastorigin-index/static/js/main.7c5dd7d4.chunk.js"
   },
   {
