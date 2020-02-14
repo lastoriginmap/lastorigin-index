@@ -444,6 +444,37 @@
       "FABigChick_N_Skill3"
     ]
   },
+  "BigChick_TU2": {
+    "name": "빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 500,
+      "increment": 65
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 10.5
+    },
+    "DEF": {
+      "base": 50,
+      "increment": 3.5
+    },
+    "AGI": 3.25,
+    "CRT": 5,
+    "HIT": 110,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChick_N_Skill1",
+      "BigChick_N_Skill2"
+    ]
+  },
   "Predator_B0208": {
     "name": "프레데터",
     "img": "Predator_B0208",
@@ -561,7 +592,7 @@
     },
     "AGI": 3.3,
     "CRT": 5,
-    "HIT": 114,
+    "HIT": 115,
     "DOD": 0,
     "resist": [
       25,
@@ -830,7 +861,7 @@
   },
   "HeavyScout_TU": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
@@ -1022,70 +1053,6 @@
       "NightChickDE_N_Skill4"
     ]
   },
-  "NightChick_TU4": {
-    "name": "나이트 칙",
-    "img": "NightChick",
-    "type": "경장 공격기",
-    "info": "하아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!<br><br><br>- 보고자 그렘린입니당! ",
-    "HP": {
-      "base": 275,
-      "increment": 52.5
-    },
-    "ATK": {
-      "base": 65,
-      "increment": 7
-    },
-    "DEF": {
-      "base": 40.5,
-      "increment": 0.72
-    },
-    "AGI": 4,
-    "CRT": 5,
-    "HIT": 220,
-    "DOD": 25,
-    "resist": [
-      0,
-      0,
-      0
-    ],
-    "skills": [
-      "NightChick_N_Skill1",
-      "NightChick_N_Skill2",
-      "NightChick_N_Skill3"
-    ]
-  },
-  "Wasp_N": {
-    "name": "와습",
-    "img": "Wasp",
-    "type": "기동 공격기",
-    "info": "누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.<br><br><br>- 슬레이프니르",
-    "HP": {
-      "base": 200,
-      "increment": 32.5
-    },
-    "ATK": {
-      "base": 70,
-      "increment": 8.75
-    },
-    "DEF": {
-      "base": 0,
-      "increment": 0
-    },
-    "AGI": 4.35,
-    "CRT": 10,
-    "HIT": 125,
-    "DOD": 60,
-    "resist": [
-      50,
-      0,
-      0
-    ],
-    "skills": [
-      "Wasp_N_Skill1",
-      "Wasp_N_Skill2",
-      "Wasp_N_Skill3"
-    ]
-  },
   "Harvester_TU4": {
     "name": "하베스터",
     "img": "Harvester",
@@ -1149,6 +1116,70 @@
       "NightChickC_N_Skill3"
     ]
   },
+  "FABigChick_TU4": {
+    "name": "풀아머 빅 칙",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 1750,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 5.75
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 135,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChick_N_Skill1",
+      "FABigChick_N_Skill2",
+      "FABigChick_N_Skill3"
+    ]
+  },
+  "Wasp_N": {
+    "name": "와습",
+    "img": "Wasp",
+    "type": "기동 공격기",
+    "info": "누가 이 자식한테 이 뿔침을 달아준 거야? 물론 나처럼 빠르진 않지만 나보다 느린 애들은 전부 조심하도록 해. 제법 빠른 속도로 돌격을 하니 말이야.<br><br><br>- 슬레이프니르",
+    "HP": {
+      "base": 200,
+      "increment": 32.5
+    },
+    "ATK": {
+      "base": 70,
+      "increment": 8.75
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.35,
+    "CRT": 10,
+    "HIT": 125,
+    "DOD": 60,
+    "resist": [
+      50,
+      0,
+      0
+    ],
+    "skills": [
+      "Wasp_N_Skill1",
+      "Wasp_N_Skill2",
+      "Wasp_N_Skill3"
+    ]
+  },
   "BigChick_TU3": {
     "name": "빅 칙",
     "img": "BigChick",
@@ -1180,36 +1211,36 @@
       "BigChick_N_Skill2"
     ]
   },
-  "Zapper_TU4": {
-    "name": "재퍼",
-    "img": "Zapper",
-    "type": "경장 지원기",
-    "info": "호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?<br><br><br>- 보고자 블랙 리리스",
+  "NightChick_TU4": {
+    "name": "나이트 칙",
+    "img": "NightChick",
+    "type": "경장 공격기",
+    "info": "하아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!<br><br><br>- 보고자 그렘린입니당! ",
     "HP": {
-      "base": 250,
-      "increment": 45
+      "base": 275,
+      "increment": 52.5
     },
     "ATK": {
-      "base": 60,
-      "increment": 6
+      "base": 65,
+      "increment": 7
     },
     "DEF": {
-      "base": 40,
-      "increment": 1.5
+      "base": 40.5,
+      "increment": 0.72
     },
     "AGI": 4,
     "CRT": 5,
-    "HIT": 165,
-    "DOD": 17.5,
+    "HIT": 220,
+    "DOD": 25,
     "resist": [
       0,
       0,
-      50
+      0
     ],
     "skills": [
-      "Zapper_N_Skill1",
-      "Zapper_N_Skill2",
-      "Zapper_N_Skill3"
+      "NightChick_N_Skill1",
+      "NightChick_N_Skill2",
+      "NightChick_N_Skill3"
     ]
   },
   "Legion_TU4": {
@@ -1244,36 +1275,36 @@
       "Legion_N_Skill3"
     ]
   },
-  "NightChickCM_TU2": {
-    "name": "케미컬 칙",
-    "img": "NightChickCM",
-    "type": "경장 지원기",
-    "info": "냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…<br><br><br>- 보고자 미호",
+  "Centurion_TU4": {
+    "name": "센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
     "HP": {
-      "base": 300,
-      "increment": 60
+      "base": 3000,
+      "increment": 72.5
     },
     "ATK": {
-      "base": 65,
-      "increment": 6.75
+      "base": 80,
+      "increment": 9.25
     },
     "DEF": {
-      "base": 25,
-      "increment": 0.75
+      "base": 30,
+      "increment": 2
     },
-    "AGI": 4.1,
+    "AGI": 4,
     "CRT": 10,
-    "HIT": 195,
-    "DOD": 52.5,
+    "HIT": 175,
+    "DOD": 20,
     "resist": [
-      50,
-      50,
-      50
+      0,
+      0,
+      0
     ],
     "skills": [
-      "NightChickCM_N_Skill1",
-      "NightChickCM_N_Skill2",
-      "NightChickCM_N_Skill3"
+      "Centurion_N_Skill1",
+      "Centurion_N_Skill2",
+      "Centurion_N_Skill3"
     ]
   },
   "Scarab_N": {
@@ -1308,37 +1339,67 @@
       "Scarab_N_Skill3"
     ]
   },
-  "NightChickDE_TU3": {
-    "name": "나이트 칙 디텍터",
-    "img": "NightChickDE",
+  "NightChickCM_TU2": {
+    "name": "케미컬 칙",
+    "img": "NightChickCM",
     "type": "경장 지원기",
-    "info": "그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!<br><br><br>- 예쁜 누나 포츈이 보고해용~!",
+    "info": "냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…<br><br><br>- 보고자 미호",
     "HP": {
-      "base": 275,
-      "increment": 65
+      "base": 300,
+      "increment": 60
     },
     "ATK": {
-      "base": 60,
-      "increment": 5.5
+      "base": 65,
+      "increment": 6.75
     },
     "DEF": {
-      "base": 35,
-      "increment": 1
+      "base": 25,
+      "increment": 0.75
     },
-    "AGI": 4.15,
-    "CRT": 5,
-    "HIT": 260,
-    "DOD": 55,
+    "AGI": 4.1,
+    "CRT": 10,
+    "HIT": 195,
+    "DOD": 52.5,
     "resist": [
-      20,
-      20,
-      20
+      50,
+      50,
+      50
     ],
     "skills": [
-      "NightChickDE_N_Skill1",
-      "NightChickDE_N_Skill2",
-      "NightChickDE_N_Skill3",
-      "NightChickDE_N_Skill4"
+      "NightChickCM_N_Skill1",
+      "NightChickCM_N_Skill2",
+      "NightChickCM_N_Skill3"
+    ]
+  },
+  "BigChick_TU4": {
+    "name": "빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 1500,
+      "increment": 120
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 11.5
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 6.5
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 150,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChick_N_Skill1",
+      "BigChick_N_Skill2"
     ]
   },
   "Raider_B04": {
@@ -1955,6 +2016,39 @@
       "NightChickEX_N_Skill3"
     ]
   },
+  "NightChickDE_TU3": {
+    "name": "나이트 칙 디텍터",
+    "img": "NightChickDE",
+    "type": "경장 지원기",
+    "info": "그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!<br><br><br>- 예쁜 누나 포츈이 보고해용~!",
+    "HP": {
+      "base": 275,
+      "increment": 65
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 5.5
+    },
+    "DEF": {
+      "base": 35,
+      "increment": 1
+    },
+    "AGI": 4.15,
+    "CRT": 5,
+    "HIT": 260,
+    "DOD": 55,
+    "resist": [
+      20,
+      20,
+      20
+    ],
+    "skills": [
+      "NightChickDE_N_Skill1",
+      "NightChickDE_N_Skill2",
+      "NightChickDE_N_Skill3",
+      "NightChickDE_N_Skill4"
+    ]
+  },
   "CenturionEX_TU": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
@@ -2087,7 +2181,7 @@
   },
   "HeavyScout_TU2": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
@@ -2341,37 +2435,6 @@
       "BigChickM_N_Skill3"
     ]
   },
-  "BigChick_TU2": {
-    "name": "빅 칙",
-    "img": "BigChick",
-    "type": "중장 공격기",
-    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
-    "HP": {
-      "base": 500,
-      "increment": 65
-    },
-    "ATK": {
-      "base": 55,
-      "increment": 10.5
-    },
-    "DEF": {
-      "base": 50,
-      "increment": 3.5
-    },
-    "AGI": 3.25,
-    "CRT": 5,
-    "HIT": 110,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "BigChick_N_Skill1",
-      "BigChick_N_Skill2"
-    ]
-  },
   "NightChickDE_N": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
@@ -2403,6 +2466,38 @@
       "NightChickDE_N_Skill2",
       "NightChickDE_N_Skill3",
       "NightChickDE_N_Skill4"
+    ]
+  },
+  "Zapper_TU4": {
+    "name": "재퍼",
+    "img": "Zapper",
+    "type": "경장 지원기",
+    "info": "호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?<br><br><br>- 보고자 블랙 리리스",
+    "HP": {
+      "base": 250,
+      "increment": 45
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 40,
+      "increment": 1.5
+    },
+    "AGI": 4,
+    "CRT": 5,
+    "HIT": 165,
+    "DOD": 17.5,
+    "resist": [
+      0,
+      0,
+      50
+    ],
+    "skills": [
+      "Zapper_N_Skill1",
+      "Zapper_N_Skill2",
+      "Zapper_N_Skill3"
     ]
   },
   "NightChickSI_TU4": {
@@ -2584,7 +2679,7 @@
     },
     "AGI": 4.15,
     "CRT": 10,
-    "HIT": 229,
+    "HIT": 230,
     "DOD": 65,
     "resist": [
       50,
@@ -2695,7 +2790,7 @@
   },
   "HeavyScout_TU3": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
@@ -3068,7 +3163,7 @@
     "AGI": 4.1,
     "CRT": 10,
     "HIT": 280,
-    "DOD": 57.499,
+    "DOD": 57.5,
     "resist": [
       25,
       25,
@@ -3144,37 +3239,70 @@
       "LegionEX_N_Skill3"
     ]
   },
-  "CenturionEX_TU2": {
-    "name": "엘리트 센츄리온",
-    "img": "Centurion",
-    "type": "경장 공격기",
-    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+  "Juggernaut_TU3": {
+    "name": "저거너트",
+    "img": "Juggernaut",
+    "type": "중장 보호기",
+    "info": "성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.<br><br><br>- 블랙 하운드",
     "HP": {
       "base": 3750,
-      "increment": 92.5
+      "increment": 180
     },
     "ATK": {
-      "base": 95,
-      "increment": 11
+      "base": 90,
+      "increment": 9.5
     },
     "DEF": {
-      "base": 75,
-      "increment": 2.5
+      "base": 250,
+      "increment": 13
     },
-    "AGI": 4,
-    "CRT": 15,
-    "HIT": 200,
-    "DOD": 32.5,
+    "AGI": 3.25,
+    "CRT": 10,
+    "HIT": 135,
+    "DOD": 0,
     "resist": [
       25,
       25,
       25
     ],
     "skills": [
-      "CenturionEX_N_Skill1",
-      "CenturionEX_N_Skill2",
-      "CenturionEX_N_Skill3",
-      "CenturionEX_N_Skill4"
+      "Juggernaut_N_Skill1",
+      "Juggernaut_N_Skill2",
+      "Juggernaut_N_Skill3",
+      "Juggernaut_N_Skill4"
+    ]
+  },
+  "FABigChickEX_TU3": {
+    "name": "FA 빅 칙 II",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 3250,
+      "increment": 125
+    },
+    "ATK": {
+      "base": 125,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 180,
+      "increment": 7
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 145,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickEX_N_Skill1",
+      "FABigChickEX_N_Skill2",
+      "FABigChickEX_N_Skill3",
+      "FABigChickEX_N_Skill4"
     ]
   },
   "ScarabEX_TU2": {
@@ -4012,39 +4140,6 @@
       "HarvesterEX_TU4_Skill3"
     ]
   },
-  "Juggernaut_TU3": {
-    "name": "저거너트",
-    "img": "Juggernaut",
-    "type": "중장 보호기",
-    "info": "성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.<br><br><br>- 블랙 하운드",
-    "HP": {
-      "base": 3750,
-      "increment": 180
-    },
-    "ATK": {
-      "base": 90,
-      "increment": 9.5
-    },
-    "DEF": {
-      "base": 250,
-      "increment": 13
-    },
-    "AGI": 3.25,
-    "CRT": 10,
-    "HIT": 135,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "Juggernaut_N_Skill1",
-      "Juggernaut_N_Skill2",
-      "Juggernaut_N_Skill3",
-      "Juggernaut_N_Skill4"
-    ]
-  },
   "WaspEX_TU3": {
     "name": "와습 HM",
     "img": "Wasp",
@@ -4079,7 +4174,7 @@
   },
   "HeavyScout_TU4": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
@@ -4459,7 +4554,7 @@
       "increment": 1.5156
     },
     "AGI": 3.75,
-    "CRT": 11.666,
+    "CRT": 11.67,
     "HIT": 225,
     "DOD": 42.5,
     "resist": [
@@ -4847,7 +4942,7 @@
     },
     "DEF": {
       "base": 64,
-      "increment": 1.892
+      "increment": 1.8921
     },
     "AGI": 4.05,
     "CRT": 5,
@@ -4879,7 +4974,7 @@
     },
     "DEF": {
       "base": 63,
-      "increment": 2.5585
+      "increment": 2.5586
     },
     "AGI": 4.2,
     "CRT": 5,
@@ -4977,7 +5072,7 @@
     },
     "DEF": {
       "base": 135,
-      "increment": 5.7872
+      "increment": 5.7873
     },
     "AGI": 3.55,
     "CRT": 5,
@@ -5273,7 +5368,7 @@
     },
     "DEF": {
       "base": 262,
-      "increment": 11.6199
+      "increment": 11.62
     },
     "AGI": 3.5,
     "CRT": 10,
@@ -5283,6 +5378,40 @@
       30,
       30,
       30
+    ],
+    "skills": [
+      "ProgramMobAT_N_Skill1",
+      "ProgramMobAT_N_Skill2",
+      "ProgramMobAT_N_Skill3",
+      "ProgramMobAT_N_Skill4",
+      "ProgramMobAT_N_Skill5"
+    ]
+  },
+  "ProgramMobAT_N": {
+    "name": "철충 사념체 (중장갑병)",
+    "img": "ProgramMobAT",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 4680,
+      "increment": 119.8
+    },
+    "ATK": {
+      "base": 67,
+      "increment": 6.7
+    },
+    "DEF": {
+      "base": 225,
+      "increment": 11.25
+    },
+    "AGI": 3.5,
+    "CRT": 7.5,
+    "HIT": 150,
+    "DOD": 0,
+    "resist": [
+      20,
+      20,
+      20
     ],
     "skills": [
       "ProgramMobAT_N_Skill1",
@@ -5324,40 +5453,6 @@
       "ProgramMobAN_N_Skill3",
       "ProgramMobAN_N_Skill4",
       "ProgramMobAN_N_Skill5"
-    ]
-  },
-  "ProgramMobAT_N": {
-    "name": "철충 사념체 (중장갑병)",
-    "img": "ProgramMobAT",
-    "type": "중장 보호기",
-    "info": "<교전 기록 없음>",
-    "HP": {
-      "base": 4680,
-      "increment": 119.8
-    },
-    "ATK": {
-      "base": 67,
-      "increment": 6.7
-    },
-    "DEF": {
-      "base": 225,
-      "increment": 11.25
-    },
-    "AGI": 3.5,
-    "CRT": 7.5,
-    "HIT": 150,
-    "DOD": 0,
-    "resist": [
-      20,
-      20,
-      20
-    ],
-    "skills": [
-      "ProgramMobAT_N_Skill1",
-      "ProgramMobAT_N_Skill2",
-      "ProgramMobAT_N_Skill3",
-      "ProgramMobAT_N_Skill4",
-      "ProgramMobAT_N_Skill5"
     ]
   },
   "LegionSP_TU2": {
@@ -5459,38 +5554,37 @@
       "Tortoise_N_Skill4"
     ]
   },
-  "Spector_TU2": {
-    "name": "스펙터",
-    "img": "Spector",
-    "type": "기동 지원기",
-    "info": "방어막을 걷어내지 않으면 격추하기 힘든 개체야. 유령같은 움직임 때문에 맞추기 힘들테니 주의해.<br><br><br>- 네오딤",
+  "CenturionCF_TU2": {
+    "name": "센츄리온 치프틴",
+    "img": "CenturionCF",
+    "type": "경장 공격기",
+    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
     "HP": {
-      "base": 269,
-      "increment": 103.125
+      "base": 6720,
+      "increment": 122.4
     },
     "ATK": {
-      "base": 60,
-      "increment": 6
+      "base": 113,
+      "increment": 11.3
     },
     "DEF": {
-      "base": 0,
-      "increment": 0
+      "base": 80,
+      "increment": 8.5
     },
-    "AGI": 4.2,
-    "CRT": 5,
-    "HIT": 275,
-    "DOD": 47.5,
+    "AGI": 4.18,
+    "CRT": 7.5,
+    "HIT": 200,
+    "DOD": 25,
     "resist": [
       25,
       25,
       25
     ],
     "skills": [
-      "Spector_N_Skill1",
-      "Spector_N_Skill2",
-      "Spector_N_Skill3",
-      "Spector_N_Skill4",
-      "Spector_N_Skill5"
+      "CenturionCF_N_Skill1",
+      "CenturionCF_N_Skill2",
+      "CenturionCF_N_Skill3",
+      "CenturionCF_N_Skill4"
     ]
   },
   "ExpGoblinT_N": {
@@ -5541,7 +5635,7 @@
     },
     "DEF": {
       "base": 150,
-      "increment": 6.1087
+      "increment": 6.1088
     },
     "AGI": 3.45,
     "CRT": 5,
@@ -5714,7 +5808,7 @@
     },
     "AGI": 3.25,
     "CRT": 5,
-    "HIT": 114,
+    "HIT": 115,
     "DOD": 0,
     "resist": [
       25,
@@ -5790,38 +5884,6 @@
       "CenturionCF_N_Skill2",
       "CenturionCF_N_Skill3",
       "CenturionCF_N_Skill4"
-    ]
-  },
-  "FABigChick_TU4": {
-    "name": "풀아머 빅 칙",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
-    "HP": {
-      "base": 1750,
-      "increment": 95
-    },
-    "ATK": {
-      "base": 100,
-      "increment": 12.5
-    },
-    "DEF": {
-      "base": 150,
-      "increment": 5.75
-    },
-    "AGI": 3.3,
-    "CRT": 5,
-    "HIT": 135,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "FABigChick_N_Skill1",
-      "FABigChick_N_Skill2",
-      "FABigChick_N_Skill3"
     ]
   },
   "Scout_EV1": {
@@ -5953,7 +6015,7 @@
   },
   "HeavyScout_EV1": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
@@ -6017,39 +6079,6 @@
       "Spector_N_Skill5"
     ]
   },
-  "FABigChickEX_TU3": {
-    "name": "FA 빅 칙 II",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
-    "HP": {
-      "base": 3250,
-      "increment": 125
-    },
-    "ATK": {
-      "base": 125,
-      "increment": 14
-    },
-    "DEF": {
-      "base": 180,
-      "increment": 7
-    },
-    "AGI": 3.35,
-    "CRT": 10,
-    "HIT": 145,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "FABigChickEX_N_Skill1",
-      "FABigChickEX_N_Skill2",
-      "FABigChickEX_N_Skill3",
-      "FABigChickEX_N_Skill4"
-    ]
-  },
   "NightChickEX_EV1": {
     "name": "강화형 나이트 칙",
     "img": "NightChick",
@@ -6070,7 +6099,7 @@
     "AGI": 4.1,
     "CRT": 10,
     "HIT": 280,
-    "DOD": 57.499,
+    "DOD": 57.5,
     "resist": [
       25,
       25,
@@ -6116,7 +6145,7 @@
   },
   "HeavyScout_EV2": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
@@ -6209,39 +6238,6 @@
       "BigChickEX_N_Skill1",
       "BigChickEX_N_Skill2",
       "BigChickEX_N_Skill3"
-    ]
-  },
-  "CenturionCF_TU2": {
-    "name": "센츄리온 치프틴",
-    "img": "CenturionCF",
-    "type": "경장 공격기",
-    "info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트",
-    "HP": {
-      "base": 6720,
-      "increment": 122.4
-    },
-    "ATK": {
-      "base": 113,
-      "increment": 11.3
-    },
-    "DEF": {
-      "base": 80,
-      "increment": 8.5
-    },
-    "AGI": 4.18,
-    "CRT": 7.5,
-    "HIT": 200,
-    "DOD": 25,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "CenturionCF_N_Skill1",
-      "CenturionCF_N_Skill2",
-      "CenturionCF_N_Skill3",
-      "CenturionCF_N_Skill4"
     ]
   },
   "WaspEX_EV1": {
@@ -6602,7 +6598,7 @@
   },
   "HeavyScout_EV3": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
@@ -7289,7 +7285,7 @@
   },
   "HeavyScout_TU5": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
@@ -7793,7 +7789,7 @@
     },
     "AGI": 4.05,
     "CRT": 10,
-    "HIT": 229,
+    "HIT": 230,
     "DOD": 75,
     "resist": [
       40,
@@ -9062,7 +9058,7 @@
     },
     "AGI": 4.05,
     "CRT": 5,
-    "HIT": 204,
+    "HIT": 205,
     "DOD": 0,
     "resist": [
       0,
@@ -9542,7 +9538,7 @@
     },
     "AGI": 4.1,
     "CRT": 10,
-    "HIT": 229,
+    "HIT": 230,
     "DOD": 60,
     "resist": [
       50,
@@ -10068,7 +10064,7 @@
     },
     "AGI": 4.1,
     "CRT": 10,
-    "HIT": 484,
+    "HIT": 485,
     "DOD": 3,
     "resist": [
       25,
@@ -10676,38 +10672,6 @@
       "Chiller_N_Skill4"
     ]
   },
-  "Centurion_TU4": {
-    "name": "센츄리온",
-    "img": "Centurion",
-    "type": "경장 공격기",
-    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
-    "HP": {
-      "base": 3000,
-      "increment": 72.5
-    },
-    "ATK": {
-      "base": 80,
-      "increment": 9.25
-    },
-    "DEF": {
-      "base": 30,
-      "increment": 2
-    },
-    "AGI": 4,
-    "CRT": 10,
-    "HIT": 175,
-    "DOD": 20,
-    "resist": [
-      0,
-      0,
-      0
-    ],
-    "skills": [
-      "Centurion_N_Skill1",
-      "Centurion_N_Skill2",
-      "Centurion_N_Skill3"
-    ]
-  },
   "NightChickC_EV9": {
     "name": "나이트 칙 캐논",
     "img": "NightChickC",
@@ -11292,7 +11256,7 @@
     },
     "AGI": 4.1,
     "CRT": 10,
-    "HIT": 254,
+    "HIT": 255,
     "DOD": 60,
     "resist": [
       25,
@@ -12760,7 +12724,7 @@
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",
     "type": "중장 공격기",
-    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 않고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
+    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 앉고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
     "HP": {
       "base": 250000,
       "increment": 0
@@ -12809,7 +12773,7 @@
     },
     "AGI": 4.15,
     "CRT": 2,
-    "HIT": 409,
+    "HIT": 410,
     "DOD": 50,
     "resist": [
       70,
@@ -12895,7 +12859,7 @@
     "name": "칙 커맨더",
     "img": "EmperorChickSpCH",
     "type": "중장 공격기",
-    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 않고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
+    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 앉고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
     "HP": {
       "base": 400000,
       "increment": 0
@@ -12923,6 +12887,1324 @@
       "EmperorChickSpCH_N_Skill3",
       "EmperorChickSpCH_N_Skill4",
       "EmperorChickSpCH_N_Skill5"
+    ]
+  },
+  "Fallen_VT2": {
+    "name": "초코 여왕의 보병",
+    "img": "Fallen_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 폴른 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 200,
+      "increment": 35
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 20,
+      "increment": 1
+    },
+    "AGI": 3.85,
+    "CRT": 5,
+    "HIT": 155,
+    "DOD": 15,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Fallen_N_Skill1",
+      "Fallen_N_Skill2"
+    ]
+  },
+  "Drone_VT2": {
+    "name": "초코 여왕의 정찰병",
+    "img": "Drone_V2",
+    "type": "기동 지원기",
+    "info": "초코 여왕이 경비용 드론 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 150,
+      "increment": 25
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 100,
+    "DOD": 60,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Drone_N_Skill1",
+      "Drone_N_Skill2"
+    ]
+  },
+  "PuppHead_VT2": {
+    "name": "초코 여왕의 애완기계",
+    "img": "PuppHead_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 펍 헤드 기종을 도색해 만들어낸 애완기계입니다. ",
+    "HP": {
+      "base": 200,
+      "increment": 32.5
+    },
+    "ATK": {
+      "base": 45,
+      "increment": 4.5
+    },
+    "DEF": {
+      "base": 15,
+      "increment": 0.75
+    },
+    "AGI": 3.95,
+    "CRT": 5,
+    "HIT": 150,
+    "DOD": 30,
+    "resist": [
+      0,
+      0,
+      50
+    ],
+    "skills": [
+      "PuppHead_N_Skill1",
+      "PuppHead_N_Skill2"
+    ]
+  },
+  "RampartC_VT2": {
+    "name": "초코 여왕의 정예 경비병",
+    "img": "RampartC_V2",
+    "type": "경장 보호기",
+    "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
+    "HP": {
+      "base": 325,
+      "increment": 46
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 5.75
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 5
+    },
+    "AGI": 4,
+    "CRT": 4,
+    "HIT": 150,
+    "DOD": 20,
+    "resist": [
+      40,
+      40,
+      -35
+    ],
+    "skills": [
+      "RampartC_N_Skill1",
+      "RampartC_N_Skill2",
+      "RampartC_N_Skill3",
+      "RampartC_N_Skill4",
+      "RampartC_N_Skill5"
+    ]
+  },
+  "Stinger_VT2": {
+    "name": "초코 여왕의 돌격병",
+    "img": "Stinger_V2",
+    "type": "기동 공격기",
+    "info": "초코 여왕이 양산형 스팅어 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 150,
+      "increment": 30
+    },
+    "ATK": {
+      "base": 65,
+      "increment": 7.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.2,
+    "CRT": 10,
+    "HIT": 100,
+    "DOD": 50,
+    "resist": [
+      50,
+      0,
+      -25
+    ],
+    "skills": [
+      "Stinger_N_Skill1",
+      "Stinger_N_Skill2",
+      "Stinger_N_Skill3"
+    ]
+  },
+  "FallenC_VT2": {
+    "name": "초코 여왕의 정예 보병",
+    "img": "FallenC_V2",
+    "type": "경장 공격기",
+    "info": "공격 할 수록 점점 더 화력이 강력해지니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.<br><br><br> - 블랙 하운드 보고함",
+    "HP": {
+      "base": 260,
+      "increment": 41
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 6.75
+    },
+    "DEF": {
+      "base": 60,
+      "increment": 4.5
+    },
+    "AGI": 4.05,
+    "CRT": 5,
+    "HIT": 140,
+    "DOD": 45,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "FallenC_N_Skill1",
+      "FallenC_N_Skill2",
+      "FallenC_N_Skill3",
+      "FallenC_N_Skill4",
+      "FallenC_N_Skill5"
+    ]
+  },
+  "Seljuq_VT2": {
+    "name": "초코 여왕의 포병",
+    "img": "Seljuq_V2",
+    "type": "중장 공격기",
+    "info": "초코 여왕이 양산형 셀주크 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 300,
+      "increment": 46
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 8.5
+    },
+    "DEF": {
+      "base": 50,
+      "increment": 2
+    },
+    "AGI": 3,
+    "CRT": 5,
+    "HIT": 100,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Seljuq_N_Skill1",
+      "Seljuq_N_Skill2",
+      "Seljuq_N_Skill3"
+    ]
+  },
+  "Rampart_VT2": {
+    "name": "초코 여왕의 경비병",
+    "img": "Rampart_V2",
+    "type": "경장 보호기",
+    "info": "초코 여왕이 경비용 램파트 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 250,
+      "increment": 40
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 5.5
+    },
+    "DEF": {
+      "base": 35,
+      "increment": 1.5
+    },
+    "AGI": 3.8,
+    "CRT": 5,
+    "HIT": 140,
+    "DOD": 10,
+    "resist": [
+      40,
+      40,
+      -25
+    ],
+    "skills": [
+      "Rampart_N_Skill1",
+      "Rampart_N_Skill2"
+    ]
+  },
+  "AMG11_VT2": {
+    "name": "초코 여왕의 감시병",
+    "img": "AMG11_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 AMG 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 175,
+      "increment": 30
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 5.75
+    },
+    "DEF": {
+      "base": 10,
+      "increment": 0.75
+    },
+    "AGI": 4,
+    "CRT": 5,
+    "HIT": 175,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "AMG11_N_Skill1",
+      "AMG11_N_Skill2"
+    ]
+  },
+  "AMG11_VT3": {
+    "name": "초코 여왕의 감시병",
+    "img": "AMG11_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 AMG 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 300,
+      "increment": 42.75
+    },
+    "ATK": {
+      "base": 65,
+      "increment": 6.5
+    },
+    "DEF": {
+      "base": 20,
+      "increment": 1.25
+    },
+    "AGI": 4.05,
+    "CRT": 5,
+    "HIT": 205,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "AMG11_N_Skill1",
+      "AMG11_N_Skill2"
+    ]
+  },
+  "PuppHead_VT3": {
+    "name": "초코 여왕의 애완기계",
+    "img": "PuppHead_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 펍 헤드 기종을 도색해 만들어낸 애완기계입니다. ",
+    "HP": {
+      "base": 375,
+      "increment": 50
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 5.5
+    },
+    "DEF": {
+      "base": 30,
+      "increment": 1.5
+    },
+    "AGI": 4,
+    "CRT": 5,
+    "HIT": 185,
+    "DOD": 45,
+    "resist": [
+      0,
+      0,
+      50
+    ],
+    "skills": [
+      "PuppHead_N_Skill1",
+      "PuppHead_N_Skill2"
+    ]
+  },
+  "Drone_VT3": {
+    "name": "초코 여왕의 정찰병",
+    "img": "Drone_V2",
+    "type": "기동 지원기",
+    "info": "초코 여왕이 경비용 드론 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 275,
+      "increment": 37.5
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 5.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.4,
+    "CRT": 5,
+    "HIT": 130,
+    "DOD": 90,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Drone_N_Skill1",
+      "Drone_N_Skill2"
+    ]
+  },
+  "Rampart_VT3": {
+    "name": "초코 여왕의 경비병",
+    "img": "Rampart_V2",
+    "type": "경장 보호기",
+    "info": "초코 여왕이 경비용 램파트 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 500,
+      "increment": 65
+    },
+    "ATK": {
+      "base": 60,
+      "increment": 6.5
+    },
+    "DEF": {
+      "base": 70,
+      "increment": 3
+    },
+    "AGI": 3.85,
+    "CRT": 5,
+    "HIT": 180,
+    "DOD": 20,
+    "resist": [
+      40,
+      40,
+      -25
+    ],
+    "skills": [
+      "Rampart_N_Skill1",
+      "Rampart_N_Skill2"
+    ]
+  },
+  "StingerC_VT2": {
+    "name": "초코 여왕의 정예 돌격병",
+    "img": "StingerC_V2",
+    "type": "기동 공격기",
+    "info": "극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.<br><br><br> - 님프 보고함",
+    "HP": {
+      "base": 195,
+      "increment": 35
+    },
+    "ATK": {
+      "base": 83,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 160,
+      "increment": 5
+    },
+    "AGI": 4.4,
+    "CRT": 4.5,
+    "HIT": 130,
+    "DOD": 80,
+    "resist": [
+      -75,
+      99,
+      25
+    ],
+    "skills": [
+      "StingerC_N_Skill1",
+      "StingerC_N_Skill2",
+      "StingerC_N_Skill3",
+      "StingerC_N_Skill4",
+      "StingerC_N_Skill5"
+    ]
+  },
+  "Stinger_VT3": {
+    "name": "초코 여왕의 돌격병",
+    "img": "Stinger_V2",
+    "type": "기동 공격기",
+    "info": "초코 여왕이 양산형 스팅어 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 300,
+      "increment": 37.5
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 8.5
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.25,
+    "CRT": 10,
+    "HIT": 120,
+    "DOD": 75,
+    "resist": [
+      50,
+      0,
+      -25
+    ],
+    "skills": [
+      "Stinger_N_Skill1",
+      "Stinger_N_Skill2",
+      "Stinger_N_Skill3"
+    ]
+  },
+  "DroneM_VT2": {
+    "name": "초코 여왕의 정예 정찰병",
+    "img": "DroneM_V2",
+    "type": "기동 공격기",
+    "info": "지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…<br><br><br> - 익스프레스 76 보고함",
+    "HP": {
+      "base": 195,
+      "increment": 29
+    },
+    "ATK": {
+      "base": 68,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 160,
+      "increment": 5
+    },
+    "AGI": 4.5,
+    "CRT": 4.5,
+    "HIT": 130,
+    "DOD": 60,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "DroneM_N_Skill1",
+      "DroneM_N_Skill2",
+      "DroneM_N_Skill3",
+      "DroneM_N_Skill4",
+      "DroneM_N_Skill5"
+    ]
+  },
+  "Gigantes_VT3": {
+    "name": "초코 여왕의 근위병",
+    "img": "Gigantes_V2",
+    "type": "중장 보호기",
+    "info": "초코 여왕이 양산형 기간테스 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 1500,
+      "increment": 90
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 7.5
+    },
+    "AGI": 3.15,
+    "CRT": 5,
+    "HIT": 100,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Gigantes_N_Skill1",
+      "Gigantes_N_Skill2",
+      "Gigantes_N_Skill3"
+    ]
+  },
+  "AMG11AA_VT2": {
+    "name": "초코 여왕의 정예 감시병",
+    "img": "AMG11AA_V2",
+    "type": "경장 지원기",
+    "info": "이 녀석들은 대공 능력에 특화된 녀석들이야. 물론 내 우수한 스텔스 능력에 비하면 분명 보잘것없는 능력이지만, 다른 친구들에게는 성가실 수 있으니 내가 먼저 처리해야겠어.<br><br><br> - 하르페이아 보고함",
+    "HP": {
+      "base": 228,
+      "increment": 35
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 176,
+      "increment": 6
+    },
+    "AGI": 3.95,
+    "CRT": 4.5,
+    "HIT": 525,
+    "DOD": 3,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "AMG11AA_N_Skill1",
+      "AMG11AA_N_Skill2",
+      "AMG11AA_N_Skill3",
+      "AMG11AA_N_Skill4",
+      "AMG11AA_N_Skill5"
+    ]
+  },
+  "Seljuq_VT3": {
+    "name": "초코 여왕의 포병",
+    "img": "Seljuq_V2",
+    "type": "중장 공격기",
+    "info": "초코 여왕이 양산형 셀주크 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 450,
+      "increment": 72
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 90,
+      "increment": 3.5
+    },
+    "AGI": 3.05,
+    "CRT": 5,
+    "HIT": 120,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Seljuq_N_Skill1",
+      "Seljuq_N_Skill2",
+      "Seljuq_N_Skill3"
+    ]
+  },
+  "AMG11AA_VT3": {
+    "name": "초코 여왕의 정예 감시병",
+    "img": "AMG11AA_V2",
+    "type": "경장 지원기",
+    "info": "이 녀석들은 대공 능력에 특화된 녀석들이야. 물론 내 우수한 스텔스 능력에 비하면 분명 보잘것없는 능력이지만, 다른 친구들에게는 성가실 수 있으니 내가 먼저 처리해야겠어.<br><br><br> - 하르페이아 보고함",
+    "HP": {
+      "base": 390,
+      "increment": 50
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 352,
+      "increment": 8
+    },
+    "AGI": 4,
+    "CRT": 6.75,
+    "HIT": 575,
+    "DOD": 3,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "AMG11AA_N_Skill1",
+      "AMG11AA_N_Skill2",
+      "AMG11AA_N_Skill3",
+      "AMG11AA_N_Skill4",
+      "AMG11AA_N_Skill5"
+    ]
+  },
+  "RampartC_VT3": {
+    "name": "초코 여왕의 정예 경비병",
+    "img": "RampartC_V2",
+    "type": "경장 보호기",
+    "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
+    "HP": {
+      "base": 650,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 6.5
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 5
+    },
+    "AGI": 4.05,
+    "CRT": 6,
+    "HIT": 175,
+    "DOD": 40,
+    "resist": [
+      40,
+      40,
+      -35
+    ],
+    "skills": [
+      "RampartC_N_Skill1",
+      "RampartC_N_Skill2",
+      "RampartC_N_Skill3",
+      "RampartC_N_Skill4",
+      "RampartC_N_Skill5"
+    ]
+  },
+  "PuppHeadC_VT3": {
+    "name": "초코 여왕의 귀여운 애완기계",
+    "img": "PuppHeadC_V2",
+    "type": "경장 지원기",
+    "info": "이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.<br><br><br> - 칸 보고함",
+    "HP": {
+      "base": 488,
+      "increment": 58
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 400,
+      "increment": 10
+    },
+    "AGI": 4.25,
+    "CRT": 5,
+    "HIT": 170,
+    "DOD": 75,
+    "resist": [
+      25,
+      25,
+      99
+    ],
+    "skills": [
+      "PuppHeadC_N_Skill1",
+      "PuppHeadC_N_Skill2",
+      "PuppHeadC_N_Skill3",
+      "PuppHeadC_N_Skill4",
+      "PuppHeadC_N_Skill5"
+    ]
+  },
+  "SeljuqA_VT3": {
+    "name": "초코 여왕의 정예 포병",
+    "img": "SeljuqA_V2",
+    "type": "중장 공격기",
+    "info": "화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.<br><br><br> - 세이렌 보고함",
+    "HP": {
+      "base": 585,
+      "increment": 83
+    },
+    "ATK": {
+      "base": 150,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 800,
+      "increment": 20
+    },
+    "AGI": 3.3,
+    "CRT": 7.5,
+    "HIT": 155,
+    "DOD": 0,
+    "resist": [
+      30,
+      30,
+      -25
+    ],
+    "skills": [
+      "SeljuqA_N_Skill1",
+      "SeljuqA_N_Skill2",
+      "SeljuqA_N_Skill3",
+      "SeljuqA_N_Skill4",
+      "SeljuqA_N_Skill5"
+    ]
+  },
+  "StingerC_VT3": {
+    "name": "초코 여왕의 정예 돌격병",
+    "img": "StingerC_V2",
+    "type": "기동 공격기",
+    "info": "극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.<br><br><br> - 님프 보고함",
+    "HP": {
+      "base": 390,
+      "increment": 44
+    },
+    "ATK": {
+      "base": 99,
+      "increment": 10
+    },
+    "DEF": {
+      "base": 320,
+      "increment": 7
+    },
+    "AGI": 4.45,
+    "CRT": 6.75,
+    "HIT": 150,
+    "DOD": 110,
+    "resist": [
+      -75,
+      99,
+      25
+    ],
+    "skills": [
+      "StingerC_N_Skill1",
+      "StingerC_N_Skill2",
+      "StingerC_N_Skill3",
+      "StingerC_N_Skill4",
+      "StingerC_N_Skill5"
+    ]
+  },
+  "FallenC_VT3": {
+    "name": "초코 여왕의 정예 보병",
+    "img": "FallenC_V2",
+    "type": "경장 공격기",
+    "info": "공격 할 수록 점점 더 화력이 강력해지니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.<br><br><br> - 블랙 하운드 보고함",
+    "HP": {
+      "base": 520,
+      "increment": 64
+    },
+    "ATK": {
+      "base": 125,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 288,
+      "increment": 12
+    },
+    "AGI": 4.1,
+    "CRT": 7.5,
+    "HIT": 165,
+    "DOD": 60,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "FallenC_N_Skill1",
+      "FallenC_N_Skill2",
+      "FallenC_N_Skill3",
+      "FallenC_N_Skill4",
+      "FallenC_N_Skill5"
+    ]
+  },
+  "Rampart_VT4": {
+    "name": "초코 여왕의 경비병",
+    "img": "Rampart_V2",
+    "type": "경장 보호기",
+    "info": "초코 여왕이 경비용 램파트 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 1100,
+      "increment": 169
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 5
+    },
+    "AGI": 3.9,
+    "CRT": 5,
+    "HIT": 200,
+    "DOD": 35,
+    "resist": [
+      40,
+      40,
+      -25
+    ],
+    "skills": [
+      "Rampart_N_Skill1",
+      "Rampart_N_Skill2"
+    ]
+  },
+  "DroneM_VT4": {
+    "name": "초코 여왕의 정예 정찰병",
+    "img": "DroneM_V2",
+    "type": "기동 공격기",
+    "info": "지상군 대응용으로 개조된 드론인거 같아. 대공 능력은 없는 것 같네. 그나저나 폭탄 배송이라니… 캐치 프레이즈로 적합한거 같기도…<br><br><br> - 익스프레스 76 보고함",
+    "HP": {
+      "base": 520,
+      "increment": 59
+    },
+    "ATK": {
+      "base": 95,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 560,
+      "increment": 9
+    },
+    "AGI": 4.6,
+    "CRT": 9,
+    "HIT": 190,
+    "DOD": 110,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "DroneM_N_Skill1",
+      "DroneM_N_Skill2",
+      "DroneM_N_Skill3",
+      "DroneM_N_Skill4",
+      "DroneM_N_Skill5"
+    ]
+  },
+  "RampartC_VT4": {
+    "name": "초코 여왕의 정예 경비병",
+    "img": "RampartC_V2",
+    "type": "경장 보호기",
+    "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
+    "HP": {
+      "base": 1430,
+      "increment": 195
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 333,
+      "increment": 7.5
+    },
+    "AGI": 4.1,
+    "CRT": 8,
+    "HIT": 200,
+    "DOD": 60,
+    "resist": [
+      40,
+      40,
+      -35
+    ],
+    "skills": [
+      "RampartC_N_Skill1",
+      "RampartC_N_Skill2",
+      "RampartC_N_Skill3",
+      "RampartC_N_Skill4",
+      "RampartC_N_Skill5"
+    ]
+  },
+  "PuppHeadC_VT4": {
+    "name": "초코 여왕의 귀여운 애완기계",
+    "img": "PuppHeadC_V2",
+    "type": "경장 지원기",
+    "info": "이 녀석과 같이 다니는 적들은 신속하게 움직이는 것 같군. 신속히 처리하는 것이 좋겠어.<br><br><br> - 칸 보고함",
+    "HP": {
+      "base": 585,
+      "increment": 78
+    },
+    "ATK": {
+      "base": 109,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 600,
+      "increment": 12
+    },
+    "AGI": 4.3,
+    "CRT": 5,
+    "HIT": 190,
+    "DOD": 100,
+    "resist": [
+      25,
+      25,
+      99
+    ],
+    "skills": [
+      "PuppHeadC_N_Skill1",
+      "PuppHeadC_N_Skill2",
+      "PuppHeadC_N_Skill3",
+      "PuppHeadC_N_Skill4",
+      "PuppHeadC_N_Skill5"
+    ]
+  },
+  "Gigantes_VT4": {
+    "name": "초코 여왕의 근위병",
+    "img": "Gigantes_V2",
+    "type": "중장 보호기",
+    "info": "초코 여왕이 양산형 기간테스 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 2150,
+      "increment": 221
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 12
+    },
+    "AGI": 3.2,
+    "CRT": 5,
+    "HIT": 130,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Gigantes_N_Skill1",
+      "Gigantes_N_Skill2",
+      "Gigantes_N_Skill3"
+    ]
+  },
+  "SeljuqA_VT4": {
+    "name": "초코 여왕의 정예 포병",
+    "img": "SeljuqA_V2",
+    "type": "중장 공격기",
+    "info": "화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.<br><br><br> - 세이렌 보고함",
+    "HP": {
+      "base": 6235,
+      "increment": 124
+    },
+    "ATK": {
+      "base": 175,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 1200,
+      "increment": 24
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 160,
+    "DOD": 0,
+    "resist": [
+      30,
+      30,
+      -25
+    ],
+    "skills": [
+      "SeljuqA_N_Skill1",
+      "SeljuqA_N_Skill2",
+      "SeljuqA_N_Skill3",
+      "SeljuqA_N_Skill4",
+      "SeljuqA_N_Skill5"
+    ]
+  },
+  "GigantesC_VT4": {
+    "name": "초코 여왕의 정예 근위병",
+    "img": "GigantesC_V2",
+    "type": "중장 보호기",
+    "info": "거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?<br><br><br> - 트리아이나 보고함",
+    "HP": {
+      "base": 2795,
+      "increment": 254
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 10.5
+    },
+    "DEF": {
+      "base": 1500,
+      "increment": 30
+    },
+    "AGI": 3.1,
+    "CRT": 8,
+    "HIT": 225,
+    "DOD": 0,
+    "resist": [
+      20,
+      20,
+      -35
+    ],
+    "skills": [
+      "GigantesC_N_Skill1",
+      "GigantesC_N_Skill2",
+      "GigantesC_N_Skill3",
+      "GigantesC_N_Skill4",
+      "GigantesC_N_Skill5"
+    ]
+  },
+  "StingerC_VT4": {
+    "name": "초코 여왕의 정예 돌격병",
+    "img": "StingerC_V2",
+    "type": "기동 공격기",
+    "info": "극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.<br><br><br> - 님프 보고함",
+    "HP": {
+      "base": 780,
+      "increment": 58
+    },
+    "ATK": {
+      "base": 116,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 560,
+      "increment": 9
+    },
+    "AGI": 4.5,
+    "CRT": 9,
+    "HIT": 175,
+    "DOD": 145,
+    "resist": [
+      -75,
+      99,
+      25
+    ],
+    "skills": [
+      "StingerC_N_Skill1",
+      "StingerC_N_Skill2",
+      "StingerC_N_Skill3",
+      "StingerC_N_Skill4",
+      "StingerC_N_Skill5"
+    ]
+  },
+  "FallenC_VT4": {
+    "name": "초코 여왕의 정예 보병",
+    "img": "FallenC_V2",
+    "type": "경장 공격기",
+    "info": "공격 할 수록 점점 더 화력이 강력해지니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.<br><br><br> - 블랙 하운드 보고함",
+    "HP": {
+      "base": 3000,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 145,
+      "increment": 15.75
+    },
+    "DEF": {
+      "base": 384,
+      "increment": 14
+    },
+    "AGI": 4.15,
+    "CRT": 10,
+    "HIT": 190,
+    "DOD": 75,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "FallenC_N_Skill1",
+      "FallenC_N_Skill2",
+      "FallenC_N_Skill3",
+      "FallenC_N_Skill4",
+      "FallenC_N_Skill5"
+    ]
+  },
+  "RampartC_VT5": {
+    "name": "초코 여왕의 정예 경비병",
+    "img": "RampartC_V2",
+    "type": "경장 보호기",
+    "info": "불리해지면 동료에게 지원 요청을 하는 약삭빠른 녀석이야. 방어하기 시작하면 반격하니 주의해.<br><br><br> - 칼리스타 보고함",
+    "HP": {
+      "base": 1989,
+      "increment": 322
+    },
+    "ATK": {
+      "base": 95,
+      "increment": 7.5
+    },
+    "DEF": {
+      "base": 800,
+      "increment": 10
+    },
+    "AGI": 4.15,
+    "CRT": 10,
+    "HIT": 225,
+    "DOD": 80,
+    "resist": [
+      40,
+      40,
+      -35
+    ],
+    "skills": [
+      "RampartC_N_Skill1",
+      "RampartC_N_Skill2",
+      "RampartC_N_Skill3",
+      "RampartC_N_Skill4",
+      "RampartC_N_Skill5"
+    ]
+  },
+  "AMG11AA_VT5": {
+    "name": "초코 여왕의 정예 감시병",
+    "img": "AMG11AA_V2",
+    "type": "경장 지원기",
+    "info": "이 녀석들은 대공 능력에 특화된 녀석들이야. 물론 내 우수한 스텔스 능력에 비하면 분명 보잘것없는 능력이지만, 다른 친구들에게는 성가실 수 있으니 내가 먼저 처리해야겠어.<br><br><br> - 하르페이아 보고함",
+    "HP": {
+      "base": 1170,
+      "increment": 85
+    },
+    "ATK": {
+      "base": 120,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 792,
+      "increment": 13
+    },
+    "AGI": 4.1,
+    "CRT": 11.25,
+    "HIT": 675,
+    "DOD": 3,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "AMG11AA_N_Skill1",
+      "AMG11AA_N_Skill2",
+      "AMG11AA_N_Skill3",
+      "AMG11AA_N_Skill4",
+      "AMG11AA_N_Skill5"
+    ]
+  },
+  "SeljuqA_VT5": {
+    "name": "초코 여왕의 정예 포병",
+    "img": "SeljuqA_V2",
+    "type": "중장 공격기",
+    "info": "화력은 일반형 셀주크보다 떨어지지만 장갑은 더 향상된 것 같아요. 공격을 계속 허용하면 이쪽 움직임에 적응하니 방어 능력이 좋은 소대로 제압하는게 좋을 것 같네요.<br><br><br> - 세이렌 보고함",
+    "HP": {
+      "base": 8495,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 200,
+      "increment": 16
+    },
+    "DEF": {
+      "base": 2400,
+      "increment": 28
+    },
+    "AGI": 3.45,
+    "CRT": 12.5,
+    "HIT": 165,
+    "DOD": 0,
+    "resist": [
+      30,
+      30,
+      -25
+    ],
+    "skills": [
+      "SeljuqA_N_Skill1",
+      "SeljuqA_N_Skill2",
+      "SeljuqA_N_Skill3",
+      "SeljuqA_N_Skill4",
+      "SeljuqA_N_Skill5"
+    ]
+  },
+  "StingerC_VT5": {
+    "name": "초코 여왕의 정예 돌격병",
+    "img": "StingerC_V2",
+    "type": "기동 공격기",
+    "info": "극지용 스팅어? 묘한 친근감이 느껴지네요. 적이 보호하기 전에 빠르게 처치하는게 좋을거에요. 견딜만하다고 방심하다간 큰일날 수 있어요.<br><br><br> - 님프 보고함",
+    "HP": {
+      "base": 1170,
+      "increment": 70
+    },
+    "ATK": {
+      "base": 132,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 720,
+      "increment": 11
+    },
+    "AGI": 4.55,
+    "CRT": 11.25,
+    "HIT": 200,
+    "DOD": 185,
+    "resist": [
+      -75,
+      99,
+      25
+    ],
+    "skills": [
+      "StingerC_N_Skill1",
+      "StingerC_N_Skill2",
+      "StingerC_N_Skill3",
+      "StingerC_N_Skill4",
+      "StingerC_N_Skill5"
+    ]
+  },
+  "GigantesC_VT5": {
+    "name": "초코 여왕의 정예 근위병",
+    "img": "GigantesC_V2",
+    "type": "중장 보호기",
+    "info": "거점 방어에 특화된 모델인건가? 행동은 굼떠보이지만 좀처럼 빈틈이 안보여. 하지만 내 소우 피쉬라면 해결할 수 있을걸?<br><br><br> - 트리아이나 보고함",
+    "HP": {
+      "base": 3705,
+      "increment": 403
+    },
+    "ATK": {
+      "base": 140,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 3000,
+      "increment": 35
+    },
+    "AGI": 3.15,
+    "CRT": 10,
+    "HIT": 250,
+    "DOD": 0,
+    "resist": [
+      20,
+      20,
+      -35
+    ],
+    "skills": [
+      "GigantesC_N_Skill1",
+      "GigantesC_N_Skill2",
+      "GigantesC_N_Skill3",
+      "GigantesC_N_Skill4",
+      "GigantesC_N_Skill5"
+    ]
+  },
+  "FallenC_VT5": {
+    "name": "초코 여왕의 정예 보병",
+    "img": "FallenC_V2",
+    "type": "경장 공격기",
+    "info": "공격 할 수록 점점 더 화력이 강력해지니 주의해 주세요. 제 풀에 지쳐 가동을 멈추니 잘 피하기만 해도 될 거에요.<br><br><br> - 블랙 하운드 보고함",
+    "HP": {
+      "base": 5000,
+      "increment": 115
+    },
+    "ATK": {
+      "base": 165,
+      "increment": 16.5
+    },
+    "DEF": {
+      "base": 480,
+      "increment": 17
+    },
+    "AGI": 4.2,
+    "CRT": 12.5,
+    "HIT": 210,
+    "DOD": 97.5,
+    "resist": [
+      25,
+      25,
+      -25
+    ],
+    "skills": [
+      "FallenC_N_Skill1",
+      "FallenC_N_Skill2",
+      "FallenC_N_Skill3",
+      "FallenC_N_Skill4",
+      "FallenC_N_Skill5"
     ]
   },
   "Scarab_TU8": {
@@ -13076,7 +14358,7 @@
     },
     "AGI": 4.55,
     "CRT": 30,
-    "HIT": 229,
+    "HIT": 230,
     "DOD": 0,
     "resist": [
       30,
@@ -13142,7 +14424,7 @@
     },
     "AGI": 4.65,
     "CRT": 20,
-    "HIT": 204,
+    "HIT": 205,
     "DOD": 150,
     "resist": [
       99,
@@ -13910,7 +15192,7 @@
     },
     "AGI": 4.25,
     "CRT": 10,
-    "HIT": 254,
+    "HIT": 255,
     "DOD": 100,
     "resist": [
       -25,
@@ -13922,6 +15204,39 @@
       "NightChickTD_N_Skill2",
       "NightChickTD_N_Skill3",
       "NightChickTD_N_Skill4"
+    ]
+  },
+  "CenturionEX_TU2": {
+    "name": "엘리트 센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+    "HP": {
+      "base": 3750,
+      "increment": 92.5
+    },
+    "ATK": {
+      "base": 95,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 75,
+      "increment": 2.5
+    },
+    "AGI": 4,
+    "CRT": 15,
+    "HIT": 200,
+    "DOD": 32.5,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "CenturionEX_N_Skill1",
+      "CenturionEX_N_Skill2",
+      "CenturionEX_N_Skill3",
+      "CenturionEX_N_Skill4"
     ]
   },
   "FABigChickEX_N": {
@@ -14026,7 +15341,7 @@
   },
   "HeavyScout_N": {
     "name": "헤비 스카우트",
-    "img": "Scout",
+    "img": "Scout_V2",
     "type": "기동 공격기",
     "info": "스카우트와 비슷해요. 탄종은 좀 다른 것 같지만. 뭘 쏘길래 모두 피해냈어요. 별로 정확하진 않은 것 같군요. 주변 철충들과 대열을 갖추려고 하면 주의해 주세요.<br><br><br>- 페로 드림",
     "HP": {
