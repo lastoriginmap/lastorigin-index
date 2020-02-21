@@ -150,12 +150,12 @@
           "title": "wave2",
           "enemylist": [
             {
-              "index": "NightChickM_TU3",
-              "level": 27
+              "index": "NightChickSI_TU2",
+              "level": 26
             },
             {
-              "index": "NightChick_TU3",
-              "level": 27
+              "index": "Scout_TU3",
+              "level": 26
             },
             {
               "index": "",
@@ -166,20 +166,20 @@
               "level": 26
             },
             {
-              "index": "NightChickC_TU3",
-              "level": 27
+              "index": "Legion_N",
+              "level": 26
             },
             {
               "index": "",
               "level": 0
             },
             {
-              "index": "NightChickM_TU3",
-              "level": 27
+              "index": "NightChickSI_TU2",
+              "level": 26
             },
             {
-              "index": "NightChick_TU3",
-              "level": 27
+              "index": "Scout_TU3",
+              "level": 26
             },
             {
               "index": "",
@@ -508,11 +508,7 @@
           "title": "wave2",
           "enemylist": [
             {
-              "index": "Scout_TU3",
-              "level": 32
-            },
-            {
-              "index": "NightChick_TU3",
+              "index": "Legion_N",
               "level": 32
             },
             {
@@ -520,28 +516,32 @@
               "level": 0
             },
             {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Scout_TU3",
-              "level": 32
-            },
-            {
-              "index": "Harvester_TU3",
+              "index": "NightChickC_TU3",
               "level": 33
             },
             {
-              "index": "Scout_TU3",
-              "level": 32
-            },
-            {
-              "index": "NightChick_TU3",
+              "index": "Zapper_N",
               "level": 32
             },
             {
               "index": "",
               "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Legion_N",
+              "level": 32
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickC_TU3",
+              "level": 33
             }
           ]
         },
@@ -549,15 +549,7 @@
           "title": "wave3",
           "enemylist": [
             {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "Harvester_TU3",
-              "level": 32
-            },
-            {
-              "index": "NightChickC_TU3",
+              "index": "NightChickM_TU3",
               "level": 33
             },
             {
@@ -565,23 +557,31 @@
               "level": 0
             },
             {
-              "index": "Zapper_N",
-              "level": 32
+              "index": "Legion_N",
+              "level": 33
             },
             {
               "index": "Phalangites_TU",
-              "level": 23
+              "level": 25
             },
             {
               "index": "",
               "level": 0
             },
             {
-              "index": "Harvester_TU3",
-              "level": 32
+              "index": "NightChick_TU3",
+              "level": 35
             },
             {
-              "index": "NightChickC_TU3",
+              "index": "NightChickM_TU3",
+              "level": 33
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Legion_N",
               "level": 33
             }
           ]

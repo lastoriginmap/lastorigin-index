@@ -793,6 +793,42 @@
       5
     ]
   },
+  "Scarab_N_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "실드 돌격",
+    "img": "AssaultAttack",
+    "range": 3,
+    "AP": 6,
+    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "보호 기동",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "방어 기동",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
   "NightChickCM_N_Skill1": {
     "title": "askill1",
     "type": "active",
@@ -833,42 +869,6 @@
       5,
       6,
       2
-    ]
-  },
-  "Scarab_N_Skill1": {
-    "title": "askill1",
-    "type": "active",
-    "name": "실드 돌격",
-    "img": "AssaultAttack",
-    "range": 3,
-    "AP": 6,
-    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill2": {
-    "title": "askill2",
-    "type": "active",
-    "name": "보호 기동",
-    "img": "SelfDefBuff",
-    "range": 6,
-    "AP": 4,
-    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "방어 기동",
-    "img": "SelfDefBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
-    "areadata": [
-      5
     ]
   },
   "Raider_N_Skill1": {
@@ -3191,14 +3191,14 @@
       6
     ]
   },
-  "Spector_N_Skill1": {
+  "CenturionCF_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "전자기장 미사일",
+    "name": "정밀 유도 미사일",
     "img": "MultiMissile",
     "range": 4,
-    "AP": 6,
-    "description": "전자기장 미사일로 $(1.1) 피해를 주고, 대상의 적중 / 치명타 / 효과 발동을 낮춥니다.",
+    "AP": 7,
+    "description": "정밀 유도 미사일로 $(1) 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
     "areadata": [
       8,
       9,
@@ -3206,64 +3206,50 @@
       6
     ]
   },
-  "Spector_N_Skill2": {
+  "CenturionCF_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "반물질 역장 전개",
-    "img": "TeamDefBuff",
-    "range": 6,
-    "AP": 7,
-    "description": "반물질 역장을 넓게 전개해 주변 아군이 받는 피해를 일정 횟수 무효화합니다.",
+    "name": "멀티 록 온",
+    "img": "Scan",
+    "range": 4,
+    "AP": 6,
+    "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
+    "areadata": [
+      8,
+      4,
+      5,
+      6,
+      2
+    ]
+  },
+  "CenturionCF_N_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "대열 정비",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
     "areadata": [
       7,
       8,
       9,
       4,
+      5,
       6,
       1,
       2,
       3
     ]
   },
-  "Spector_N_Skill3": {
-    "title": "pskill1",
+  "CenturionCF_N_Skill4": {
+    "title": "pskill2",
     "type": "passive",
-    "name": "반물질 역장",
+    "name": "위기 극복",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "라운드 개시 시, 반물질 역장을 전개해 자신이 받는 피해를 일정 횟수 무효화합니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Spector_N_Skill4": {
-    "title": "pskill2",
-    "type": "passive",
-    "name": "행동 예측",
-    "img": "TeamSpdBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "스킬 사용 시, 주변 아군에게 적 분석 결과를 발신해 적중 / 회피 / AP를 올려줍니다.",
-    "areadata": [
-      7,
-      8,
-      9,
-      4,
-      6,
-      1,
-      2,
-      3
-    ]
-  },
-  "Spector_N_Skill5": {
-    "title": "pskill3",
-    "type": "passive",
-    "name": "은폐장",
-    "img": "SelfSpdBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+    "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
     "areadata": [
       5
     ]
@@ -3677,14 +3663,14 @@
       5
     ]
   },
-  "CenturionCF_N_Skill1": {
+  "Spector_N_Skill1": {
     "title": "askill1",
     "type": "active",
-    "name": "정밀 유도 미사일",
+    "name": "전자기장 미사일",
     "img": "MultiMissile",
     "range": 4,
-    "AP": 7,
-    "description": "정밀 유도 미사일로 $(1) 피해를 줍니다. 대상이 표식 상태면 피해량이 크게 증가합니다.",
+    "AP": 6,
+    "description": "전자기장 미사일로 $(1.1) 피해를 주고, 대상의 적중 / 치명타 / 효과 발동을 낮춥니다.",
     "areadata": [
       8,
       9,
@@ -3692,50 +3678,64 @@
       6
     ]
   },
-  "CenturionCF_N_Skill2": {
+  "Spector_N_Skill2": {
     "title": "askill2",
     "type": "active",
-    "name": "멀티 록 온",
-    "img": "Scan",
-    "range": 4,
-    "AP": 6,
-    "description": "목표 범위 대상들을 표식으로 설정하고, 회피 강화 효과를 해제하며 회피가 낮춥니다. 자신은 적중이 증가하며, 대상들은 받는 피해 증가 상태가 됩니다.",
-    "areadata": [
-      8,
-      4,
-      5,
-      6,
-      2
-    ]
-  },
-  "CenturionCF_N_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "대열 정비",
-    "img": "TeamAtkBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "아군 사망 시, 대열을 정비해 인접한 아군들과 자신의 행동력 / 적중 / 회피가 증가합니다.",
+    "name": "반물질 역장 전개",
+    "img": "TeamDefBuff",
+    "range": 6,
+    "AP": 7,
+    "description": "반물질 역장을 넓게 전개해 주변 아군이 받는 피해를 일정 횟수 무효화합니다.",
     "areadata": [
       7,
       8,
       9,
       4,
-      5,
       6,
       1,
       2,
       3
     ]
   },
-  "CenturionCF_N_Skill4": {
-    "title": "pskill2",
+  "Spector_N_Skill3": {
+    "title": "pskill1",
     "type": "passive",
-    "name": "위기 극복",
+    "name": "반물질 역장",
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "공격 받을 때, 자신에게 능력치 감소 효과가 적용되어 있으면 반격하며, 일정 확률로 해당 효과를 해제합니다..",
+    "description": "라운드 개시 시, 반물질 역장을 전개해 자신이 받는 피해를 일정 횟수 무효화합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Spector_N_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "행동 예측",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬 사용 시, 주변 아군에게 적 분석 결과를 발신해 적중 / 회피 / AP를 올려줍니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "Spector_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "은폐장",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
     "areadata": [
       5
     ]
@@ -4697,7 +4697,7 @@
     "img": "MGShot",
     "range": 4,
     "AP": 4,
-    "description": "머신건 사격으로 $(1.1) 피해를 줍니다. 대상이 경장형이거나 회피 / 방어력 감소 상태면 피해량이 증가합니다.",
+    "description": "머신건 사격으로 $(1.1) 피해를 줍니다. 대상이 회피 / 방어력 감소 상태면 피해량이 증가합니다.",
     "areadata": [
       5
     ]
@@ -4718,11 +4718,11 @@
   "FallenC_N_Skill3": {
     "title": "pskill1",
     "type": "passive",
-    "name": "출력 한계 해제",
+    "name": "출력 증폭",
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "적을 공격할 때마다 공격력과 행동력이 증가하지만 적중이 감소하며, 지속 물리 피해를 입습니다.",
+    "description": "적을 공격할 때마다 출력을 증폭하여 공격력과 적중률이 증가하지만 지속 물리 피해를 입습니다.",
     "areadata": [
       5
     ]
@@ -4734,7 +4734,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "<출력 증폭>이 3중첩 이상인 상태에서 사망 시, 주변에 고정 피해를 주며 강화 효과를 해제합니다.",
+    "description": "<출력 한계 해제> 상태에서 사망 시, 주변에 고정 피해를 주며 강화 효과를 해제합니다.",
     "areadata": [
       8,
       4,
@@ -4871,7 +4871,7 @@
     "range": 3,
     "AP": 5,
     "attr": "fire",
-    "description": "폭뢰를 발사해 $(1) 화염 속성 피해를 줍니다. 치명타 시, 추가 화염 피해를 주며 대상이 경장형 / 중장형인 경우 피해량이 증가합니다.",
+    "description": "폭뢰를 발사해 $(1) 화염 속성 피해를 줍니다. 치명타 시, 추가 화염 피해를 주며 대상이 중장형인 경우 피해량이 증가합니다.",
     "areadata": [
       5
     ]
@@ -4883,7 +4883,7 @@
     "img": "Scan",
     "range": 5,
     "AP": 9,
-    "description": "경장형 / 중장형 적을 분석해 3라운드 동안 대상의 공격력 / 방어력 / 치명타 / 적중 / 회피를 낮춥니다. 스킬 사용 시, 3라운드 동안 행동력이 증가합니다. 기동형 적에게는 효과가 없습니다.",
+    "description": "중장형 적을 분석해 3라운드 동안 대상의 공격력 / 방어력 / 치명타 / 적중 / 회피를 낮춥니다. 스킬 사용 시, 3라운드 동안 행동력이 증가합니다. 경장형/기동형 적에게는 효과가 없습니다.",
     "areadata": [
       7,
       8,
@@ -4977,16 +4977,17 @@
   "AMG11AA_N_Skill4": {
     "title": "pskill2",
     "type": "passive",
-    "name": "목표 설정 오류",
+    "name": "대공망 감시",
     "img": "TeamAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "사망 시, 2라운드 동안 인접 아군의 행동력이 감소하며 해당 라운드 동안에는 스킬을 사용할 수 없게 됩니다.",
+    "description": "라운드 개시 시, 80%의 확률로 모든 기동형 적들의 회피율을 감소 시킵니다.",
     "areadata": [
       7,
       8,
       9,
       4,
+      5,
       6,
       1,
       2,
@@ -5001,7 +5002,7 @@
     "range": 3,
     "AP": 6,
     "attr": "ice",
-    "description": "대상에게 냉동 가스를 분사해 $(1.2) 냉기 속성 피해를 주고, 일정 확률로 3라운드 동안 냉기 / 전기 저항을 낮춥니다. 대상에게 냉기 저항 감소 효과가 이미 적용되어 있는 경우, 일정 확률로 행동 불가 / 받는 피해 증가 / 강화 해제 상태로 만듭니다.",
+    "description": "대상에게 냉동 가스를 분사해 $(1.2) 냉기 속성 피해를 주고, 50% 확률로 3라운드 동안 냉기 / 전기 저항을 낮춥니다. 대상이 경장형일 경우 피해량이 증가하고 대상에게 냉기 저항 감소 효과가 이미 적용되어 있는 경우, 50% 확률로 행동 불가 / 받는 피해 증가 / 강화 해제 상태로 만듭니다.",
     "areadata": [
       5
     ]
@@ -5339,7 +5340,7 @@
     "img": "CannonShotDelay",
     "range": 5,
     "AP": 6,
-    "description": "지정 범위에 $(1.2) 보호 무시 피해를 줍니다. 목표 지점 주변은 피해가 75%만 적용되며, 대상이 경장형 또는 기동형이면 피해량이 크게 증가합니다.",
+    "description": "지정 범위에 $(1.1) 보호 무시 피해를 줍니다. 목표 지점 주변은 피해가 75%만 적용되며, 대상이 경장형 또는 기동형이면 피해량이 크게 증가합니다.",
     "areadata": [
       0,
       0.75,
@@ -5359,7 +5360,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "공격 시, 적의 움직임을 분석해 적중과 치명타가 증가합니다.",
+    "description": "공격 시, 적의 움직임을 분석해 5라운드 동안 적중 / 치명타가 증가합니다.",
     "areadata": [
       5
     ]
@@ -5383,7 +5384,7 @@
     "img": "MeleeAttack",
     "range": 1,
     "AP": 8,
-    "description": "대상을 강타해 $(2.4) 피해를 주고 뒤로 한 칸 밉니다. 자신의 HP %가 낮을수록 피해량이 증가하며, 25% 이하인 경우 방어막과 피해 감소 효과를 무시합니다.",
+    "description": "대상을 강타해 $(2.4) 피해를 주고 뒤로 한 칸 밉니다. 자신의 HP %가 낮을수록 피해량이 증가하며, 20% 이하인 경우 방어막과 피해 감소 효과를 무시합니다.",
     "areadata": [
       5
     ]
@@ -5407,7 +5408,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "자신이 공격하기 전까지는 방어력과 효과 저항이 크게 증가합니다.",
+    "description": "라운드 개시 시, HP가 20% 이하일 경우 방어력과 효과 저항이 크게 증가합니다. 해당 상태에서 전기 공격에 피격 시 OS가 오작동을 일으켜 해제됩니다.",
     "areadata": [
       5
     ]
@@ -7593,6 +7594,119 @@
     "range": 0,
     "AP": 0,
     "description": "전열에 있는 경우 자신의 몸을 바쳐 칙 커맨더를 보호할 수 있도록 행 보호가 적용 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "RampartC_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "공격 대형",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신이 중열에 있는 상태로 라운드 개시 시, 범위 내 아군에게 적중 / 행동력을 증가시킵니다. 하지만 중열에 있는 상태에서 전기 공격에 피격 시 2라운드 동안 범위 내 아군의 공격력 / 방어력이 감소합니다.",
+    "areadata": [
+      8,
+      5,
+      2
+    ]
+  },
+  "FallenC_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "출력 한계 해제",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, <출력 증폭>이 10중첩 이상인 상태라면 방어막 / 피해 감소 효과를 무시하며 방어 관통 효과가 부여 됩니다. <출력 한계 해제> 상태에서 전기 공격에 피격 시 행동력이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "StingerC_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "경장갑 파괴",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "회피 시, 3라운드 동안 대 경장형 피해량이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "DroneM_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "중갑 파괴",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신이 중열일 경우, 자신의 앞과 뒤에 있는 아군에게 대 중장 피해량을 증가 시키고 방어 관통 효과를 부여 합니다.",
+    "areadata": [
+      4,
+      6
+    ]
+  },
+  "AMG11AA_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "화망 구축",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "아군이 사망 시, 더욱 견고히 화망을 구축하여 인접 아군의 공격력은 감소하지만 적중을 증가시킵니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "PuppHeadC_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "연산 회로 손실",
+    "img": "TeamDefDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "화염 공격에 피격 시 일부 연산 회로가 손실되어 인접한 아군들의 방어력 / 행동력이 2라운드 동안 감소합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "SeljuqA_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "포신 강화",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "적에게 피격 시, 2라운드 동안 행동력은 감소하고 공격력은 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "GigantesC_N_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "복구 모드",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, HP가 15% 이하면 복구 모드가 작동하고 해당 상태에서 전투 불능이 될 경우, HP를 회복하고 전투를 속행합니다. 복구 모드 상태에서 전기 공격에 피격 시 복구 모드가 해제 됩니다.",
     "areadata": [
       5
     ]
