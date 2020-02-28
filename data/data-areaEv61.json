@@ -1192,7 +1192,7 @@
             },
             {
               "index": "PuppHeadC_VT3",
-              "level": 50
+              "level": 42
             },
             {
               "index": "",
@@ -1217,7 +1217,7 @@
             },
             {
               "index": "Seljuq_VT3",
-              "level": 51
+              "level": 43
             },
             {
               "index": "",
@@ -1233,7 +1233,7 @@
             },
             {
               "index": "SeljuqA_VT3",
-              "level": 51
+              "level": 43
             },
             {
               "index": "RampartC_VT3",
@@ -1241,7 +1241,7 @@
             },
             {
               "index": "Seljuq_VT3",
-              "level": 51
+              "level": 43
             },
             {
               "index": "",
@@ -1270,11 +1270,11 @@
             },
             {
               "index": "PuppHeadC_VT3",
-              "level": 53
+              "level": 45
             },
             {
               "index": "SeljuqA_VT3",
-              "level": 53
+              "level": 45
             },
             {
               "index": "",
@@ -1303,7 +1303,7 @@
             },
             {
               "index": "SeljuqA_VT3",
-              "level": 55
+              "level": 47
             },
             {
               "index": "",
@@ -1315,7 +1315,7 @@
             },
             {
               "index": "PuppHeadC_VT3",
-              "level": 55
+              "level": 47
             },
             {
               "index": "RampartC_VT3",
@@ -1327,7 +1327,7 @@
             },
             {
               "index": "SeljuqA_VT3",
-              "level": 55
+              "level": 47
             }
           ]
         }
@@ -2028,6 +2028,273 @@
             {
               "index": "SeljuqA_VT5",
               "level": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev61-1S",
+      "name": "Ev-1ep",
+      "grid": [
+        0,
+        0
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "NightChickS_TU3",
+              "level": 23
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickS_TU3",
+              "level": 23
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemylist": [
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickS_TU3",
+              "level": 24
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "Phalangites_TU",
+              "level": 22
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 28
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ev61-2S",
+      "prevstage": "Ev61-1S",
+      "name": "Ev-2ep",
+      "grid": [
+        1,
+        0
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
+            },
+            {
+              "index": "NightChickSI_TU2",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChick_TU4",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
+            }
+          ]
+        },
+        {
+          "title": "wave2",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickSI_TU2",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickSI_TU2",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "title": "wave3",
+          "enemylist": [
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
+            },
+            {
+              "index": "BigChick_TU2",
+              "level": 24
+            },
+            {
+              "index": "NightChickSI_TU2",
+              "level": 29
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "NightChickM_TU4",
+              "level": 29
             }
           ]
         }

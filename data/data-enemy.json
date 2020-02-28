@@ -4564,8 +4564,7 @@
     ],
     "skills": [
       "NightChickM_N_Skill1",
-      "NightChickM_N_Skill2",
-      "NightChickM_N_Skill3"
+      "NightChickM_N_Skill2"
     ]
   },
   "NightChickQM_N": {
@@ -4630,8 +4629,7 @@
     ],
     "skills": [
       "NightChick_N_Skill1",
-      "NightChick_N_Skill2",
-      "NightChick_N_Skill3"
+      "NightChick_N_Skill2"
     ]
   },
   "LegionSP_N": {
@@ -4695,8 +4693,7 @@
     "skills": [
       "NightChickDE_N_Skill1",
       "NightChickDE_N_Skill2",
-      "NightChickDE_N_Skill3",
-      "NightChickDE_N_Skill4"
+      "NightChickDE_N_Skill3"
     ]
   },
   "NightChickSI_TU5": {
@@ -4955,8 +4952,7 @@
     ],
     "skills": [
       "NightChick_N_Skill1",
-      "NightChick_N_Skill2",
-      "NightChick_N_Skill3"
+      "NightChick_N_Skill2"
     ]
   },
   "NightChickDE_TU6": {
@@ -4988,8 +4984,7 @@
     "skills": [
       "NightChickDE_N_Skill1",
       "NightChickDE_N_Skill2",
-      "NightChickDE_N_Skill3",
-      "NightChickDE_N_Skill4"
+      "NightChickDE_N_Skill3"
     ]
   },
   "Tortoise_N": {
@@ -6334,8 +6329,7 @@
       "NightChickQM_N_Skill1",
       "NightChickQM_N_Skill2",
       "NightChickQM_N_Skill3",
-      "NightChickQM_EV1_Skill4",
-      "NightChickQM_N_Skill5"
+      "NightChickQM_EV1_Skill4"
     ]
   },
   "NightChickC_EV2": {
@@ -6885,8 +6879,7 @@
       "NightChickQM_N_Skill1",
       "NightChickQM_N_Skill2",
       "NightChickQM_N_Skill3",
-      "NightChickQM_EV2_Skill4",
-      "NightChickQM_N_Skill5"
+      "NightChickQM_EV2_Skill4"
     ]
   },
   "NightChickC_EV8": {
@@ -7118,8 +7111,7 @@
     "skills": [
       "NightChickCEX_N_Skill1",
       "NightChickCEX_N_Skill2",
-      "NightChickCEX_N_Skill3",
-      "NightChickCEX_N_Skill4"
+      "NightChickCEX_N_Skill3"
     ]
   },
   "HarvesterEX_TU5": {
@@ -7832,8 +7824,7 @@
       "NightChickQM_N_Skill1",
       "NightChickQM_N_Skill2",
       "NightChickQM_N_Skill3",
-      "NightChickQM_N_Skill4",
-      "NightChickQM_N_Skill5"
+      "NightChickQM_N_Skill4"
     ]
   },
   "BigChickEX_TU5": {
@@ -14207,6 +14198,204 @@
       "FallenC_N_Skill5"
     ]
   },
+  "NightChickDEG_TU2": {
+    "name": "나이트 칙 디텍터 G",
+    "img": "NightChickDEG",
+    "type": "경장 지원기",
+    "info": "지상전용 레이더 철충이네요. 공중 공격엔 취약하니 기동 부대를 동원해 처리하는 것을 추천드려요.<br><br><br> - 다이카 보고함",
+    "HP": {
+      "base": 750,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 15,
+      "increment": 3
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 5
+    },
+    "AGI": 4.35,
+    "CRT": 1,
+    "HIT": 240,
+    "DOD": 65,
+    "resist": [
+      -25,
+      -25,
+      25
+    ],
+    "skills": [
+      "NightChickDEG_N_Skill1",
+      "NightChickDEG_N_Skill2",
+      "NightChickDEG_N_Skill3",
+      "NightChickDEG_N_Skill4"
+    ]
+  },
+  "BigChickEX_TU2": {
+    "name": "시작형 빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 2000,
+      "increment": 92.5
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 12
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 4.5
+    },
+    "AGI": 3.2,
+    "CRT": 10,
+    "HIT": 125,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChickEX_N_Skill1",
+      "BigChickEX_N_Skill2",
+      "BigChickEX_N_Skill3"
+    ]
+  },
+  "NightChickDEAA_TU": {
+    "name": "나이트 칙 디텍터 AA",
+    "img": "NightChickDEAA",
+    "type": "경장 지원기",
+    "info": "대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!<br><br><br>- 레드후드의 명령을 브라우니가 기록함",
+    "HP": {
+      "base": 900,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 45,
+      "increment": 4.5
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 8
+    },
+    "AGI": 4.55,
+    "CRT": 5,
+    "HIT": 525,
+    "DOD": 60,
+    "resist": [
+      -50,
+      25,
+      75
+    ],
+    "skills": [
+      "NightChickDEAA_N_Skill1",
+      "NightChickDEAA_N_Skill2",
+      "NightChickDEAA_N_Skill3",
+      "NightChickDEAA_N_Skill4"
+    ]
+  },
+  "CenturionG_TU2": {
+    "name": "센츄리온 제네럴",
+    "img": "CenturionG",
+    "type": "경장 지원기",
+    "info": "지휘관 역할을 하는 철충인가 보네… 저렇게 무리하게 부하들을 다루면 안 좋을 것 같은데… 역시 적당히 하는 게 최고야...<br><br><br>- 이프리트 보고함",
+    "HP": {
+      "base": 10000,
+      "increment": 250
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 4
+    },
+    "DEF": {
+      "base": 200,
+      "increment": 5
+    },
+    "AGI": 4.15,
+    "CRT": 1,
+    "HIT": 335,
+    "DOD": 35,
+    "resist": [
+      35,
+      35,
+      35
+    ],
+    "skills": [
+      "CenturionG_N_Skill1",
+      "CenturionG_N_Skill2",
+      "CenturionG_N_Skill3",
+      "CenturionG_N_Skill4",
+      "CenturionG_N_Skill5"
+    ]
+  },
+  "NightChickDEAA_TU3": {
+    "name": "나이트 칙 디텍터 AA",
+    "img": "NightChickDEAA",
+    "type": "경장 지원기",
+    "info": "대공 교란용 적인가? 상관없다! 선제 공격을 맞아도 버티고 섬멸하면 그만이다! 돌격!!!<br><br><br>- 레드후드의 명령을 브라우니가 기록함",
+    "HP": {
+      "base": 5400,
+      "increment": 155
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 5.5
+    },
+    "DEF": {
+      "base": 600,
+      "increment": 16
+    },
+    "AGI": 4.65,
+    "CRT": 5,
+    "HIT": 625,
+    "DOD": 100,
+    "resist": [
+      -50,
+      25,
+      75
+    ],
+    "skills": [
+      "NightChickDEAA_N_Skill1",
+      "NightChickDEAA_N_Skill2",
+      "NightChickDEAA_N_Skill3",
+      "NightChickDEAA_N_Skill4"
+    ]
+  },
+  "Tarantula_TU3": {
+    "name": "타란튤라",
+    "img": "Tarantula",
+    "type": "경장 공격기",
+    "info": "가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?<br><br><br> - 베라 보고함",
+    "HP": {
+      "base": 2000,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 180,
+      "increment": 13
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.55,
+    "CRT": 12.5,
+    "HIT": 375,
+    "DOD": 250,
+    "resist": [
+      95,
+      -25,
+      70
+    ],
+    "skills": [
+      "Tarantula_N_Skill1",
+      "Tarantula_N_Skill2",
+      "Tarantula_N_Skill3",
+      "Tarantula_N_Skill4"
+    ]
+  },
   "Scarab_TU8": {
     "name": "스캐럽",
     "img": "Scarab",
@@ -15634,39 +15823,6 @@
       "Tarantula_N_Skill4"
     ]
   },
-  "Tarantula_TU3": {
-    "name": "타란튤라",
-    "img": "Tarantula",
-    "type": "경장 공격기",
-    "info": "가까이 오면 자폭해서 접근하기 전에 처리해야 하는데... 엄청나게 잽싸서 조준 보조 없이는 맞추기 힘들어요. 과열 상태가 되면 큰 폭발을 일으키니 이걸 노려보는 게 어떨까요?<br><br><br> - 베라 보고함",
-    "HP": {
-      "base": 2000,
-      "increment": 75
-    },
-    "ATK": {
-      "base": 180,
-      "increment": 13
-    },
-    "DEF": {
-      "base": 0,
-      "increment": 0
-    },
-    "AGI": 4.55,
-    "CRT": 12.5,
-    "HIT": 375,
-    "DOD": 250,
-    "resist": [
-      95,
-      -25,
-      70
-    ],
-    "skills": [
-      "Tarantula_N_Skill1",
-      "Tarantula_N_Skill2",
-      "Tarantula_N_Skill3",
-      "Tarantula_N_Skill4"
-    ]
-  },
   "Frostbite_TU4": {
     "name": "프로스트바이트",
     "img": "Frostbite",
@@ -15732,6 +15888,40 @@
       "MammothW_N_Skill2",
       "MammothW_N_Skill3",
       "MammothW_N_Skill4"
+    ]
+  },
+  "SpectorMS_EW": {
+    "name": "양산형 스펙터",
+    "img": "Spector",
+    "type": "기동 지원기",
+    "info": "한동안 안 보이더니 그동안의 데이터로 양산 모델이 만들어진 것 같습니다. 역장의 성능은 예전만 못하지만, 굉장히 민첩해졌으니 주의하셔야 합니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 18000,
+      "increment": 200
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 9
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.2,
+    "CRT": 5,
+    "HIT": 350,
+    "DOD": 225,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "SpectorMS_EW_Skill1",
+      "SpectorMS_EW_Skill2",
+      "SpectorMS_EW_Skill3",
+      "SpectorMS_EW_Skill4",
+      "SpectorMS_EW_Skill5"
     ]
   },
   "NightChickSPW_TU4": {

@@ -8684,5 +8684,78 @@
     "areadata": [
       5
     ]
+  },
+  "SpectorMS_EW_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "교란용 전자기장 미사일",
+    "img": "MultiMissile",
+    "range": 4,
+    "AP": 6,
+    "description": "전자기장 미사일로 대상들을 교란해 $(1.2) 피해를 주고, 대상의 효과 저항 / 사거리를 낮춥니다. 해당 효과는 2회까지 중첩됩니다.",
+    "areadata": [
+      7,
+      4,
+      5,
+      1
+    ]
+  },
+  "SpectorMS_EW_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "모드 변경",
+    "img": "TeamDefBuff",
+    "range": 6,
+    "AP": 7,
+    "description": "전투 모드로 전환해 공격력 / 치명타가 증가하지만 받는 피해도 증가하며, 행동력이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "SpectorMS_EW_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "이동형 반물질 역장",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 반물질 역장을 전개해 인접 아군이 받는 피해를 일정 횟수 무효화합니다.",
+    "areadata": [
+      8,
+      4,
+      6,
+      2
+    ]
+  },
+  "SpectorMS_EW_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "전투 패턴 분석",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 주변 아군에게 전투 패턴 분석 결과를 발신해 적중 / 치명타 / 효과 저항을 올려줍니다. 해당 효과는 3회까지 중첩됩니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "SpectorMS_EW_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "은폐장 전개",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+    "areadata": [
+      5
+    ]
   }
 }
