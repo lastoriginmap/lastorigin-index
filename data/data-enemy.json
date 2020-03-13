@@ -14396,6 +14396,234 @@
       "Tarantula_N_Skill4"
     ]
   },
+  "NightChickShSv_TU4": {
+    "name": "생존형 칙 실더",
+    "img": "NightChickS",
+    "type": "경장 보호기",
+    "info": "일반적인 칙 실더와는 다르게 생존력이 강한 것 같네요. 철충은 물에 약하다고 하니 제 급수기로 흠뻑 적셔보는 게 좋겠어요.<br><br><br>- 엘븐 포레스트 보고함",
+    "HP": {
+      "base": 25000,
+      "increment": 1235
+    },
+    "ATK": {
+      "base": 68,
+      "increment": 6.2
+    },
+    "DEF": {
+      "base": 432,
+      "increment": 6
+    },
+    "AGI": 4.2,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 20,
+    "resist": [
+      30,
+      30,
+      30
+    ],
+    "skills": [
+      "NightChickShSv_N_Skill1",
+      "NightChickShSv_N_Skill2",
+      "NightChickShSv_N_Skill3",
+      "NightChickShSv_N_Skill4"
+    ]
+  },
+  "NightChickAQ_VT4": {
+    "name": "아쿠아 칙",
+    "img": "NightChickAQ",
+    "type": "경장 지원기",
+    "info": "물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!<br><br><br> - 아쿠아 보고함",
+    "HP": {
+      "base": 11000,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 4.4
+    },
+    "DEF": {
+      "base": 300,
+      "increment": 9
+    },
+    "AGI": 4.2,
+    "CRT": 5,
+    "HIT": 375,
+    "DOD": 0,
+    "resist": [
+      50,
+      99,
+      -50
+    ],
+    "skills": [
+      "NightChickAQ_N_Skill1",
+      "NightChickAQ_N_Skill2",
+      "NightChickAQ_N_Skill3",
+      "NightChickAQ_N_Skill4"
+    ]
+  },
+  "NightChickCMSv_TU4": {
+    "name": "생존형 케미컬 칙",
+    "img": "NightChickCM",
+    "type": "경장 지원기",
+    "info": "저 철충 때문에 소중한 나무들이 죽어가고 있어요! 저 녀석한테서 흘러나오는 더러운 액체를 어서 제 급수기로 씻어내버리죠!<br><br><br>- 엘븐 포레스트 보고함",
+    "HP": {
+      "base": 12473,
+      "increment": 843
+    },
+    "ATK": {
+      "base": 249,
+      "increment": 6.2
+    },
+    "DEF": {
+      "base": 208,
+      "increment": 6.1
+    },
+    "AGI": 4.35,
+    "CRT": 5,
+    "HIT": 260,
+    "DOD": 120,
+    "resist": [
+      75,
+      75,
+      75
+    ],
+    "skills": [
+      "NightChickCMSv_N_Skill1",
+      "NightChickCMSv_N_Skill2",
+      "NightChickCMSv_N_Skill3",
+      "NightChickCMSv_N_Skill4"
+    ]
+  },
+  "NightChickAQ_VT3": {
+    "name": "아쿠아 칙",
+    "img": "NightChickAQ",
+    "type": "경장 지원기",
+    "info": "물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!<br><br><br> - 아쿠아 보고함",
+    "HP": {
+      "base": 11000,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 40,
+      "increment": 4.25
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 7.5
+    },
+    "AGI": 4.15,
+    "CRT": 5,
+    "HIT": 350,
+    "DOD": 0,
+    "resist": [
+      50,
+      99,
+      -50
+    ],
+    "skills": [
+      "NightChickAQ_N_Skill1",
+      "NightChickAQ_N_Skill2",
+      "NightChickAQ_N_Skill3",
+      "NightChickAQ_N_Skill4"
+    ]
+  },
+  "NightChickDEX_TU3": {
+    "name": "강화형 칙 디텍터",
+    "img": "NightChickDE",
+    "type": "경장 지원기",
+    "info": "강한 방패 전파를 쏴서 귀찮긴 한데, 냉기에 약한지 기온이 내려가면 이상을 일으켜 오히려 도움이 되는 것 같아.<br><br><br>- 엠프리스 보고함",
+    "HP": {
+      "base": 7500,
+      "increment": 170
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 2000,
+      "increment": 20
+    },
+    "AGI": 4.3,
+    "CRT": 5,
+    "HIT": 550,
+    "DOD": 75,
+    "resist": [
+      50,
+      -35,
+      75
+    ],
+    "skills": [
+      "NightChickDEX_N_Skill1",
+      "NightChickDEX_N_Skill2",
+      "NightChickDEX_N_Skill3",
+      "NightChickDEX_N_Skill4"
+    ]
+  },
+  "Fallen_VT3": {
+    "name": "초코 여왕의 보병",
+    "img": "Fallen_V2",
+    "type": "경장 지원기",
+    "info": "초코 여왕이 경비용 폴른 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 400,
+      "increment": 55
+    },
+    "ATK": {
+      "base": 65,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 40,
+      "increment": 2
+    },
+    "AGI": 3.9,
+    "CRT": 5,
+    "HIT": 195,
+    "DOD": 20,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Fallen_N_Skill1",
+      "Fallen_N_Skill2"
+    ]
+  },
+  "Gigantes_VT2": {
+    "name": "초코 여왕의 근위병",
+    "img": "Gigantes_V2",
+    "type": "중장 보호기",
+    "info": "초코 여왕이 양산형 기간테스 기종을 도색해 만들어낸 기체입니다.",
+    "HP": {
+      "base": 1000,
+      "increment": 75
+    },
+    "ATK": {
+      "base": 70,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 5
+    },
+    "AGI": 3.1,
+    "CRT": 5,
+    "HIT": 80,
+    "DOD": 0,
+    "resist": [
+      0,
+      0,
+      -25
+    ],
+    "skills": [
+      "Gigantes_N_Skill1",
+      "Gigantes_N_Skill2",
+      "Gigantes_N_Skill3"
+    ]
+  },
   "Scarab_TU8": {
     "name": "스캐럽",
     "img": "Scarab",
