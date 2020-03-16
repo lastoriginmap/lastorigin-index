@@ -444,37 +444,6 @@
       "FABigChick_N_Skill3"
     ]
   },
-  "BigChick_TU2": {
-    "name": "빅 칙",
-    "img": "BigChick",
-    "type": "중장 공격기",
-    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
-    "HP": {
-      "base": 500,
-      "increment": 65
-    },
-    "ATK": {
-      "base": 55,
-      "increment": 10.5
-    },
-    "DEF": {
-      "base": 50,
-      "increment": 3.5
-    },
-    "AGI": 3.25,
-    "CRT": 5,
-    "HIT": 110,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "BigChick_N_Skill1",
-      "BigChick_N_Skill2"
-    ]
-  },
   "Predator_B0208": {
     "name": "프레데터",
     "img": "Predator_B0208",
@@ -1116,36 +1085,36 @@
       "NightChickC_N_Skill3"
     ]
   },
-  "FABigChick_TU4": {
-    "name": "풀아머 빅 칙",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+  "NightChick_TU4": {
+    "name": "나이트 칙",
+    "img": "NightChick",
+    "type": "경장 공격기",
+    "info": "하아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!<br><br><br>- 보고자 그렘린입니당! ",
     "HP": {
-      "base": 1750,
-      "increment": 95
+      "base": 275,
+      "increment": 52.5
     },
     "ATK": {
-      "base": 100,
-      "increment": 12.5
+      "base": 65,
+      "increment": 7
     },
     "DEF": {
-      "base": 150,
-      "increment": 5.75
+      "base": 40.5,
+      "increment": 0.72
     },
-    "AGI": 3.3,
+    "AGI": 4,
     "CRT": 5,
-    "HIT": 135,
-    "DOD": 0,
+    "HIT": 220,
+    "DOD": 25,
     "resist": [
-      25,
-      25,
-      25
+      0,
+      0,
+      0
     ],
     "skills": [
-      "FABigChick_N_Skill1",
-      "FABigChick_N_Skill2",
-      "FABigChick_N_Skill3"
+      "NightChick_N_Skill1",
+      "NightChick_N_Skill2",
+      "NightChick_N_Skill3"
     ]
   },
   "Wasp_N": {
@@ -1211,36 +1180,36 @@
       "BigChick_N_Skill2"
     ]
   },
-  "NightChick_TU4": {
-    "name": "나이트 칙",
-    "img": "NightChick",
-    "type": "경장 공격기",
-    "info": "하아… 이 예쁜 애의 이름은 나이트 칙입니당. 예쁘지만 더 예쁜 폴른이를 잡아먹은 무서운 녀석들이에용. 쉬지않고 기관총을 난사하니 주의해 주세용~!<br><br><br>- 보고자 그렘린입니당! ",
+  "Zapper_TU4": {
+    "name": "재퍼",
+    "img": "Zapper",
+    "type": "경장 지원기",
+    "info": "호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?<br><br><br>- 보고자 블랙 리리스",
     "HP": {
-      "base": 275,
-      "increment": 52.5
+      "base": 250,
+      "increment": 45
     },
     "ATK": {
-      "base": 65,
-      "increment": 7
+      "base": 60,
+      "increment": 6
     },
     "DEF": {
-      "base": 40.5,
-      "increment": 0.72
+      "base": 40,
+      "increment": 1.5
     },
     "AGI": 4,
     "CRT": 5,
-    "HIT": 220,
-    "DOD": 25,
+    "HIT": 165,
+    "DOD": 17.5,
     "resist": [
       0,
       0,
-      0
+      50
     ],
     "skills": [
-      "NightChick_N_Skill1",
-      "NightChick_N_Skill2",
-      "NightChick_N_Skill3"
+      "Zapper_N_Skill1",
+      "Zapper_N_Skill2",
+      "Zapper_N_Skill3"
     ]
   },
   "Legion_TU4": {
@@ -1275,36 +1244,36 @@
       "Legion_N_Skill3"
     ]
   },
-  "Centurion_TU4": {
-    "name": "센츄리온",
-    "img": "Centurion",
-    "type": "경장 공격기",
-    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+  "NightChickCM_TU2": {
+    "name": "케미컬 칙",
+    "img": "NightChickCM",
+    "type": "경장 지원기",
+    "info": "냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…<br><br><br>- 보고자 미호",
     "HP": {
-      "base": 3000,
-      "increment": 72.5
+      "base": 300,
+      "increment": 60
     },
     "ATK": {
-      "base": 80,
-      "increment": 9.25
+      "base": 65,
+      "increment": 6.75
     },
     "DEF": {
-      "base": 30,
-      "increment": 2
+      "base": 25,
+      "increment": 0.75
     },
-    "AGI": 4,
+    "AGI": 4.1,
     "CRT": 10,
-    "HIT": 175,
-    "DOD": 20,
+    "HIT": 195,
+    "DOD": 52.5,
     "resist": [
-      0,
-      0,
-      0
+      50,
+      50,
+      50
     ],
     "skills": [
-      "Centurion_N_Skill1",
-      "Centurion_N_Skill2",
-      "Centurion_N_Skill3"
+      "NightChickCM_N_Skill1",
+      "NightChickCM_N_Skill2",
+      "NightChickCM_N_Skill3"
     ]
   },
   "Scarab_N": {
@@ -1339,67 +1308,37 @@
       "Scarab_N_Skill3"
     ]
   },
-  "NightChickCM_TU2": {
-    "name": "케미컬 칙",
-    "img": "NightChickCM",
+  "NightChickDE_TU3": {
+    "name": "나이트 칙 디텍터",
+    "img": "NightChickDE",
     "type": "경장 지원기",
-    "info": "냄새 나고 이상한 액체를 뿌려. 더럽고 음란해. 그 이상한 액을 뒤집어 쓴 애들은 한 동안 근처에 못 오게 했어. 특히 스틸 드라코는…<br><br><br>- 보고자 미호",
+    "info": "그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!<br><br><br>- 예쁜 누나 포츈이 보고해용~!",
     "HP": {
-      "base": 300,
-      "increment": 60
+      "base": 275,
+      "increment": 65
     },
     "ATK": {
-      "base": 65,
-      "increment": 6.75
+      "base": 60,
+      "increment": 5.5
     },
     "DEF": {
-      "base": 25,
-      "increment": 0.75
+      "base": 35,
+      "increment": 1
     },
-    "AGI": 4.1,
-    "CRT": 10,
-    "HIT": 195,
-    "DOD": 52.5,
-    "resist": [
-      50,
-      50,
-      50
-    ],
-    "skills": [
-      "NightChickCM_N_Skill1",
-      "NightChickCM_N_Skill2",
-      "NightChickCM_N_Skill3"
-    ]
-  },
-  "BigChick_TU4": {
-    "name": "빅 칙",
-    "img": "BigChick",
-    "type": "중장 공격기",
-    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
-    "HP": {
-      "base": 1500,
-      "increment": 120
-    },
-    "ATK": {
-      "base": 75,
-      "increment": 11.5
-    },
-    "DEF": {
-      "base": 150,
-      "increment": 6.5
-    },
-    "AGI": 3.3,
+    "AGI": 4.15,
     "CRT": 5,
-    "HIT": 150,
-    "DOD": 0,
+    "HIT": 260,
+    "DOD": 55,
     "resist": [
-      25,
-      25,
-      25
+      20,
+      20,
+      20
     ],
     "skills": [
-      "BigChick_N_Skill1",
-      "BigChick_N_Skill2"
+      "NightChickDE_N_Skill1",
+      "NightChickDE_N_Skill2",
+      "NightChickDE_N_Skill3",
+      "NightChickDE_N_Skill4"
     ]
   },
   "Raider_B04": {
@@ -2016,39 +1955,6 @@
       "NightChickEX_N_Skill3"
     ]
   },
-  "NightChickDE_TU3": {
-    "name": "나이트 칙 디텍터",
-    "img": "NightChickDE",
-    "type": "경장 지원기",
-    "info": "그 아이는 별로 위험한 아인 아니거든? 근데 자꾸 우리를 방해하는 공격을 하니까 다른 애들이랑 있으면 주의해야 하거든? 맞으면 다른 철충한테 지원 요청하는 못된 아이니까 혼내줘야행! 누나 보고 있을께~!<br><br><br>- 예쁜 누나 포츈이 보고해용~!",
-    "HP": {
-      "base": 275,
-      "increment": 65
-    },
-    "ATK": {
-      "base": 60,
-      "increment": 5.5
-    },
-    "DEF": {
-      "base": 35,
-      "increment": 1
-    },
-    "AGI": 4.15,
-    "CRT": 5,
-    "HIT": 260,
-    "DOD": 55,
-    "resist": [
-      20,
-      20,
-      20
-    ],
-    "skills": [
-      "NightChickDE_N_Skill1",
-      "NightChickDE_N_Skill2",
-      "NightChickDE_N_Skill3",
-      "NightChickDE_N_Skill4"
-    ]
-  },
   "CenturionEX_TU": {
     "name": "엘리트 센츄리온",
     "img": "Centurion",
@@ -2435,6 +2341,37 @@
       "BigChickM_N_Skill3"
     ]
   },
+  "BigChick_TU2": {
+    "name": "빅 칙",
+    "img": "BigChick",
+    "type": "중장 공격기",
+    "info": "엄청 큰 나이트 칙이지 말임다! 하는 짓은 나이트 칙이랑 똑같은데 갑빠도 두껍고 총도 더 쎄게 쏘지 말임다. 움직이기 전에 얼른 죽여야 함다!<br><br><br>- 보고자 브라우니지 말임다.",
+    "HP": {
+      "base": 500,
+      "increment": 65
+    },
+    "ATK": {
+      "base": 55,
+      "increment": 10.5
+    },
+    "DEF": {
+      "base": 50,
+      "increment": 3.5
+    },
+    "AGI": 3.25,
+    "CRT": 5,
+    "HIT": 110,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "BigChick_N_Skill1",
+      "BigChick_N_Skill2"
+    ]
+  },
   "NightChickDE_N": {
     "name": "나이트 칙 디텍터",
     "img": "NightChickDE",
@@ -2466,38 +2403,6 @@
       "NightChickDE_N_Skill2",
       "NightChickDE_N_Skill3",
       "NightChickDE_N_Skill4"
-    ]
-  },
-  "Zapper_TU4": {
-    "name": "재퍼",
-    "img": "Zapper",
-    "type": "경장 지원기",
-    "info": "호전성이 낮은 개체예요. 건드리지만 않으면 공격하지 않으니 주의해 주세요. 고압 전류 공격을 하니까요. 설마 제가 대신 맞아서 찌릿찌릿에 눈 뜨는 걸 바라는 건 아니겠죠?<br><br><br>- 보고자 블랙 리리스",
-    "HP": {
-      "base": 250,
-      "increment": 45
-    },
-    "ATK": {
-      "base": 60,
-      "increment": 6
-    },
-    "DEF": {
-      "base": 40,
-      "increment": 1.5
-    },
-    "AGI": 4,
-    "CRT": 5,
-    "HIT": 165,
-    "DOD": 17.5,
-    "resist": [
-      0,
-      0,
-      50
-    ],
-    "skills": [
-      "Zapper_N_Skill1",
-      "Zapper_N_Skill2",
-      "Zapper_N_Skill3"
     ]
   },
   "NightChickSI_TU4": {
@@ -3239,70 +3144,37 @@
       "LegionEX_N_Skill3"
     ]
   },
-  "Juggernaut_TU3": {
-    "name": "저거너트",
-    "img": "Juggernaut",
-    "type": "중장 보호기",
-    "info": "성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.<br><br><br>- 블랙 하운드",
+  "CenturionEX_TU2": {
+    "name": "엘리트 센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
     "HP": {
       "base": 3750,
-      "increment": 180
+      "increment": 92.5
     },
     "ATK": {
-      "base": 90,
-      "increment": 9.5
+      "base": 95,
+      "increment": 11
     },
     "DEF": {
-      "base": 250,
-      "increment": 13
+      "base": 75,
+      "increment": 2.5
     },
-    "AGI": 3.25,
-    "CRT": 10,
-    "HIT": 135,
-    "DOD": 0,
+    "AGI": 4,
+    "CRT": 15,
+    "HIT": 200,
+    "DOD": 32.5,
     "resist": [
       25,
       25,
       25
     ],
     "skills": [
-      "Juggernaut_N_Skill1",
-      "Juggernaut_N_Skill2",
-      "Juggernaut_N_Skill3",
-      "Juggernaut_N_Skill4"
-    ]
-  },
-  "FABigChickEX_TU3": {
-    "name": "FA 빅 칙 II",
-    "img": "FABigChick",
-    "type": "중장 공격기",
-    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
-    "HP": {
-      "base": 3250,
-      "increment": 125
-    },
-    "ATK": {
-      "base": 125,
-      "increment": 14
-    },
-    "DEF": {
-      "base": 180,
-      "increment": 7
-    },
-    "AGI": 3.35,
-    "CRT": 10,
-    "HIT": 145,
-    "DOD": 0,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "FABigChickEX_N_Skill1",
-      "FABigChickEX_N_Skill2",
-      "FABigChickEX_N_Skill3",
-      "FABigChickEX_N_Skill4"
+      "CenturionEX_N_Skill1",
+      "CenturionEX_N_Skill2",
+      "CenturionEX_N_Skill3",
+      "CenturionEX_N_Skill4"
     ]
   },
   "ScarabEX_TU2": {
@@ -4138,6 +4010,39 @@
       "HarvesterEX_N_Skill1",
       "HarvesterEX_N_Skill2",
       "HarvesterEX_TU4_Skill3"
+    ]
+  },
+  "Juggernaut_TU3": {
+    "name": "저거너트",
+    "img": "Juggernaut",
+    "type": "중장 보호기",
+    "info": "성격이 나빠 보이는 철충인 거예요. 공격을 시작하면 끝까지 공격하거든요. 그래서 공중 부대로 유인을 하는 게 좋을 것 같아요. 그 덩치로 다른 철충들을 보호하지 못하게요.<br><br><br>- 블랙 하운드",
+    "HP": {
+      "base": 3750,
+      "increment": 180
+    },
+    "ATK": {
+      "base": 90,
+      "increment": 9.5
+    },
+    "DEF": {
+      "base": 250,
+      "increment": 13
+    },
+    "AGI": 3.25,
+    "CRT": 10,
+    "HIT": 135,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Juggernaut_N_Skill1",
+      "Juggernaut_N_Skill2",
+      "Juggernaut_N_Skill3",
+      "Juggernaut_N_Skill4"
     ]
   },
   "WaspEX_TU3": {
@@ -5881,6 +5786,38 @@
       "CenturionCF_N_Skill4"
     ]
   },
+  "FABigChick_TU4": {
+    "name": "풀아머 빅 칙",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 1750,
+      "increment": 95
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 12.5
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 5.75
+    },
+    "AGI": 3.3,
+    "CRT": 5,
+    "HIT": 135,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChick_N_Skill1",
+      "FABigChick_N_Skill2",
+      "FABigChick_N_Skill3"
+    ]
+  },
   "Scout_EV1": {
     "name": "스카우트",
     "img": "Scout",
@@ -6072,6 +6009,39 @@
       "Spector_N_Skill3",
       "Spector_N_Skill4",
       "Spector_N_Skill5"
+    ]
+  },
+  "FABigChickEX_TU3": {
+    "name": "FA 빅 칙 II",
+    "img": "FABigChick",
+    "type": "중장 공격기",
+    "info": "빅 칙과는 달라! 빅 칙과는! 뭐로 만든지는 몰라도 장갑이 차원이 다르니 나 같은 대 장갑 요원이 없으면 꽤나 곤란할걸?<br><br><br> - 불가사리 보고함",
+    "HP": {
+      "base": 3250,
+      "increment": 125
+    },
+    "ATK": {
+      "base": 125,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 180,
+      "increment": 7
+    },
+    "AGI": 3.35,
+    "CRT": 10,
+    "HIT": 145,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickEX_N_Skill1",
+      "FABigChickEX_N_Skill2",
+      "FABigChickEX_N_Skill3",
+      "FABigChickEX_N_Skill4"
     ]
   },
   "NightChickEX_EV1": {
@@ -10661,6 +10631,38 @@
       "Chiller_N_Skill2",
       "Chiller_N_Skill3",
       "Chiller_N_Skill4"
+    ]
+  },
+  "Centurion_TU4": {
+    "name": "센츄리온",
+    "img": "Centurion",
+    "type": "경장 공격기",
+    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
+    "HP": {
+      "base": 3000,
+      "increment": 72.5
+    },
+    "ATK": {
+      "base": 80,
+      "increment": 9.25
+    },
+    "DEF": {
+      "base": 30,
+      "increment": 2
+    },
+    "AGI": 4,
+    "CRT": 10,
+    "HIT": 175,
+    "DOD": 20,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Centurion_N_Skill1",
+      "Centurion_N_Skill2",
+      "Centurion_N_Skill3"
     ]
   },
   "NightChickC_EV9": {
@@ -15621,39 +15623,6 @@
       "NightChickTD_N_Skill2",
       "NightChickTD_N_Skill3",
       "NightChickTD_N_Skill4"
-    ]
-  },
-  "CenturionEX_TU2": {
-    "name": "엘리트 센츄리온",
-    "img": "Centurion",
-    "type": "경장 공격기",
-    "info": "작은 부대의 지휘관 역할을 하는 철충으로 보입니다. 주변 철충에게 일제 공격을 지시하는 정황이 포착되었군요. 부하들이 파괴되면 경계를 하는 것 같아요. 먼저 처리하는 게 좋을 것으로 보입니다.<br><br><br>- 37식 다이카",
-    "HP": {
-      "base": 3750,
-      "increment": 92.5
-    },
-    "ATK": {
-      "base": 95,
-      "increment": 11
-    },
-    "DEF": {
-      "base": 75,
-      "increment": 2.5
-    },
-    "AGI": 4,
-    "CRT": 15,
-    "HIT": 200,
-    "DOD": 32.5,
-    "resist": [
-      25,
-      25,
-      25
-    ],
-    "skills": [
-      "CenturionEX_N_Skill1",
-      "CenturionEX_N_Skill2",
-      "CenturionEX_N_Skill3",
-      "CenturionEX_N_Skill4"
     ]
   },
   "FABigChickEX_N": {

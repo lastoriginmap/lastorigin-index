@@ -723,40 +723,40 @@
           "title": "wave3",
           "enemylist": [
             {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "BigChick_TU2",
-              "level": 20
+              "index": "NightChickM_TU2",
+              "level": 19
             },
             {
               "index": "",
               "level": 0
             },
             {
-              "index": "NightChick_TU2",
-              "level": 18
-            },
-            {
-              "index": "NightChick_TU2",
-              "level": 18
+              "index": "Scout_N",
+              "level": 19
             },
             {
               "index": "",
               "level": 0
             },
             {
+              "index": "NightChickS_TU2",
+              "level": 19
+            },
+            {
+              "index": "NightChickC_N",
+              "level": 19
+            },
+            {
+              "index": "NightChickM_TU2",
+              "level": 19
+            },
+            {
               "index": "",
               "level": 0
             },
             {
-              "index": "BigChick_TU2",
-              "level": 20
-            },
-            {
-              "index": "",
-              "level": 0
+              "index": "Scout_N",
+              "level": 19
             }
           ]
         }
