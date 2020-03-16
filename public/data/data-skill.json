@@ -793,42 +793,6 @@
       5
     ]
   },
-  "Scarab_N_Skill1": {
-    "title": "askill1",
-    "type": "active",
-    "name": "실드 돌격",
-    "img": "AssaultAttack",
-    "range": 3,
-    "AP": 6,
-    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill2": {
-    "title": "askill2",
-    "type": "active",
-    "name": "보호 기동",
-    "img": "SelfDefBuff",
-    "range": 6,
-    "AP": 4,
-    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Scarab_N_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "방어 기동",
-    "img": "SelfDefBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
-    "areadata": [
-      5
-    ]
-  },
   "NightChickCM_N_Skill1": {
     "title": "askill1",
     "type": "active",
@@ -869,6 +833,42 @@
       5,
       6,
       2
+    ]
+  },
+  "Scarab_N_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "실드 돌격",
+    "img": "AssaultAttack",
+    "range": 3,
+    "AP": 6,
+    "description": "대상에게 돌격해 $(1.5) 피해를 주고, 대상의 행 보호 효과와 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "보호 기동",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "3라운드 동안 지정한 아군을 보호하고 행동력을 올려줍니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Scarab_N_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "방어 기동",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "HP가 50% 이하가 되면 방어 기동을 실행해, 받는 피해가 감소하고 방어력이 증가하며 회피가 감소합니다.",
+    "areadata": [
+      5
     ]
   },
   "Raider_N_Skill1": {
