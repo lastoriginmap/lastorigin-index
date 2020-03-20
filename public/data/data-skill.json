@@ -7718,7 +7718,7 @@
     "img": "MeleeAttack",
     "range": 3,
     "AP": 4,
-    "description": "대상에게 $(1.1) 피해를 주고, 2라운드 동안 도발 / 방어력 / 치명타 감소 상태로 만듭니다.",
+    "description": "대상에게 $(1.1) 피해를 주고, 2라운드 동안 방어력 / 치명타 감소 상태로 만듭니다.",
     "areadata": [
       5
     ]
@@ -7730,7 +7730,7 @@
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 6,
-    "description": "지정 아군의 AP를 상승시키고, 3라운드 동안 대상을 지정 보호합니다.",
+    "description": "지정 아군을 3라운드 동안 대상을 지정 보호합니다.",
     "areadata": [
       5
     ]
@@ -7742,7 +7742,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "라운드 개시 시, 해로운 효과 저항이 증가하며 속성 저항력이 증가합니다.",
+    "description": "라운드 개시 시, 행동력이 증가하며 속성 저항력이 증가합니다.",
     "areadata": [
       5
     ]
