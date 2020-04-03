@@ -155,7 +155,7 @@ const Stage = props =>
           Array.from(props.SpottedStage, ([key, value]) => (
             <table key={key}>
               <thead>
-                {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "지역")}</th></tr>}
+                {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "구역")}</th></tr>}
               </thead>
               <tbody>
                 <tr>{value.map(stage => (<td key={stage.title}><a href={"https://lastoriginmap.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
