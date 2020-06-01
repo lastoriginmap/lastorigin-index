@@ -168,7 +168,7 @@ hr {
     top: 50px;
     bottom: 0;
     width: 540px;
-    overflow-x:hidden;
+    overflow-x: visible;
     overflow-y: initial;
   }
 

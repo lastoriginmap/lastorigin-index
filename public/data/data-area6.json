@@ -1,4 +1,4 @@
-﻿{
+{
   "title": "6",
   "areatype": "grid",
   "gridsize": [
@@ -713,11 +713,15 @@
           "title": "wave2",
           "enemylist": [
             {
-              "index": "ProgramMobMT_N",
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "ProgramMobTT_N",
               "level": 75
             },
             {
-              "index": "ProgramMobMT_N",
+              "index": "ProgramMobTN_N",
               "level": 75
             },
             {
@@ -725,12 +729,12 @@
               "level": 0
             },
             {
-              "index": "",
-              "level": 0
-            },
-            {
-              "index": "ProgramMobTT_TU2",
+              "index": "ProgramMobAS_N",
               "level": 76
+            },
+            {
+              "index": "",
+              "level": 0
             },
             {
               "index": "",
@@ -741,12 +745,8 @@
               "level": 75
             },
             {
-              "index": "ProgramMobMS_N",
+              "index": "ProgramMobTN_N",
               "level": 75
-            },
-            {
-              "index": "",
-              "level": 0
             }
           ]
         },
@@ -754,39 +754,39 @@
           "title": "wave3",
           "enemylist": [
             {
+              "index": "ProgramMobMS_N",
+              "level": 75
+            },
+            {
               "index": "",
               "level": 0
             },
             {
-              "index": "ProgramMobTS_N",
-              "level": 75
-            },
-            {
-              "index": "ProgramMobMS_N",
+              "index": "ProgramMobAN_N",
               "level": 76
             },
             {
-              "index": "ProgramMobMT_N",
-              "level": 75
-            },
-            {
               "index": "",
               "level": 0
+            },
+            {
+              "index": "ProgramMobMN_N",
+              "level": 75
             },
             {
               "index": "ProgramMobAT_N",
               "level": 75
             },
             {
+              "index": "ProgramMobTS_N",
+              "level": 75
+            },
+            {
               "index": "",
               "level": 0
             },
             {
-              "index": "ProgramMobTT_N",
-              "level": 75
-            },
-            {
-              "index": "ProgramMobMS_N",
+              "index": "ProgramMobAN_N",
               "level": 76
             }
           ]
@@ -887,7 +887,7 @@
           "title": "wave2",
           "enemylist": [
             {
-              "index": "ProgramMobTS_N",
+              "index": "ProgramMobMT_N",
               "level": 75
             },
             {
@@ -908,10 +908,10 @@
             },
             {
               "index": "ProgramMobTT_TU2",
-              "level": 77
+              "level": 76
             },
             {
-              "index": "ProgramMobTS_N",
+              "index": "ProgramMobMT_N",
               "level": 75
             },
             {
@@ -919,7 +919,7 @@
               "level": 0
             },
             {
-              "index": "ProgramMobMN_N",
+              "index": "ProgramMobTN_N",
               "level": 76
             }
           ]
@@ -936,7 +936,7 @@
               "level": 0
             },
             {
-              "index": "ProgramMobMN_N",
+              "index": "ProgramMobTN_N",
               "level": 75
             },
             {
@@ -956,11 +956,11 @@
               "level": 0
             },
             {
-              "index": "ProgramMobTS_N",
+              "index": "ProgramMobMT_N",
               "level": 75
             },
             {
-              "index": "ProgramMobAN_N",
+              "index": "ProgramMobAS_N",
               "level": 76
             }
           ]

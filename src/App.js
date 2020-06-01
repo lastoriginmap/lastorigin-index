@@ -10,6 +10,7 @@ class App extends React.Component
   state = {
     "enemyIndex": null,
     "lvl": null,
+    "lvlpool": false,
     "enemyData": null,
     "skillData": null,
     "SpottedStage": null,
@@ -30,6 +31,7 @@ class App extends React.Component
     let lvl = this.state.lvl || this.props.enemyLVL;
 
     let searchresult = new Map();
+    let lvlsearchresult = false;
     this.areadatalist.forEach(areadata =>
     {
       let searcharea = areadata.stage.filter(stageelem => stageelem.wave.some(waveelem => waveelem.enemylist.some(pos => pos.index === enemyIndex)))
@@ -49,18 +51,32 @@ class App extends React.Component
       }
     });
 
-    this.setState({
+    if ("uncertainstat" in enemyData && enemyData.uncertainstat)
+    {
+      lvlsearchresult = [];
+      this.areadatalist.forEach(areadata => areadata.stage.forEach(stageelem => stageelem.wave.forEach(waveelem => waveelem.enemylist.forEach(pos =>
+      {
+        if (pos.index === enemyIndex)
+        {
+          lvlsearchresult.push(pos.level);
+        }
+      }))));
+      lvl=lvlsearchresult[0];
+    }
+    this.setState(prevstate => ({
+      ...prevstate,
       "enemyIndex": enemyIndex,
       "enemyData": enemyData,
       "lvl": parseInt(lvl),
+      "lvlpool": lvlsearchresult,
       "skillData": enemyData.skills.map(index => skillDataList[index]),
       "SpottedStage": searchresult
-    });
+    }));
   };
 
   loadAreaData = async enemyIndex =>
   {
-    const arealist = ["1", "2", "3", "4", "5", "6", "Daily1", "Daily2", "Daily3", "Ev11", "Ev21", "Ev22", "Ev23", "Ev31", "Ev41", "Ev51", "Ev52", "Ev61", "Ev62"];
+    const arealist = ["1", "2", "3", "4", "5", "6", "7", "Daily1", "Daily2", "Daily3", "Ev11", "Ev21", "Ev22", "Ev23", "Ev31", "Ev41", "Ev51", "Ev52", "Ev61", "Ev62"];
     this.areadatalist = await Promise.all(arealist.map(areaindex => Common.loadAreaData(areaindex)));
     this.loadData(enemyIndex);
   }
@@ -68,17 +84,46 @@ class App extends React.Component
   handleLvlChange = (action) =>
   {
     let lvl = this.state.lvl;
-    if (action === '+')
+    if (this.state.lvlpool)
     {
-      lvl++;
-    }
-    else if (action === '-')
-    {
-      lvl>1 && lvl--;
+      let lvlpool = this.state.lvlpool;
+      if (action === '+')
+      {
+        if(lvlpool.indexOf(lvl)<lvlpool.length-1)
+        {
+          lvl = lvlpool[lvlpool.indexOf(lvl)+1];
+        }
+        else
+        {
+          lvl = lvlpool[lvlpool.indexOf(lvl)];
+        }
+      }
+      else if (action === '-')
+      {
+        if(lvlpool.indexOf(lvl)>0)
+        {
+          lvl = lvlpool[lvlpool.indexOf(lvl)-1];
+        }
+        else
+        {
+          lvl = lvlpool[lvlpool.indexOf(lvl)];
+        }
+      }
     }
     else
     {
-      lvl = parseInt((action.length===0||action<1)?1:action);
+      if (action === '+')
+      {
+        lvl++;
+      }
+      else if (action === '-')
+      {
+        lvl > 1 && lvl--;
+      }
+      else
+      {
+        lvl = parseInt((action.length === 0 || action < 1) ? 1 : action);
+      }
     }
     this.setState(prevstate => ({
       ...prevstate,
@@ -151,17 +196,17 @@ const Stage = props =>
       <div className="stage-header" onClick={props.toggleExpandStage}>등장 스테이지<i className="material-icons">{(props.isStageExpanded ? "expand_less" : "expand_more")}</i></div>
       <div className={"stage-inner" + (props.isStageExpanded ? "" : " stage-inner-hidden")}>
         {
-          props.SpottedStage.size===0 ? <table key="stagetable"><thead><tr><th>영원의 전장 (업데이트 예정)</th></tr></thead></table> :
-          Array.from(props.SpottedStage, ([key, value]) => (
-            <table key={key}>
-              <thead>
-                {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "구역")}</th></tr>}
-              </thead>
-              <tbody>
-                <tr>{value.map(stage => (<td key={stage.title}><a href={"https://lastoriginmap.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
-              </tbody>
-            </table>
-          ))
+          props.SpottedStage.size === 0 ? <table key="stagetable"><thead><tr><th>영원의 전장 (업데이트 예정)</th></tr></thead></table> :
+            Array.from(props.SpottedStage, ([key, value]) => (
+              <table key={key}>
+                <thead>
+                  {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "구역")}</th></tr>}
+                </thead>
+                <tbody>
+                  <tr>{value.map(stage => (<td key={stage.title}><a href={"https://lastoriginmap.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
+                </tbody>
+              </table>
+            ))
         }
       </div>
     </div>
