@@ -4144,7 +4144,7 @@
   },
   "NightChick_RV": {
     "name": "나이트 칙 Type-S",
-    "img": "NightChick",
+    "img": "NightChick_RV",
     "type": "경장 공격기",
     "info": "<교전 기록 없음>",
     "HP": {
@@ -16185,6 +16185,510 @@
       "LegionMk2_N_Skill2",
       "LegionMk2_N_Skill3",
       "LegionMk2_N_Skill4"
+    ]
+  },
+  "Speaker_tmp_1": {
+    "uncertainstat": true,
+    "name": "스피커",
+    "img": "Speaker",
+    "type": "경장 지원기",
+    "info": "얘는 몸체에 달린 스피커로 주변 철충들을 강하게 만들고 있나 봐. 꼭 나처럼 응원하는거 같네? 응원이라면 나도 질 수 없지! 모두 화이팅~<br><br><br>-캐럴라이나 보고함",
+    "HP": {
+      "base": 15745,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 569,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 436,
+      "increment": 0
+    },
+    "AGI": 4,
+    "CRT": 5,
+    "HIT": 350,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Speaker_tmp_1_Skill1",
+      "Speaker_tmp_1_Skill2",
+      "Speaker_tmp_1_Skill3",
+      "Speaker_tmp_1_Skill4"
+    ]
+  },
+  "FABigChickS_tmp_1": {
+    "name": "풀아머 빅 칙 실더",
+    "img": "FABigChickS",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 1500,
+      "increment": 84
+    },
+    "ATK": {
+      "base": 50,
+      "increment": 6
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 5.8
+    },
+    "AGI": 3.15,
+    "CRT": 5,
+    "HIT": 75,
+    "DOD": 1,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickS_tmp_1_Skill1",
+      "FABigChickS_tmp_1_Skill2",
+      "FABigChickS_tmp_1_Skill3",
+      "FABigChickS_tmp_1_Skill4"
+    ]
+  },
+  "LightningBomber_tmp_1": {
+    "name": "라이트닝 봄버",
+    "img": "LightningBomber",
+    "type": "기동 공격기",
+    "info": "이 녀석, 요리조리 잘 피해서 다들 애먹었을 거야. 내 저격은 백발백중이니 맡겨만 줘.<br><br>-미호 보고함",
+    "HP": {
+      "base": 180,
+      "increment": 58
+    },
+    "ATK": {
+      "base": 224,
+      "increment": 11.5
+    },
+    "DEF": {
+      "base": 30,
+      "increment": 1.5
+    },
+    "AGI": 4.45,
+    "CRT": 5,
+    "HIT": 210,
+    "DOD": 340,
+    "resist": [
+      0,
+      -50,
+      99
+    ],
+    "skills": [
+      "LightningBomber_tmp_1_Skill1",
+      "LightningBomber_tmp_1_Skill2",
+      "LightningBomber_tmp_1_Skill3"
+    ]
+  },
+  "Nest_B07": {
+    "uncertainstat": true,
+    "name": "네스트",
+    "img": "Nest_B07",
+    "type": "기동 공격기",
+    "info": "조심해야겠어. 최상급 연결체, 네스트야. 전투를 통해 얻은 정보를 보고할게.<br><br>첫째, 네스트는 몸체의 사출 장치에서 전투 기계를 사출하고 그 기계들에게 막대한 동력을 보내고 있어.<br><br>둘째, 본체가 계속 공격당하면 자체적으로 배리어를 전개하기도 해.<br><br>셋째, 배리어가 전개되어있는 상태에서 사출된 기계를 파괴하니 일시적으로 약해졌어. 그리고 속성 공격에 당하면 일부 무기체계가 불안정해지는 것 같아.<br><br>일단 내가 파악한 정보는 여기까지야. 결코 쉽지 않은 전투가 될 거야. 지휘를 부탁할게, 사령관.<br><br>-보고자 레오나",
+    "HP": {
+      "base": 80000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 1500,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 3000,
+      "increment": 0
+    },
+    "AGI": 4.5,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Nest_B07_Skill1",
+      "Nest_B07_Skill2",
+      "Nest_B07_Skill3",
+      "Nest_B07_Skill4",
+      "Nest_B07_Skill5"
+    ]
+  },
+  "NestChaser_tmp_1": {
+    "name": "네스트 체이서",
+    "img": "NestChaser",
+    "type": "기동 공격기",
+    "info": "네스트에서 사출된 전투 기계로 네스트를 위협하는 요소를 제거하는 게 목적",
+    "HP": {
+      "base": 23090,
+      "increment": 190
+    },
+    "ATK": {
+      "base": 91.5,
+      "increment": 13.5
+    },
+    "DEF": {
+      "base": 90,
+      "increment": 20
+    },
+    "AGI": 4.3,
+    "CRT": 16,
+    "HIT": 260,
+    "DOD": 19,
+    "resist": [
+      10,
+      10,
+      10
+    ],
+    "skills": [
+      "NestChaser_tmp_1_Skill1",
+      "NestChaser_tmp_1_Skill2",
+      "NestChaser_tmp_1_Skill3",
+      "NestChaser_tmp_1_Skill4",
+      "NestChaser_tmp_1_Skill5"
+    ]
+  },
+  "NestGuardian_tmp_1": {
+    "name": "네스트 가디언",
+    "img": "NestGuardian",
+    "type": "기동 보호기",
+    "info": "네스트에서 사출된 전투 기계로 네스트를 위협으로부터 지키는 게 목적",
+    "HP": {
+      "base": 29085,
+      "increment": 235
+    },
+    "ATK": {
+      "base": 68.625,
+      "increment": 9.375
+    },
+    "DEF": {
+      "base": 149.5,
+      "increment": 28.5
+    },
+    "AGI": 4.22,
+    "CRT": 5.5,
+    "HIT": 200,
+    "DOD": 33,
+    "resist": [
+      10,
+      10,
+      10
+    ],
+    "skills": [
+      "NestGuardian_tmp_1_Skill1",
+      "NestGuardian_tmp_1_Skill2",
+      "NestGuardian_tmp_1_Skill3",
+      "NestGuardian_tmp_1_Skill4",
+      "NestGuardian_tmp_1_Skill5"
+    ]
+  },
+  "FABigChickS_tmp_2": {
+    "name": "풀아머 빅 칙 실더",
+    "img": "FABigChickS",
+    "type": "중장 보호기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 6000,
+      "increment": 114
+    },
+    "ATK": {
+      "base": 75,
+      "increment": 8
+    },
+    "DEF": {
+      "base": 330,
+      "increment": 12
+    },
+    "AGI": 3.25,
+    "CRT": 7.5,
+    "HIT": 90,
+    "DOD": 1,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "FABigChickS_tmp_1_Skill1",
+      "FABigChickS_tmp_1_Skill2",
+      "FABigChickS_tmp_1_Skill3",
+      "FABigChickS_tmp_1_Skill4"
+    ]
+  },
+  "Speaker_tmp_2": {
+    "name": "스피커",
+    "img": "Speaker",
+    "type": "경장 지원기",
+    "info": "얘는 몸체에 달린 스피커로 주변 철충들을 강하게 만들고 있나 봐. 꼭 나처럼 응원하는거 같네? 응원이라면 나도 질 수 없지! 모두 화이팅~<br><br><br>-캐럴라이나 보고함",
+    "HP": {
+      "base": 3069,
+      "increment": 259
+    },
+    "ATK": {
+      "base": 97,
+      "increment": 7
+    },
+    "DEF": {
+      "base": 201,
+      "increment": 4
+    },
+    "AGI": 4.05,
+    "CRT": 5,
+    "HIT": 400,
+    "DOD": 0,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "Speaker_tmp_1_Skill1",
+      "Speaker_tmp_1_Skill2",
+      "Speaker_tmp_1_Skill3",
+      "Speaker_tmp_1_Skill4"
+    ]
+  },
+  "Testudo_tmp_1": {
+    "name": "테스투도",
+    "img": "Testudo",
+    "type": "경장 보호기",
+    "info": "트레비앙~한 방어 능력을 가진 적이에요. 보통은 중화기로 제압해야 하지만 제 정교한 검술로도 해결할 수 있으니 맡겨주세요!<br><br><br>- 샬럿 보고함",
+    "HP": {
+      "base": 800,
+      "increment": 100
+    },
+    "ATK": {
+      "base": 30,
+      "increment": 4
+    },
+    "DEF": {
+      "base": 100,
+      "increment": 5
+    },
+    "AGI": 4,
+    "CRT": 2,
+    "HIT": 215,
+    "DOD": 20,
+    "resist": [
+      70,
+      70,
+      70
+    ],
+    "skills": [
+      "Testudo_N_Skill1",
+      "Testudo_N_Skill2",
+      "Testudo_N_Skill3",
+      "Testudo_N_Skill4"
+    ]
+  },
+  "EmperorChickSpCH_tmp_1": {
+    "name": "칙 커맨더",
+    "img": "EmperorChickSpCH",
+    "type": "중장 공격기",
+    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 앉고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 10000,
+      "increment": 150
+    },
+    "ATK": {
+      "base": 100,
+      "increment": 11
+    },
+    "DEF": {
+      "base": 150,
+      "increment": 10
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 250,
+    "DOD": 25,
+    "resist": [
+      70,
+      70,
+      70
+    ],
+    "skills": [
+      "EmperorChickSpCH_N_Skill1",
+      "EmperorChickSpCH_N_Skill2",
+      "EmperorChickSpCH_N_Skill3",
+      "EmperorChickSpCH_N_Skill4",
+      "EmperorChickSpCH_N_Skill5"
+    ]
+  },
+  "EmperorChick_tmp_1": {
+    "uncertainstat": true,
+    "name": "칙 엠페러",
+    "img": "EmperorChick",
+    "type": "중장 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 20850,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 720.6,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 680,
+      "increment": 0
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 275,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "EmperorChick_N_Skill1",
+      "EmperorChick_N_Skill2",
+      "EmperorChick_N_Skill3",
+      "EmperorChick_N_Skill4",
+      "EmperorChick_N_Skill5"
+    ]
+  },
+  "EmperorChick_tmp_2": {
+    "uncertainstat": true,
+    "name": "칙 엠페러",
+    "img": "EmperorChick",
+    "type": "중장 공격기",
+    "info": "주위 철충들에게 명령을 내리는 칙 커맨더는 마치 훈련 교관처럼 느껴집니다. 철충들이 쓰러질 때마다 분노가 끓어올라 강해지고 쓰러진 철충들을 다시 일으켜 세울 수 있는 막강한 능력이 있습니다. 하지만 적군이 쓰러졌을 시 분노는 가라 앉고 약해지는 것으로 보아 어쩌면... 아군의 희생이 필요할지도 모릅니다.<br><br><br>보고자 ???",
+    "HP": {
+      "base": 8388,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 689,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 660,
+      "increment": 0
+    },
+    "AGI": 3.75,
+    "CRT": 15,
+    "HIT": 275,
+    "DOD": 25,
+    "resist": [
+      25,
+      25,
+      25
+    ],
+    "skills": [
+      "EmperorChick_N_Skill1",
+      "EmperorChick_N_Skill2",
+      "EmperorChick_N_Skill3",
+      "EmperorChick_N_Skill4",
+      "EmperorChick_N_Skill5"
+    ]
+  },
+  "LightningBomber_tmp_2": {
+    "uncertainstat": true,
+    "name": "라이트닝 봄버",
+    "img": "LightningBomber",
+    "type": "기동 공격기",
+    "info": "이 녀석, 요리조리 잘 피해서 다들 애먹었을 거야. 내 저격은 백발백중이니 맡겨만 줘.<br><br>-미호 보고함",
+    "HP": {
+      "base": 11960,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 1713.6,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 298,
+      "increment": 0
+    },
+    "AGI": 4.6,
+    "CRT": 5,
+    "HIT": 300,
+    "DOD": 430,
+    "resist": [
+      0,
+      -50,
+      99
+    ],
+    "skills": [
+      "LightningBomber_tmp_1_Skill1",
+      "LightningBomber_tmp_1_Skill2",
+      "LightningBomber_tmp_1_Skill3"
+    ]
+  },
+  "LightningBomber_tmp_3": {
+    "name": "라이트닝 봄버",
+    "img": "LightningBomber",
+    "type": "기동 공격기",
+    "info": "이 녀석, 요리조리 잘 피해서 다들 애먹었을 거야. 내 저격은 백발백중이니 맡겨만 줘.<br><br>-미호 보고함",
+    "HP": {
+      "base": 260,
+      "increment": 99
+    },
+    "ATK": {
+      "base": 276,
+      "increment": 14
+    },
+    "DEF": {
+      "base": 62,
+      "increment": 2
+    },
+    "AGI": 4.55,
+    "CRT": 5,
+    "HIT": 270,
+    "DOD": 400,
+    "resist": [
+      0,
+      -50,
+      99
+    ],
+    "skills": [
+      "LightningBomber_tmp_1_Skill1",
+      "LightningBomber_tmp_1_Skill2",
+      "LightningBomber_tmp_1_Skill3"
+    ]
+  },
+  "Destroyer_tmp_1": {
+    "name": "디스트로이어",
+    "img": "Destroyer",
+    "type": "중장 공격기",
+    "info": "저거... 내 제녹스 만큼이나 세... 다른 애들한테 막지 말고 피하라고 말해줘...<br><br><br>-에밀리가",
+    "HP": {
+      "base": 40000,
+      "increment": 320
+    },
+    "ATK": {
+      "base": 300,
+      "increment": 20
+    },
+    "DEF": {
+      "base": 4000,
+      "increment": 40
+    },
+    "AGI": 3.25,
+    "CRT": 10,
+    "HIT": 180,
+    "DOD": 0,
+    "resist": [
+      50,
+      0,
+      95
+    ],
+    "skills": [
+      "Destroyer_tmp_1_Skill1",
+      "Destroyer_tmp_1_Skill2",
+      "Destroyer_tmp_1_Skill3",
+      "Destroyer_tmp_1_Skill4",
+      "Destroyer_tmp_1_Skill5"
     ]
   }
 }

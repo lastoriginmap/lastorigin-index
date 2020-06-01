@@ -1,4 +1,4 @@
-﻿{
+{
   "NightChickM_N_Skill1": {
     "title": "askill1",
     "type": "active",
@@ -2248,7 +2248,7 @@
     "img": "DefCounter",
     "range": 0,
     "AP": 0,
-    "description": "회피 성공 시, 적의 빈틈을 노려 반격 합니다.",
+    "description": "회피 성공 시, 해당 라운드 동안 적의 빈틈을 노려 반격 합니다.",
     "areadata": [
       5
     ]
@@ -8854,6 +8854,451 @@
     "range": 0,
     "AP": 0,
     "description": "전투 개시 시, 은폐장을 전개해 회피가 대폭 증가합니다. 해당 효과는 전투가 진행될수록 점감됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Speaker_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "사운드 출력 강화",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 <사운드 출력 강화> 효과가 적용되며 아군이 사망 시 <사운드 출력 강화> 효과가 해제 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Speaker_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "사운드 웨이브",
+    "img": "EnemyDetect",
+    "range": 6,
+    "AP": 4,
+    "description": "광범위한 음파를 발사해 대상에게 보호 무시 $(0.3) 피해를 주고, 3라운드 동안 공격력 / 치명타 감소 상태로 만들며 일정 확률로 뒤로 1칸 밀어버립니다.",
+    "areadata": [
+      0.5,
+      1,
+      0,
+      0.5,
+      1,
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  "Speaker_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "고주파 사운드",
+    "img": "EnemyDetect",
+    "range": 4,
+    "AP": 9,
+    "description": "<사운드 출력 강화(최대>일 시, 좁은 범위에 집중 된 음파를 발사해 대상에게 $(1) 피해를 주고 방어력 / 회피를 감소시키고 <사운드 출력 강화> 효과를 모두 소모합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "Speaker_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "강화 파장",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 적용 된 <사운드 출력 강화> 효과의 중첩 개수에 따라 주위 아군에게 강화 효과를 부여합니다.<br><br>2중첩 시: 치명타 증가<br>3중첩 시: 적중 증가<br>4중첩 시: 방어 관통 증가",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "FABigChickS_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "방패 찍기",
+    "img": "ShieldWall",
+    "range": 3,
+    "AP": 5,
+    "description": "방패로 대상을 찍어 $(1.3) 피해를 줍니다. 대상은 방어력이 감소하며, 높은 확률로 행동 불가 상태로 만듭니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FABigChickS_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "칙 블로킹",
+    "img": "ShieldWall",
+    "range": 6,
+    "AP": 6,
+    "description": "방어 대세를 취해, 3라운드 동안 행 보호 / 열 보호 / 받는 피해 감소 / 효과 저항 증가 효과가 발생합니다. 자신의 HP가 25% 이하인 경우, 반격 효과가 추가됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FABigChickS_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "칙 방어 지휘",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<착 블로킹> 상태로 라운드 개시 시, 주변 아군에게 방어력 증가 / 받는 피해 감소 효과를 줍니다.",
+    "areadata": [
+      2,
+      3,
+      6,
+      8,
+      9
+    ]
+  },
+  "FABigChickS_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "칙 근성 발동",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, 2라운드 동안 방어력 / 행동력이 증가합니다. 라운드 개시 시, <칙 근성 발동> 방어 증가 효과가 5회 이상이면 전투 속행 효과가 추가됩니다. 전투 속행 발동 시, 2라운드 동안 최소 피해만 받지만 지속 고정 피해를 입으며 방어막과 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LightningBomber_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "쇼크 밤",
+    "img": "Missile",
+    "range": 4,
+    "AP": 4,
+    "description": "대상에게 미사일을 발사해 $(1) 피해를 주고, 행동력을 감소시킵니다.",
+    "areadata": [
+      0,
+      0,
+      0,
+      0.75,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "LightningBomber_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "무차별 폭격",
+    "img": "MultiMissile",
+    "range": 3,
+    "AP": 9,
+    "description": "지정 범위에 $(1.25) 보호 무시 피해를 줍니다. 대상이 행동력 감소 상태면 피해량이 증가합니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "LightningBomber_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "스피드 업",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 회피율이 감소하고 회피 시, 2라운드 동안 행동력이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Nest_B07_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "파멸 도래",
+    "img": "Beam",
+    "range": 5,
+    "AP": 3,
+    "description": "에너지 응집체를 발사해 $(1.3) 피해를 줍니다. 대상이 <침식> 효과에 적용되어 있는 상태일 시 피해량이 증가합니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "Nest_B07_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "침식",
+    "img": "MultiMissile",
+    "range": 3,
+    "AP": 7,
+    "description": "목표 지점에 $(0.7) 피해를 주는 침식체를 발사합니다. 목표 지점 주변은 피해가 25% 감소합니다. 적중 시, 30% 확률로 대상을 뒤로 밀고 공격력 / 방어력을 감소시킵니다. 공격력 / 방어력 감소 효과는 전투가 진행될수록 점감 됩니다.",
+    "areadata": [
+      0,
+      0.75,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0.75,
+      0
+    ]
+  },
+  "Nest_B07_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "은총 하사",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "주위 아군에게 자신의 HP에 따라 점차 강해지는 효과를 부여합니다.<br><br>은총 하사 1단계 (HP 100% ~ 70%) : 공격력 / 방어력 증가<br>은총 하사 2단계 (HP 70% ~ 40%) : 공격력 / 방어력 / 적중 증가<br>은총 하사 3단계 (HP 40% ~ 0%) : 공격력 / 방어력 / 적중 증가",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Nest_B07_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "배리어 전개",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "피격 시, <배리어 전개 준비> 상태가 되며 4회 중첩인 상태로 피격 시, 배리어가 전개되어 3라운드 동안 피해를 5회 무효화합니다. 배리어가 전개돼있는 동안 피격 시, 해로운 효과를 해제하고 아군이 사망 시, 배리어가 강제로 해제되어 3라운드 동안 받는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Nest_B07_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "사출 시스템 파괴",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<배리어 전개> 상태에서 속성 공격에 피격 시, <사출 시스템 손상> 상태가 되며 해당 상태가 3회 중첩 된 상태로 피격 시, <사출 시스템 파괴>가 되어 <침식> 스킬을 사용할 수 없게 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NestChaser_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "찌르는 강철",
+    "img": "Missile",
+    "range": 3,
+    "AP": 7,
+    "description": "지정 대상에게 $(1.2) 피해를 줍니다. 적중 대상은 2라운드 동안 표식 / 받는 피해 증가 / 회피 감소 상태가 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NestChaser_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "강철의 비",
+    "img": "MultiMissile",
+    "range": 4,
+    "AP": 9,
+    "description": "지정 범위에 $(0.5) 보호 무시 피해를 줍니다. 대상이 표식 또는 이동 불가 상태면 피해량이 증가합니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "NestChaser_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "강자의 품격",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신의 HP가 50% 이상인 경우, 공격력 / 치명타가 증가하며 목표의 HP%가 낮을수록 피해량이 증가합니다. ",
+    "areadata": [
+      5
+    ]
+  },
+  "NestChaser_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "철의 은총",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 적용 된 <은총 하사>의 단계에 따라 추가 효과를 받습니다.<br><br>은총 하사 1단계 시: 방어 관통 증가<br>은총 하사 2단계 시: 방어 관통 증가 / 방어막, 피해 감소 무시<br>은총 하사 3단계 시: 방어 관통 증가 / 방어막, 피해 감소 무시 / 일정 확률 반격",
+    "areadata": [
+      5
+    ]
+  },
+  "NestChaser_tmp_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "과열",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬을 사용 시, <과열> 상태가 적용됩니다. 라운드 개시 시, <과열> 상태가 3중첩이라면 3라운드 동안 <작동 정지> 상태에 빠져 행동 불능 상태가 되고 해당 상태에서 냉기 공격에 피격 시, 3라운드 동안 받는 피해가 증가합니다.<br>",
+    "areadata": [
+      5
+    ]
+  },
+  "NestGuardian_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "심판",
+    "img": "WideBeamShot",
+    "range": 4,
+    "AP": 8,
+    "description": "지정 범위에 $(0.8) 피해를 주고, 2라운드 동안 대상에게 표식 / 받는 피해 증가 / 공격력 / 치명타 감소 효과를 줍니다.",
+    "areadata": [
+      3,
+      5,
+      6,
+      9
+    ]
+  },
+  "NestGuardian_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "수호 천사",
+    "img": "TeamDefBuff",
+    "range": 5,
+    "AP": 9,
+    "description": "2라운드 동안 주변 아군에게 방어막을 부여하며, 공격력 / 방어력 / 적중 / 회피를 증가시킵니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "NestGuardian_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "신의 가호",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 방어막 / 받는 피해 감소 효과가 적용됩니다.자신의 HP%가 낮을수록 적에게 주는 피해량이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NestGuardian_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "철의 은총",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 적용 된 <은총 하사>의 단계에 따라 추가 효과를 받습니다.<br><br>은총 하사 1단계 시: 열 보호<br>은총 하사 2단계 시: 열 보호 / 방어력 증가<br>은총 하사 3단계 시: 열 보호 / 방어력 증가 / 받는 피해 감소",
+    "areadata": [
+      5
+    ]
+  },
+  "NestGuardian_tmp_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "과열",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬을 사용 시, <과열> 상태가 적용됩니다. 라운드 개시 시, <과열> 상태가 3중첩이라면 3라운드 동안 <작동 정지> 상태에 빠져 행동 불능 상태가 되고 해당 상태에서 화염 공격에 피격 시, 3라운드 동안 받는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Destroyer_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "대구경 집속 입자포",
+    "img": "BeamShot",
+    "range": 9,
+    "AP": 10,
+    "description": "지정 범위에 $(4) 보호 무시 피해를 줍니다. 대상의 방어막 / 피해 감소 / 방어력을 무시하며, <집속 에너지 필드> 상태를 해제합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "Destroyer_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "에너지 충전 개시",
+    "img": "SelfDefBuff",
+    "range": 8,
+    "AP": 10,
+    "description": "에너지 충전을 개시해 <집속 에너지 필드>를 활성화합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Destroyer_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "동작 패턴 분석",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 강화 효과 해제로 해제 불가의 적중 (최대 10회 중첩) / 행동력 (최대 5회 중첩)이 증가합니다. 침수 상태에서 냉기 공격에 피격 시, 자신에게 적용되어 있는 모든 적중 / 행동력 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Destroyer_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "반응로 폭발",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, AP가 증가하고 침수 상태에서 처치될 경우, 주변에 괴멸적인 고정 피해를 줍니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Destroyer_tmp_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "집속 에너지 필드",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<집속 에너지 필드> 상태에서는 최소 피해만 입으며 강화 효과 해제로 해제 불가합니다. <집속 에너지 필드> 상태에서 한 라운드에 6회 피격 시, <집속 에너지 필드>가 해제 되고, 3라운드 동안 <집속 에너지 필드 사용 불가> 상태로 만듭니다.",
     "areadata": [
       5
     ]
