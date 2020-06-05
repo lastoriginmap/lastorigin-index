@@ -9302,5 +9302,69 @@
     "areadata": [
       5
     ]
+  },
+  "Executioner_tmp_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "처형 개시",
+    "img": "SwordAttk",
+    "range": "5",
+    "AP": "4",
+    "description": "지정 대상에게 $(1) 피해를 줍니다. 대상이 행동 불가 상태면 피해량이 크게 증가하며, 해제 불가 행동 불능 효과를 부여합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_tmp_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "학살",
+    "img": "WideSwordAttk",
+    "range": "4",
+    "AP": "8",
+    "description": "지정 범위에 $(1.25) 보호 무시 피해를 줍니다. 처형자 효과들이 10 중첩 이상이면 추가 화염 피해를 주며, 대상에게 걸려있는 강화 효과를 해제합니다. 처형자 중첩을 10 소모합니다.",
+    "areadata": [
+      7,
+      9,
+      5,
+      1,
+      3
+    ]
+  },
+  "Executioner_tmp_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "처형자",
+    "img": "SelfAtkBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "피격 시, 공격력/행동력이 영구적으로 증가합니다. 자신이 <공격 연계> 효과를 받는 상태면 공격 대상의 방어막과 피해 감소 효과를 무시하고 <공격 차단> 효과를 받는 상태면 적중이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_tmp_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "왜곡장",
+    "img": "SelfDefBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "모든 피해를 최소 피해만 받습니다. 처형자 효과들이 10 중첩 이상인 상태로 피격 시, 오버플로우로 인한 고정 물리 피해를 받으며 모든 강화 효과가 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Executioner_tmp_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "본능",
+    "img": "SelfAtkBuff",
+    "range": "0",
+    "AP": "0",
+    "description": "라운드 개시 시, 저항 본능이 발동하여 효과 저항이 증가하고 모든 해로운 효과를 해제합니다. 아군이 사망 시, 파괴 본능에 빠져 해당 라운드에는 행동 불가 상태가 되며 3라운드 동안 방어 관통력 / 공격력이 대폭 증가합니다. 파괴 본능이 적용돼 있는 동안, 저항 본능이 사라집니다.",
+    "areadata": [
+      5
+    ]
   }
 }

@@ -16690,5 +16690,40 @@
       "Destroyer_tmp_1_Skill4",
       "Destroyer_tmp_1_Skill5"
     ]
+  },
+  "Executioner_tmp_1": {
+    "uncertainstat": true,
+    "name": "익스큐셔너",
+    "img": "Executioner_B06",
+    "type": "기동 공격기",
+    "info": "<교전 기록 없음>",
+    "HP": {
+      "base": 80000,
+      "increment": 0
+    },
+    "ATK": {
+      "base": 2000,
+      "increment": 0
+    },
+    "DEF": {
+      "base": 0,
+      "increment": 0
+    },
+    "AGI": 4.5,
+    "CRT": 15,
+    "HIT": 350,
+    "DOD": 120,
+    "resist": [
+      0,
+      0,
+      0
+    ],
+    "skills": [
+      "Executioner_tmp_1_Skill1",
+      "Executioner_tmp_1_Skill2",
+      "Executioner_tmp_1_Skill3",
+      "Executioner_tmp_1_Skill4",
+      "Executioner_tmp_1_Skill5"
+    ]
   }
 }
