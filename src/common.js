@@ -1,6 +1,6 @@
 //파일명 설정
-//var setting = '.min';
-var setting = '';
+var setting = '.min';
+//var setting = '';
 
 //공통 데이터 로드 함수
 function loadData(src)

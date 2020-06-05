@@ -2415,6 +2415,56 @@
           ]
         }
       ]
+    },
+    {
+      "title": "6-8Ex",
+      "grid": [
+        6,
+        2
+      ],
+      "wave": [
+        {
+          "title": "wave1",
+          "enemylist": [
+            {
+              "index": "ExecutionerRB_B06",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "ExecutionerLB_B06",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "Executioner_tmp_1",
+              "level": 90
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "ExecutionerLB_B06",
+              "level": 70
+            },
+            {
+              "index": "",
+              "level": 0
+            },
+            {
+              "index": "ExecutionerRB_B06",
+              "level": 70
+            }
+          ]
+        }
+      ]
     }
   ]
 }
