@@ -6,7 +6,17 @@ class Tooltip extends React.Component
   {
     const base = this.props.tooltipdata.base;
     const increment = this.props.tooltipdata.increment;
-    if (this.props.isStatExpanded)
+    const lvlpool = this.props.lvlpool;
+
+    if(lvlpool)
+    {
+      return (
+        <div className="tooltip tooltip-stat tooltip-uncertainstat">
+          {this.props.children}
+        </div>
+      );
+    }
+    else if (this.props.isStatExpanded)
     {
       return (
         <Fragment>

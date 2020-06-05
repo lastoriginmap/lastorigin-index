@@ -23,6 +23,11 @@
   cursor: pointer;
 }
 
+.tooltip-uncertainstat .tooltip-text {
+  border-bottom: none;
+  cursor: default;
+}
+
 .tooltip-innertext {
   font-size: 0.8em;
   word-break: keep-all;
