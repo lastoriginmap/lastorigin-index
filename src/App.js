@@ -76,7 +76,7 @@ class App extends React.Component
 
   loadAreaData = async enemyIndex =>
   {
-    const arealist = ["1", "2", "3", "4", "5", "6", "7", "Daily1", "Daily2", "Daily3", "Ev11", "Ev21", "Ev22", "Ev23", "Ev31", "Ev41", "Ev51", "Ev52", "Ev61", "Ev62"];
+    const arealist = ["1", "2", "3", "4", "5", "6", "7", "8", "Daily1", "Daily2", "Daily3", "Ev11", "Ev21", "Ev22", "Ev23", "Ev31", "Ev41", "Ev51", "Ev52", "Ev61", "Ev62", "Ev71", "Ev72", "Ev73", "Ev81", "Ev82"];
     this.areadatalist = await Promise.all(arealist.map(areaindex => Common.loadAreaData(areaindex)));
     this.loadData(enemyIndex);
   }

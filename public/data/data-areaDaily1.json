@@ -4,6 +4,10 @@
     {
       "title": "Daily1-1",
       "name": "초급 모의 전투 훈련",
+      "grid": [
+        0,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -174,6 +178,10 @@
     {
       "title": "Daily1-2",
       "name": "중급 모의 전투 훈련",
+      "grid": [
+        1,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -344,6 +352,10 @@
     {
       "title": "Daily1-3",
       "name": "상급 모의 전투 훈련",
+      "grid": [
+        2,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -514,6 +526,10 @@
     {
       "title": "Daily1-4",
       "name": "최상급 모의 전투 훈련",
+      "grid": [
+        3,
+        0
+      ],
       "wave": [
         {
           "title": "wave1",

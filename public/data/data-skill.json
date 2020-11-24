@@ -8858,19 +8858,7 @@
       5
     ]
   },
-  "Speaker_tmp_1_Skill3": {
-    "title": "pskill1",
-    "type": "passive",
-    "name": "사운드 출력 강화",
-    "img": "TeamAtkBuff",
-    "range": 0,
-    "AP": 0,
-    "description": "라운드 개시 시, 자신에게 <사운드 출력 강화> 효과가 적용되며 아군이 사망 시 <사운드 출력 강화> 효과가 해제 됩니다.",
-    "areadata": [
-      5
-    ]
-  },
-  "Speaker_tmp_1_Skill1": {
+  "Speaker_A7_1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "사운드 웨이브",
@@ -8890,21 +8878,33 @@
       0
     ]
   },
-  "Speaker_tmp_1_Skill2": {
+  "Speaker_A7_1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "고주파 사운드",
     "img": "EnemyDetect",
     "range": 4,
     "AP": 9,
-    "description": "<사운드 출력 강화(최대>일 시, 좁은 범위에 집중 된 음파를 발사해 대상에게 $(1) 피해를 주고 방어력 / 회피를 감소시키고 <사운드 출력 강화> 효과를 모두 소모합니다.",
+    "description": "<사운드 출력 강화(최대)>일 시, 좁은 범위에 집중 된 음파를 발사해 대상에게 $(1) 피해를 주고 방어력 / 회피를 감소시키고 <사운드 출력 강화> 효과를 모두 소모합니다.",
     "areadata": [
       4,
       5,
       6
     ]
   },
-  "Speaker_tmp_1_Skill4": {
+  "Speaker_A7_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "사운드 출력 강화",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 <사운드 출력 강화> 효과가 적용되며 아군이 사망 시 <사운드 출력 강화> 효과가 해제 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Speaker_A7_1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "강화 파장",
@@ -8923,7 +8923,7 @@
       9
     ]
   },
-  "FABigChickS_tmp_1_Skill1": {
+  "FABigChickS_A7_1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "방패 찍기",
@@ -8935,7 +8935,7 @@
       5
     ]
   },
-  "FABigChickS_tmp_1_Skill2": {
+  "FABigChickS_A7_1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "칙 블로킹",
@@ -8947,7 +8947,7 @@
       5
     ]
   },
-  "FABigChickS_tmp_1_Skill3": {
+  "FABigChickS_A7_1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "칙 방어 지휘",
@@ -8963,7 +8963,7 @@
       9
     ]
   },
-  "FABigChickS_tmp_1_Skill4": {
+  "FABigChickS_A7_1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "칙 근성 발동",
@@ -8975,7 +8975,7 @@
       5
     ]
   },
-  "LightningBomber_tmp_1_Skill1": {
+  "LightningBomber_A7_1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "쇼크 밤",
@@ -8995,7 +8995,7 @@
       0
     ]
   },
-  "LightningBomber_tmp_1_Skill2": {
+  "LightningBomber_A7_1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "무차별 폭격",
@@ -9011,7 +9011,7 @@
       8
     ]
   },
-  "LightningBomber_tmp_1_Skill3": {
+  "LightningBomber_A7_1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "스피드 업",
@@ -9099,7 +9099,7 @@
       5
     ]
   },
-  "NestChaser_tmp_1_Skill1": {
+  "NestChaser_A7_B1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "찌르는 강철",
@@ -9111,7 +9111,7 @@
       5
     ]
   },
-  "NestChaser_tmp_1_Skill2": {
+  "NestChaser_A7_B1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "강철의 비",
@@ -9127,7 +9127,7 @@
       8
     ]
   },
-  "NestChaser_tmp_1_Skill3": {
+  "NestChaser_A7_B1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "강자의 품격",
@@ -9139,7 +9139,7 @@
       5
     ]
   },
-  "NestChaser_tmp_1_Skill4": {
+  "NestChaser_A7_B1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "철의 은총",
@@ -9151,7 +9151,7 @@
       5
     ]
   },
-  "NestChaser_tmp_1_Skill5": {
+  "NestChaser_A7_B1_Skill5": {
     "title": "pskill3",
     "type": "passive",
     "name": "과열",
@@ -9163,7 +9163,7 @@
       5
     ]
   },
-  "NestGuardian_tmp_1_Skill1": {
+  "NestGuardian_A7_B1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "심판",
@@ -9178,7 +9178,7 @@
       9
     ]
   },
-  "NestGuardian_tmp_1_Skill2": {
+  "NestGuardian_A7_B1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "수호 천사",
@@ -9197,19 +9197,19 @@
       9
     ]
   },
-  "NestGuardian_tmp_1_Skill3": {
+  "NestGuardian_A7_B1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "신의 가호",
     "img": "Barrier",
     "range": 0,
     "AP": 0,
-    "description": "라운드 개시 시, 방어막 / 받는 피해 감소 효과가 적용됩니다.자신의 HP%가 낮을수록 적에게 주는 피해량이 증가합니다.",
+    "description": "라운드 개시 시, 방어막 / 받는 피해 감소 효과가 적용됩니다. 자신의 HP%가 낮을수록 적에게 주는 피해량이 증가합니다.",
     "areadata": [
       5
     ]
   },
-  "NestGuardian_tmp_1_Skill4": {
+  "NestGuardian_A7_B1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "철의 은총",
@@ -9221,7 +9221,7 @@
       5
     ]
   },
-  "NestGuardian_tmp_1_Skill5": {
+  "NestGuardian_A7_B1_Skill5": {
     "title": "pskill3",
     "type": "passive",
     "name": "과열",
@@ -9233,7 +9233,7 @@
       5
     ]
   },
-  "Destroyer_tmp_1_Skill1": {
+  "Destroyer_A7_1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "대구경 집속 입자포",
@@ -9247,7 +9247,7 @@
       6
     ]
   },
-  "Destroyer_tmp_1_Skill2": {
+  "Destroyer_A7_1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "에너지 충전 개시",
@@ -9259,7 +9259,7 @@
       5
     ]
   },
-  "Destroyer_tmp_1_Skill3": {
+  "Destroyer_A7_1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "동작 패턴 분석",
@@ -9271,7 +9271,7 @@
       5
     ]
   },
-  "Destroyer_tmp_1_Skill4": {
+  "Destroyer_A7_1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "반응로 폭발",
@@ -9291,7 +9291,7 @@
       9
     ]
   },
-  "Destroyer_tmp_1_Skill5": {
+  "Destroyer_A7_1_Skill5": {
     "title": "pskill3",
     "type": "passive",
     "name": "집속 에너지 필드",
@@ -9303,25 +9303,25 @@
       5
     ]
   },
-  "Executioner_tmp_1_Skill1": {
+  "Executioner_A6_B1_Skill1": {
     "title": "askill1",
     "type": "active",
     "name": "처형 개시",
     "img": "SwordAttk",
-    "range": "5",
-    "AP": "4",
+    "range": 5,
+    "AP": 4,
     "description": "지정 대상에게 $(1) 피해를 줍니다. 대상이 행동 불가 상태면 피해량이 크게 증가하며, 해제 불가 행동 불능 효과를 부여합니다.",
     "areadata": [
       5
     ]
   },
-  "Executioner_tmp_1_Skill2": {
+  "Executioner_A6_B1_Skill2": {
     "title": "askill2",
     "type": "active",
     "name": "학살",
     "img": "WideSwordAttk",
-    "range": "4",
-    "AP": "8",
+    "range": 4,
+    "AP": 8,
     "description": "지정 범위에 $(1.25) 보호 무시 피해를 줍니다. 처형자 효과들이 10 중첩 이상이면 추가 화염 피해를 주며, 대상에게 걸려있는 강화 효과를 해제합니다. 처형자 중첩을 10 소모합니다.",
     "areadata": [
       7,
@@ -9331,38 +9331,1174 @@
       3
     ]
   },
-  "Executioner_tmp_1_Skill3": {
+  "Executioner_A6_B1_Skill3": {
     "title": "pskill1",
     "type": "passive",
     "name": "처형자",
     "img": "SelfAtkBuff",
-    "range": "0",
-    "AP": "0",
+    "range": 0,
+    "AP": 0,
     "description": "피격 시, 공격력/행동력이 영구적으로 증가합니다. 자신이 <공격 연계> 효과를 받는 상태면 공격 대상의 방어막과 피해 감소 효과를 무시하고 <공격 차단> 효과를 받는 상태면 적중이 증가합니다.",
     "areadata": [
       5
     ]
   },
-  "Executioner_tmp_1_Skill4": {
+  "Executioner_A6_B1_Skill4": {
     "title": "pskill2",
     "type": "passive",
     "name": "왜곡장",
     "img": "SelfDefBuff",
-    "range": "0",
-    "AP": "0",
+    "range": 0,
+    "AP": 0,
     "description": "모든 피해를 최소 피해만 받습니다. 처형자 효과들이 10 중첩 이상인 상태로 피격 시, 오버플로우로 인한 고정 물리 피해를 받으며 모든 강화 효과가 해제됩니다.",
     "areadata": [
       5
     ]
   },
-  "Executioner_tmp_1_Skill5": {
+  "Executioner_A6_B1_Skill5": {
     "title": "pskill3",
     "type": "passive",
     "name": "본능",
     "img": "SelfAtkBuff",
-    "range": "0",
-    "AP": "0",
+    "range": 0,
+    "AP": 0,
     "description": "라운드 개시 시, 저항 본능이 발동하여 효과 저항이 증가하고 모든 해로운 효과를 해제합니다. 아군이 사망 시, 파괴 본능에 빠져 해당 라운드에는 행동 불가 상태가 되며 3라운드 동안 방어 관통력 / 공격력이 대폭 증가합니다. 파괴 본능이 적용돼 있는 동안, 저항 본능이 사라집니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NestGuardian_A7_B2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "과열·폭주",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬을 사용 시, <과열> 상태가 적용됩니다. 라운드 개시 시, <과열> 상태가 3중첩이라면 3라운드 동안 <작동 정지> 상태에 빠져 행동 불능 상태가 되고 해당 상태에서 화염 공격에 피격 시, 3라운드 동안 받는 피해가 증가합니다. [네스트]가 파괴 된 상태로 라운드 개시 시, <폭주> 상태에 빠져 AP가 증가하고 공격력 / 적중 / 방어 관통 증가하지만 지속 피해를 입습니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NestChaser_A7_B2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "과열·폭주",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "스킬을 사용 시, <과열> 상태가 적용됩니다. 라운드 개시 시, <과열> 상태가 3중첩이라면 3라운드 동안 <작동 정지> 상태에 빠져 행동 불능 상태가 되고 해당 상태에서 냉기 공격에 피격 시, 3라운드 동안 받는 피해가 증가합니다. [네스트]가 파괴 된 상태로 라운드 개시 시, <폭주> 상태에 빠져 AP가 증가하고 공격력 / 적중 / 방어 관통 증가하지만 지속 피해를 입습니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Nest_A7_B2_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "파멸 도래",
+    "img": "Beam",
+    "range": 5,
+    "AP": 3,
+    "description": "에너지 응집체를 발사해 $(1.5) 피해를 줍니다. 대상이 <침식> 효과에 적용되어 있는 상태일 시 피해량이 증가합니다.",
+    "areadata": [
+      4,
+      5
+    ]
+  },
+  "Nest_A7_B2_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "침식",
+    "img": "MultiMissile",
+    "range": 3,
+    "AP": 7,
+    "description": "목표 지점에 $(1) 피해를 주는 침식체를 발사합니다. 목표 지점 주변은 피해가 25% 감소합니다. 적중 시, 모든 강화 효과가 해제 되며 30% 확률로 대상을 뒤로 밀고 공격력 / 방어력을 대폭 감소시킵니다. 공격력 / 방어력 감소 효과는 전투가 진행될수록 점감 됩니다.",
+    "areadata": [
+      0,
+      0.75,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0.75,
+      0
+    ]
+  },
+  "Nest_A7_B2_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "은총 하사·응징",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신의 HP에 따라 자신에게 버프가 부여 되고, 주위 아군에게 점차 강해지는 버프 효과를 부여합니다.<br>아군이 사망 시, 2라운드 동안 주위 아군의 공격을 지원해 적을 응징합니다.<br><br>은총 하사 1단계 (HP 100% ~ 80%)<br>자신의 적중 증가<br>주위 아군의 공격력 / 방어력 증가<br><br>은총 하사 2단계 (HP 80% ~ 50%)<br>자신의 적중 / 방어 관통 증가<br>주위 아군의 공격력 / 방어력 / 적중 증가<br><br>은총 하사 3단계 (HP 50% ~ 0%)<br>자신의 적중 / 방어 관통 증가 / 방어막 / 피해 감소 무시<br>주위 아군의 공격력 / 방어력 / 적중 증가",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Nest_A7_B2_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "배리어 전개",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, <배리어>가 전개 되고 피격 시, <배리어 전개 준비> 상태가 되며 4회 중첩인 상태로 피격 시, <배리어>가 전개되어 3라운드 동안 피해를 5회 무효화합니다. <배리어>가 전개돼있는 동안 피격 시, 해로운 효과를 해제하고 아군이 사망 시, <배리어>가 강제로 해제되어 3라운드 동안 받는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Nest_A7_B2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "사출 시스템 파괴",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "<배리어 전개> 상태에서 속성 공격에 피격 시, <사출 시스템 손상> 상태가 되며 해당 상태가 3회 중첩 된 상태로 피격 시, <사출 시스템 파괴>가 되어 <침식> 스킬을 사용할 수 없게 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "PhalangitesH_Ev71_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "머신건 속사",
+    "img": "ARShot",
+    "range": 4,
+    "AP": 4,
+    "description": "머신건을 발사해 $(1) 피해를 줍니다. 대상이 기동형인 경우, 피해량이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "PhalangitesH_Ev71_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "대열 방어",
+    "img": "TeamDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "3라운드 동안 같은 열의 아군을 보호하며, 받는 피해가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "PhalangitesH_Ev71_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "밀집 대형",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 같은 열에 인접한 아군에게 피해 감소 효과를 부여합니다. 해당 효과는 중첩됩니다.",
+    "areadata": [
+      8,
+      2
+    ]
+  },
+  "PhalangitesH_Ev71_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "대세 전환",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 현재 라운드가 3라운드 이하일 경우, <방어 태세>를 갖춰 자신의 적중을 감소시키고 방어력을 대폭 증가시킵니다. 라운드 개시 시, 현재 라운드가 4 라운드 이상 일 경우, <공격 태세>를 갖춰 적중 / 방어 관통 증가, 재 공격을 하지만 방어력이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NightChickQMSK_Ev71_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "공격 저지",
+    "img": "Shot",
+    "range": 4,
+    "AP": 5,
+    "description": "대상에게 $(1.2) 피해를 주며, 2라운드 동안 대상의 공격력 / 적중 / 치명타를 낮춥니다. 대상이 경장형일 경으, 효과가 2배가 되며 행동력을 2라운드 동안 감소시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NightChickQMSK_Ev71_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "출력 강화",
+    "img": "TeamAtkBuff",
+    "range": 3,
+    "AP": 7,
+    "description": "주변 아군의 출력을 강화해 공격력 / 적중 / 치명타를 높입니다. 자신은 행동력이 증가합니다.",
+    "areadata": [
+      8,
+      4,
+      5,
+      6,
+      2
+    ]
+  },
+  "NightChickQMSK_Ev71_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "칙 무장 보급",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 주위 아군에게 행동력 / 대 경장형 피해량 증가 효과를 주고 자신에게 받는 피해 감소 효과를 적용합니다. 해당 효과들은 라운드 개시를 기준으로 아군이 적을 수록 더 높은 효과를 발휘합니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "NightChickQMSK_Ev71_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "전황 뒤집기",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 현재 라운드가 4 라운드 이상일 경우, 자신의 방어 관통 / 적중 / 치명타를 증가킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "NightChickQMSK_Ev71_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "마지막 보급",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "사망 시, 2라운드 동안 모든 아군의 행동력 / 공격력 / 치명타를 증가시키고 적중을 감소시킵니다.",
+    "areadata": [
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      1,
+      2,
+      3
+    ]
+  },
+  "RobertArm_Ev72_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "해체",
+    "img": "Beam",
+    "range": 5,
+    "AP": 5,
+    "description": "대상에게 $(1.3) 피해를 주고, 표식을 적용합니다. 대상이 공격력 / 방어력 감소 상태일 경우 추가 피해를 입힙니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "RobertArm_Ev72_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "실험체 폐기",
+    "img": "Beam",
+    "range": 6,
+    "AP": 8,
+    "description": "목표 지점에 $(1)의 피해를 주고, 대상이 표식 상태일 경우 AP를 감소시키고 추가 피해를 입힙니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "RobertArm_Ev72_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "정밀 분석",
+    "img": "SelfAtkBuff",
+    "range": 4,
+    "AP": 0,
+    "description": "라운드 개시 시, 공격력 증가 상태일 경우 적중이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "RobertArm_Ev72_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "재가동",
+    "img": "SelfDefDeBuff",
+    "range": 5,
+    "AP": 0,
+    "description": "라운드 개시 시, 체력이 10% 미만일 경우 사망 시, 최대 체력의 50% 상태로 재가동을 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "RobertCore_Ev72_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "전투 모듈 교란",
+    "img": "Beam",
+    "range": 5,
+    "AP": 5,
+    "description": "목표 지점에 $(1.3)의 피해를 주고, 공격력 / 방어력을 감소시킵니다. 대상이 표식 상태 일 시 추가 피해를 입힙니다.",
+    "areadata": [
+      2,
+      5,
+      8
+    ]
+  },
+  "RobertCore_Ev72_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "연산 지원",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 8,
+    "description": "모든 아군의 공격력 / 행동력을 증가 시키고, 모든 속성 저항을 감소 시킵니다. 자신에게는 추가적으로 방어력을 증가시킵다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "RobertCore_Ev72_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "고속 연산: 취약",
+    "img": "SelfDefDeBuff",
+    "range": 4,
+    "AP": 0,
+    "description": "속성 공격에 피격 시, 받는 피해가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "RobertCore_Ev72_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "복구 프로세스",
+    "img": "SelfAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "레모네이드의 해킹으로 인해 전투 개시 시, <해킹> 상태가 적용됩니다. 복구 프로세스를 통해 일정 라운드 이후 해킹 상태가 해제 됩니다. 해킹: 공격 회로 손상 상태가 해제 될 시 매 라운드 마다 공격력이 증가하고 해킹: 추적 회로 손상 상태가 해제 될 시 매 라운드 마다 적중이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Robert_Ev72_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "약점 분석",
+    "img": "Beam",
+    "range": 4,
+    "AP": 5,
+    "description": "목표 지점에 $(1.3) 피해를 주고, 행동력 감소 / 받는 피해 증가 상태를 적용시킵니다. <약점 분석>의 중첩 수에 따라 행동력 감소 / 받는 피해 증가 상태가 추가적으로 적용되며 3중첩인 상태일 시, 추가적으로 AP를 감소시킵니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "Robert_Ev72_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "분석 완료: 활용",
+    "img": "Beam",
+    "range": 3,
+    "AP": 8,
+    "description": "목표 지점에 $(1) 피해를 주고, 낮은 확률로 행동 불가 상태로 만듭니다. 자신에게 공격력 / 방어력 / 적중 / 치명타 / 행동력 / 회피 감소 효과가 적용돼 있을 경우, 감소된 항목을 적에게도 적용시킵니다. <약점 분석>이 최대 중첩일 경우, 행동 불가 확률이 증가하며 해당 스킬을 사용 시, <약점 분석>을 전부 소모합니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "Robert_Ev72_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "진화의 요람",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 주위 아군의 공격력 / 적중을 증가시키고 자신에게 방어력 증가 / 보호막을 부여합니다. 라운드가 지속됨에 따라 해당 버프는 추가적으로 적용됩니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Robert_Ev72_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "고속 연산",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "약점 분석 스킬 사용 시, <약점 분석>이 적용되고 <약점 분석>의 중첩 수에 따라 주위 아군의 행동력이 증가합니다. <약점 분석>이 최대 중첩인 상태에서 속성 공격에 피격 시, <연산 오류> 상태가 되어 <약점 분석> 상태가 해제되고 해당 상태에서 라운드 개시 시, 자신을 포함한 모든 아군의 강화 효과가 해제되고 2라운드 동안 행동 불능 상태가 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Robert_Ev72_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "약점 극복",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 8,
+    "description": "라운드 개시 시, 자신과 주위의 각 아군에게 공격력 / 방어력 / 적중 / 치명타 / 행동력 / 회피 감소 효과가 적용돼 있을 경우, 감소된 항목을 증가한 수치로 부여합니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "RampartC_Ev72_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "공격 지원",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 2라운드 동안 범위 내 아군의 공격을 지원합니다. 화염 공격에 피격 시, 해당 효과는 해제됩니다.",
+    "areadata": [
+      8,
+      2
+    ]
+  },
+  "FallenC_Ev72_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "출력 한계 해제",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, <출력 증폭>이 5중첩 이상인 상태라면 방어막 / 피해 감소 효과를 무시하며 방어 관통 효과가 부여 됩니다. <출력 한계 해제> 상태에서 화염 공격에 피격 시 행동력이 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "GigantesC_Ev72_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "개량형 방어 OS",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, HP가 20% 이하일 경우 방어력과 효과 저항이 크게 증가합니다. 해당 상태에서 화염 공격에 피격 시, OS가 오작동을 일으켜 일시적으로 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "GigantesC_Ev72_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "보호 모드",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 범위 내 아군에게 받는 피해 감소 효과를 1회 부여합니다. 화염 공격에 피격 시, 해당 효과를 해제 하고 받는 피해를 증가시킵니다.",
+    "areadata": [
+      5,
+      6
+    ]
+  },
+  "SeljuqA_Ev72_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "증가 장갑",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 2회 피격되거나 화염 속성 공격 피격 시, 해제됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "약점 분석?",
+    "img": "Beam",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "분석 완료: 활용?",
+    "img": "Beam",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "진화의 요람?",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "고속 연산?",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "MrAlfred2_Ev73_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "약점 극복?",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "???",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "타이런트 바이트",
+    "img": "AssaultAttack",
+    "range": 2,
+    "AP": 9,
+    "description": "대상을 물어뜰어 $(2) 피해를 주고, 2라운드 동안 방어력을 낮춥니다. 대상의 현재 HP%가 낮을수록 피해량이 증가하며, <포식자> 중첩이 1 증가합니다. 자신의 HP가 50% 이상이면, 대상의 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "프라이멀 파이어",
+    "img": "WideFireShot",
+    "range": 5,
+    "AP": 10,
+    "attr": "fire",
+    "description": "라운드 개시 시, <포식자> (최대) 상태 또는 타이런트 바이트의 사거리 내에 적이 없다면 플라즈마를 분사해 지정 범위에 $(1.7) 보호 무시 화염 속성 피해를 줍니다. 2라운드 동안 화염 저항을 감소시키며, <포식자> 중첩이 높을수록 최대 3단계까지 감소하며 <포식자> 중첩을 모두 소모합니다.",
+    "areadata": [
+      1,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "Tyrant_Ev73_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "먹잇감 탐색",
+    "img": "SelfAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, HP의 비율에 따라 새로운 먹잇감을 찾고 속성 공격에 피격 시, 일시적으로 먹잇감을 변경하고 라운드 개시 시, 아군 필드에 다른 타이런트가 없을 시 먹잇감 독식 상태가 됩니다. 또한 먹잇감에 집중해 피격 시, 자신에게 적용된 도발 효과를 해제합니다.<br>먹잇감 (중장형) : HP가 100%~60%일 경우, 화염 속성에 피격 시<br>먹잇감 (경장형) : HP가 60%~30%일 경우, 냉기 속성에 피격 시<br>먹잇감 (기동형) : HP가 30%~0%일 경우, 전기 속성에 피격 시<br>먹잇감 독식 : 공격력 / 적중이 대폭 증가하나 3회 피격 시 해제",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "원시의 본능",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "적 공격 시, 지정 보호 효과를 해제하며 2라운드 동안 자신에게 표식이 지정됩니다. 라운드 개시 시, 방어력 / 효과 저항이 증가하고 받는 피해가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Tyrant_Ev73_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "표효",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 일정 확률로 2라운드간 적들을 스킬 사용 불가 상태로 만들고 전투 속행 효과가 적용됩니다. 전투 속행 발동 시, 행동력이 크게 증가하며 남은 모든 전투 속행 효과를 해제합니다. 해당 상태에서 파괴되면 적에게 자폭해 공격력에 비례한 고정 화염 피해를 줍니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Fortress_Ev81_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "엄호 사격",
+    "img": "MGShot",
+    "range": 3,
+    "AP": 5,
+    "description": "기관총을 발사해 $(1) 피해를 줍니다. 2라운드 동안 대상을 표식으로 설정해, 받는 피해를 증가시키며 회피를 감소시킵니다. ",
+    "areadata": [
+      5
+    ]
+  },
+  "Fortress_Ev81_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "목표물 처리",
+    "img": "MGShot",
+    "range": 3,
+    "AP": 8,
+    "description": "전 무장 사격으로 $(1.5) 피해를 줍니다. 대상이 표식/회피 감소 상태면 피해량이 증가합니다. ",
+    "areadata": [
+      5
+    ]
+  },
+  "Fortress_Ev81_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "이동형 진지",
+    "img": "TeamDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "자신과 같은 행 뒤쪽에 배치된 아군을 지정 보호하며, 자신은 방어력이 증가합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "LemonadeAvatar_Ev82_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "화신",
+    "img": "SuiceideBomb",
+    "range": 9,
+    "AP": 10,
+    "description": "대상 범위에 $(2) 피해를 주고, 완전한 모습으로 실체화합니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeAvatar_Ev82_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "주인님을 위하여",
+    "img": "Command",
+    "range": 9,
+    "AP": 10,
+    "description": "기동형 아군의 AP를 상승시키고 전투 속행 효과를 부여합니다. 대상의 공격력 / 방어력을 5라운드 동안 증가시킵니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeAvatar_Ev82_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "은총 부여",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 기동형 아군에게 방어막을 제공합니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeAvatar_Ev82_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "공간 장악",
+    "img": "Barrier",
+    "range": 0,
+    "AP": 0,
+    "description": "받는 피해를 영구적으로 무효화합니다. 해당 효과는 해제할 수 없습니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LemonadeAvatar_Ev82_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "공간 이동",
+    "img": "WideLightning",
+    "range": 0,
+    "AP": 0,
+    "description": "모든 아군 사망 후 <주인님을 위하여> 스킬 사용 시 연결을 해제하고 다른 공간으로 이동합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LemonadeAvatar_Ev82_B2_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "연결 해제",
+    "img": "WideLightning",
+    "range": 0,
+    "AP": 0,
+    "description": "모든 아군 사망 시, <공간 장악> 효과를 강제로 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "FABigChickSEX_A8_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "거대한 벽",
+    "img": "ShieldWall",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 2라운드 동안 자신의 사거리를 감소시킵니다. 라운드 개시 시, 자신에게 표식을 지정하고 자신의 방어력 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LightningBomberP_A8_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "쇼크 밤",
+    "img": "Missile",
+    "range": 4,
+    "AP": 4,
+    "attr": "electric",
+    "description": "대상에게 미사일을 발사해 $(1) 전기 피해를 주고, 행동력을 감소시킵니다.",
+    "areadata": [
+      0,
+      0,
+      0,
+      0.75,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "LightningBomberP_A8_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "무차별 폭격",
+    "img": "MultiMissile",
+    "range": 3,
+    "AP": 9,
+    "attr": "electric",
+    "description": "지정 범위에 $(1.25) 보호 무시 전기 피해를 줍니다. 대상이 행동력 감소 상태면 피해량이 증가합니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "LightningBomberP_A8_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "완전 충전",
+    "img": "Shock",
+    "range": 0,
+    "AP": 0,
+    "description": "각 액티브 스킬이 전기 속성 피해로 변경됩니다. 스킬 적중 시, 회피율이 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LightningBomberP_A8_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "전도 증폭",
+    "img": "WideLightning",
+    "range": 0,
+    "AP": 0,
+    "description": "자신이 침수 상태인 경우, 지속 전기 피해를 입고 공격력 / 치명타가 증가합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "LemonadeOmega_A8_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "케스토스 히마스: 출력전개",
+    "img": "SatelliteBeam",
+    "range": 5,
+    "AP": 4,
+    "description": "지정 범위에 $(1.5) 피해를 주고, 대상의 적중 강화 효과를 해제하며 뒤로 밀어냅니다. 대상에게 속성 저항 감소 효과가 적용되어 있는 경우 2라운드 동안 이동 불가 상태로 만들고, 대상이 중장형 보호기일 경우 2라운드 동안 사거리를 감소시킵니다.",
+    "areadata": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ]
+  },
+  "LemonadeOmega_A8_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "케스토스 히마스: 알고리즘 개선",
+    "img": "EnemyDetect",
+    "range": 3,
+    "AP": 6,
+    "description": "지정 범위 아군의 현재 AP를 14로 변경시키며, 3라운드 동안 대상에게 사거리 증가 효과를 부여하고 치명타 / 효과 저항 확률을 100% 증가시킵니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeOmega_A8_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "케스토스 히마스: 경장갑 OS",
+    "img": "AntiArmorShot",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시 스쿼드에 경장형 아군 수가 3 이상일 경우, 모든 경장형 아군 및 적의 받는 피해를 감소시키고, 모든 기동 / 중장형 아군 및 적의 받는 피해를 증가시킵니다. 해당 효과는 해제할 수 없습니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeOmega_A8_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "케스토스 히마스: 사거리 OS",
+    "img": "Snipe",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시 스쿼드에 기동형 아군 수가 3 이상일 경우, 모든 기동형 아군 및 적의 사거리 / 적중을 증가시키고, 모든 경장 / 중장형 아군 및 적의 사거리 / 적중을 감소시킵니다. 해당 효과는 해제할 수 없습니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "LemonadeOmega_A8_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "케스토스 히마스: 중장갑 OS",
+    "img": "TeamSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시 스쿼드에 중장형 아군 수가 3 이상일 경우, 모든 중장형 아군 및 적의 AP / 행동력을 증가시키고, 모든 경장 / 기동형 아군 및 적의 AP / 행동력을 감소시킵니다. 해당 효과는 해제할 수 없습니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "Slasher_A8_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "머신캐논 연사",
+    "img": "MGShot",
+    "range": 4,
+    "AP": 4,
+    "description": "단일 대상에게 $(1.1) 피해를 주고 대상의 방어력을 감소시킵니다. 치명타 시, 대상의 받는 피해 감소 효과를 해제합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Slasher_A8_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "장갑 찢기",
+    "img": "SwordAttk",
+    "range": 5,
+    "AP": 9,
+    "attr": "fire",
+    "description": "단일 대상에게 보호 무시의 $(2) 화염 속성 피해를 줍니다. 치명타 시, 피해량이 증가하며 모든 강화 효과를 해제 합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Slasher_A8_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "전투 적응",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, AP 증가 / 받는 피해 감소 효과가 적용 됩니다. 적 공격 시, 회피가 증가하며 회피 증가 효과는 후열에 가까울수록 증가합니다. 냉기 속성에 피격 시, 회피 증가 효과가 해제 되고 회피가 감소합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Slasher_A8_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "역습",
+    "img": "DefCounter",
+    "range": 0,
+    "AP": 0,
+    "description": "회피 시, 반격 / AP증가 / 치명타 증가가 적용되고 <치명적인 역습>이 적용 됩니다. 라운드 개시 시, <치명적인 역습>이 3중첩이라면 방어막 / 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "Slasher_A8_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "위압감(철의 왕자)",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "근처에 있는 철의 왕자에게서 뿜어져나오는 위압감으로 공격력 / 방어력이 감소합니다.",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "IronPrince_A8_B1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "징벌",
+    "img": "MeleeAttack",
+    "range": 10,
+    "AP": 4,
+    "description": "단일 대상에게 보호 무시의 $(1.1) 피해를 주고 표식을 부여합니다. 대상의 받는 피해 감소 효과를 해제하고 받는 피해를 증가시킵니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "IronPrince_A8_B1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "심판",
+    "img": "Particle",
+    "range": 10,
+    "AP": 10,
+    "description": "목표 지점에 보호 무시의 $(1.5) 피해를 줍니다. 목표 지점 주변에는 피해가 50% 감소합니다. <머리를 조아려라>가 적용된 대상에게는 엄청난 추가 피해를 줍니다.",
+    "areadata": [
+      0,
+      0.5,
+      0,
+      0.5,
+      1,
+      0.5,
+      0,
+      0.5,
+      0
+    ]
+  },
+  "IronPrince_A8_B1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "머리를 조아려라",
+    "img": "TeamAtkDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 대상이 전열에 있을 경우, 방어력 감소 / 방어력 증가 효과 해제. 대상이 중열에 있을 경우 적중 감소 / 적중 증가 효과 해제. 대상이 후열에 있을 경우 공격력 감소 / 공격력 증가 효과 해제가 적용됩니다. 해당 효과들은 효과 저항과 해로운 효과 해제에 영향을 받지 않습니다.",
+    "areadata": [
+      2,
+      4,
+      5,
+      6,
+      8
+    ]
+  },
+  "IronPrince_A8_B1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "은총을 받아들여라",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "적 공격 시, <신의 은총>이 자신에게 적용 되고 라운드 개시 시, <신의 은총>이 3중첩이 된 상태일 시, <심판 개시> 상태가 되고 1라운드 대기후 <심판>을 사용합니다. <심판> 사용 시 1라운드 동안 방어력이 감소하고 전투 속행 효과가 해제 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "IronPrince_A8_B1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "영생의 관",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "전투 개시 시, 해제 불가의 AP 감소 효과 면역 / 도발 효과 면역 효과가 영구히 적용되고 물리 공격에 피격 시, 해제 불가의 공격력 / 적중 / 방어력 / 방어력 관통 등이 일정 확률로 부여되나 속성 공격에 피격 시, 해제 됩니다. 라운드 개시 또는 전투 속행 시, 전투 속행이 지속적으로 부여됩니다. 3라운드 이상부터 받는 피해 감소 효과가 적용되며 최대 5중첩까지 적용됩니다. 8라운드 이상일 경우 방어막 / 피해 감소 효과를 무시합니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "SpeakerEX_A8_1_Skill1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "사운드 웨이브",
+    "img": "EnemyDetect",
+    "range": 6,
+    "AP": 4,
+    "description": "광범위한 음파를 발사해 대상에게 보호 무시 $(0.3) 피해를 주고, 3라운드 동안 공격력 / 치명타 감소 상태로 만들며 일정 확률로 뒤로 1칸 밀어버립니다. 최대 출력 상태일 시, 대상의 AP를 감소시킵니다.",
+    "areadata": [
+      0.5,
+      1,
+      0,
+      0.5,
+      1,
+      0,
+      0.5,
+      1,
+      0
+    ]
+  },
+  "SpeakerEX_A8_1_Skill2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "고주파 사운드",
+    "img": "EnemyDetect",
+    "range": 4,
+    "AP": 9,
+    "description": "<사운드 출력 강화(최대)>일 시, 좁은 범위에 집중 된 음파를 발사해 대상에게 $(1) 피해를 주고 방어력 / 회피를 감소시키고 <사운드 출력 강화> 효과를 모두 소모합니다.",
+    "areadata": [
+      4,
+      5,
+      6
+    ]
+  },
+  "SpeakerEX_A8_1_Skill3": {
+    "title": "pskill1",
+    "type": "passive",
+    "name": "사운드 출력 강화",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 <사운드 출력 강화> 효과가 적용되며 아군이 사망 시, <사운드 출력 강화> 효과가 해제 됩니다.",
+    "areadata": [
+      5
+    ]
+  },
+  "SpeakerEX_A8_1_Skill4": {
+    "title": "pskill2",
+    "type": "passive",
+    "name": "강화 파장",
+    "img": "TeamAtkBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 자신에게 적용 된 <사운드 출력 강화> 효과의 중첩 개수에 따라 주위 아군에게 강화 효과를 부여합니다.<br><br>2중첩 시: 치명타 증가<br>3중첩 시: 적중 증가<br>4중첩 시: 방어 관통 증가",
+    "areadata": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "SpeakerEX_A8_1_Skill5": {
+    "title": "pskill3",
+    "type": "passive",
+    "name": "최대 출력",
+    "img": "SelfSpdBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "라운드 개시 시, 2라운드 이하인 상태라면 행동력이 증가합니다. 최대 출력 상태에서 <사운드 웨이브> 스킬을 사용 시, 대상의 AP를 감소시킵니다.",
     "areadata": [
       5
     ]

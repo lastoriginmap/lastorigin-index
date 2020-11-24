@@ -4,6 +4,10 @@
     {
       "title": "Daily2-1",
       "name": "초급 기능 훈련",
+      "grid": [
+        0,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -133,6 +137,10 @@
     {
       "title": "Daily2-2",
       "name": "중급 기능 훈련",
+      "grid": [
+        1,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -262,6 +270,10 @@
     {
       "title": "Daily2-3",
       "name": "상급 기능 훈련",
+      "grid": [
+        2,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
@@ -391,6 +403,10 @@
     {
       "title": "Daily2-4",
       "name": "최상급 기능 훈련",
+      "grid": [
+        3,
+        1
+      ],
       "wave": [
         {
           "title": "wave1",
